@@ -52,6 +52,8 @@
 # Curso Maui .Net
 ## Criando Projeto e Telas de Login - Parte 2 - Crud com Maui + Sqlite
 ### 1:22 Editar o arquivo LoginUsuarioPage.xaml
+
+https://youtu.be/63MrN1hjOdM?t=360
 -->
 
 3. AAAA
