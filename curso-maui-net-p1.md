@@ -9,9 +9,13 @@
 
 ### 3:33 Start emulador
 
-1. Android Local Device
+* Android Local Device
 
-### 5:21 criar as pastas Model, Pages, Data
+### 5:21 criar as pastas
+
+1. Model
+2. Pages
+3. Data
   
 ### Criar tela de Login
 
