@@ -20,7 +20,7 @@
 ### Criar tela de Login
 
 1. NET MAUI
-2. ContentPage do .Net MAUI (C#)
+2. ContentPage do .Net MAUI (XAML)
 3. LoginUsuarioPage.xaml
 4. Adicionar
 
