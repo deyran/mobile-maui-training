@@ -1,10 +1,10 @@
-# Curso Maui .Net 
+# Curso Maui .Net
 
 ## Criando Projeto e Telas de Login - Parte 1 - Crud com Maui + Sqlite
 
 * 1:42 Criar projeto
   
-* 5:21 criar a pasta Model, Pages, Data
+* 5:21 criar as pastas Model, Pages, Data
   
 * Criar tela de Login
 
