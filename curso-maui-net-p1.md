@@ -7,11 +7,13 @@
 * 5:21 criar a pasta Model, Pages, Data
   
 * Criar tela de Login
-	1. NET MAUI
-	2. ContentPage do .Net MAUI (C#)
-	3. LoginUsuarioPage.xaml
-	4. Adicionar
+
+1. NET MAUI
+2. ContentPage do .Net MAUI (C#)
+3. LoginUsuarioPage.xaml
+4. Adicionar
 
 * Tela de cadastro
-	1. EditaUsuarioPage.xaml
-	2. Adicionar
+
+1. EditaUsuarioPage.xaml
+2. Adicionar
