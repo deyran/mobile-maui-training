@@ -3,7 +3,10 @@
 ## Criando Projeto e Telas de Login - Parte 1 - Crud com Maui + Sqlite
 
 * 1:42 Criar projeto
-  
+
+1. Aplicativo .Net MAUI
+2. Nome do Projeto -> OficinaApp
+
 * 5:21 criar as pastas Model, Pages, Data
   
 * Criar tela de Login
