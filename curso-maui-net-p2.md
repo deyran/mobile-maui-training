@@ -22,15 +22,16 @@
         VerticalOptions = "Center"
         HorizontalOptions = "Center" />
 
-    <Label Text = "E-mail" />
-    <Entry Placeholder = "Digite seu E-mail" x:Name = "Email" />
+    <Label Text = "E-mail" x:Name = "lblName" />
+    <Entry Placeholder = "Digite seu E-mail" x:Name = "txtEmail" />
 
-    <Label Text = "Senha" />
-    <Entry Placeholder = "Digite sua senha" x:Name = "Senha" />
+    <Label Text = "Senha" x:Name = "lblSenha" />
+    <Entry Placeholder = "Digite sua senha" x:Name = "txtSenha" />
 
     <Button 
         Text = "Entrar"
-        x:Name = "btnEntrar" />
+        x:Name = "btnEntrar"
+        Clicked = "btnEntrar_Cliked" />
 
     <Button 
         Text = "Registrar-se"
