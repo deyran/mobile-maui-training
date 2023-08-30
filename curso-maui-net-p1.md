@@ -2,7 +2,10 @@
 
 ## Criando Projeto e Telas de Login - Parte 1 - Crud com Maui + Sqlite
 
+* 1:42 Criar projeto
+  
 * 5:21 criar a pasta Model, Pages, Data
+  
 * Criar tela de Login
 	1. NET MAUI
 	2. ContentPage do .Net MAUI (C#)
