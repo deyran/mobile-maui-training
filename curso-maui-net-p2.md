@@ -57,5 +57,3 @@
 ## Criando Projeto e Telas de Login - Parte 2 - Crud com Maui + Sqlite
 ### Editar o arquivo LoginUsuarioPage.xaml
 -->
-
-3. AAAA
