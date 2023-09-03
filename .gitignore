@@ -1,0 +1,26 @@
+# Ignore build output
+/bin/
+/obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userprefs
+*.psess
+
+# Ignore logs and other machine-generated files
+*.log
+*.bak
+*.cache
+*.dll
+*.exe
+
+# Ignore NuGet packages
+/packages/
+*.nupkg
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore Visual Studio files
+.vs/

@@ -17,14 +17,20 @@
 2. Pages
 3. Data
   
-### Criar tela de Login
+### 6:21 Criar tela de Login (Pages)
 
 1. NET MAUI
 2. ContentPage do .Net MAUI (XAML)
 3. LoginUsuarioPage.xaml
 4. Adicionar
 
-### Tela de cadastro
+### 6:25 Tela de cadastro (Pages)
 
 1. EditaUsuarioPage.xaml
 2. Adicionar
+
+<!--
+# Curso Maui .Net
+## Criando Projeto e Telas de Login - Parte 1 - Crud com Maui + Sqlite
+### 6:25 Tela de cadastro (Pages)
+-->

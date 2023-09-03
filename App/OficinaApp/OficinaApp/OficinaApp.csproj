@@ -49,7 +49,36 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="NovaPasta\**" />
+	  <AndroidResource Remove="Platforms\NovaPasta\**" />
+	  <Compile Remove="NovaPasta\**" />
+	  <Compile Remove="Platforms\NovaPasta\**" />
+	  <EmbeddedResource Remove="NovaPasta\**" />
+	  <EmbeddedResource Remove="Platforms\NovaPasta\**" />
+	  <MauiCss Remove="NovaPasta\**" />
+	  <MauiCss Remove="Platforms\NovaPasta\**" />
+	  <MauiXaml Remove="NovaPasta\**" />
+	  <MauiXaml Remove="Platforms\NovaPasta\**" />
+	  <None Remove="NovaPasta\**" />
+	  <None Remove="Platforms\NovaPasta\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Model\" />
+	  <Folder Include="Data\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Pages\EditaUsuarioPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\LoginUsuarioPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
