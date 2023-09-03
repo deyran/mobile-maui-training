@@ -16,7 +16,9 @@
 2. Editar o arquivo para seguinte conteúdo:
 
 ```
-<VerticalStackLayout>
+<StackLayout    VerticalOptions="CenterAndExpand"
+                Margin="16"
+                Padding="16">
     <Label 
         Text = "LOGIN"
         VerticalOptions = "Center"
@@ -31,12 +33,14 @@
     <Button 
         Text = "Entrar"
         x:Name = "btnEntrar"
-        Clicked = "btnEntrar_Cliked" />
+        Clicked = "btnEntrar_Cliked"
+        Margin="10" />
 
     <Button 
         Text = "Registrar-se"
         x:Name = "btnRegistrar"         
-        Clicked = "btnRegistrar_Clicked" />
+        Clicked = "btnRegistrar_Clicked"
+        Margin="10" />
         
         <!--
         btnRegistrar
@@ -45,13 +49,13 @@
                 3. CTRL + -, ele retorna ao arquivo LoginUsuarioPage.xaml
         -->   
 
-</VerticalStackLayout>
+</StackLayout>
 ```
 
 <!--
 # Curso Maui .Net
 ## Criando Projeto e Telas de Login - Parte 2 - Crud com Maui + Sqlite
-### 1:22 Editar o arquivo LoginUsuarioPage.xaml
+### Editar o arquivo LoginUsuarioPage.xaml
 -->
 
 3. AAAA
