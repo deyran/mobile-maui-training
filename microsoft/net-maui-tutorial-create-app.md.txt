@@ -1,0 +1,7 @@
+# .NET MAUI Tutorial - Build your first multi-platform app in C#
+
+## Create your app
+
+* MyFirstMauiApp
+
+## Run your app
