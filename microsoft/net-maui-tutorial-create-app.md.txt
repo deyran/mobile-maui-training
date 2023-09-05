@@ -16,3 +16,5 @@
 
 1. Open the MainPage.xaml file
 2. In the first **Label** text change from "Hello, World!" to "Deyvid Rannyere"
+
+https://dotnet.microsoft.com/en-us/learn/maui/first-app-tutorial/device-setup
