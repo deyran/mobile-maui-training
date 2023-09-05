@@ -17,4 +17,18 @@
 1. Open the MainPage.xaml file
 2. In the first **Label** text change from "Hello, World!" to "Deyvid Rannyere"
 
-https://dotnet.microsoft.com/en-us/learn/maui/first-app-tutorial/device-setup
+## Configure Android device
+
+### Android SDK Install
+
+### Set up Android emulator
+
+### Set up Android device
+
+### Run on Android
+
+
+<!--
+# .NET MAUI Tutorial - Build your first multi-platform app in C#
+## Configure Android device
+-->
