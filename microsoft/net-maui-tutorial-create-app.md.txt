@@ -21,6 +21,9 @@
 
 ### Android SDK Install
 
+1. In **Debug**, point the mouse to the **Framework (Net 7.0 windows ...)**
+2. Select **net7.0-android**
+
 ### Set up Android emulator
 
 ### Set up Android device
