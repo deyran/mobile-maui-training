@@ -10,3 +10,9 @@
 * Later set up an Android device or emulator
 
 ## Edit your code
+
+* It's possible change the XAML user interface (UI) while the application is running and the UI will update automatically
+* To edit the code follow these steps
+
+1. Open the MainPage.xaml file
+2. In the first **Label** text change from "Hello, World!" to "Deyvid Rannyere"

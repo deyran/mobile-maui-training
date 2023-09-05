@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\git-projects\mobile-maui-training\microsoft\MyFirstMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-09-05T08:23:37.553</Modified>
+      <Modified>2023-09-05T08:46:35.562</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\microsoft\MyFirstMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MyFirstMauiApp.dll">
       <PackagePath>MyFirstMauiApp.dll</PackagePath>
-      <Modified>2023-09-05T08:23:33.612</Modified>
+      <Modified>2023-09-05T08:46:33.795</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\microsoft\MyFirstMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MyFirstMauiApp.exe</PackagePath>
-      <Modified>2023-09-05T08:23:33.643</Modified>
+      <Modified>2023-09-05T08:46:33.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\microsoft\MyFirstMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MyFirstMauiApp.deps.json">
       <PackagePath>MyFirstMauiApp.deps.json</PackagePath>
