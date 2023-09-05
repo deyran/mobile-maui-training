@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\git-projects\mobile-maui-training\microsoft\MyFirstMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-09-05T17:57:22.552</Modified>
+      <Modified>2023-09-05T23:17:48.468</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\microsoft\MyFirstMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-09-05T08:23:36.991</Modified>
+      <Modified>2023-09-05T23:17:46.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\microsoft\MyFirstMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MyFirstMauiApp.runtimeconfig.json">
       <PackagePath>MyFirstMauiApp.runtimeconfig.json</PackagePath>
@@ -44,15 +44,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\microsoft\MyFirstMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MyFirstMauiApp.dll">
       <PackagePath>MyFirstMauiApp.dll</PackagePath>
-      <Modified>2023-09-05T17:57:20.208</Modified>
+      <Modified>2023-09-05T23:17:40.822</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\microsoft\MyFirstMauiApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MyFirstMauiApp.exe</PackagePath>
-      <Modified>2023-09-05T17:57:20.255</Modified>
+      <Modified>2023-09-05T23:17:40.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\microsoft\MyFirstMauiApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MyFirstMauiApp.deps.json">
       <PackagePath>MyFirstMauiApp.deps.json</PackagePath>
-      <Modified>2023-09-05T08:23:36.303</Modified>
+      <Modified>2023-09-05T23:17:45.504</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DEYVIDRANNYERE\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
