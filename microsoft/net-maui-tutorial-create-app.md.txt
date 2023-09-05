@@ -5,3 +5,8 @@
 * MyFirstMauiApp
 
 ## Run your app
+
+* Use *Window Machine* as the target by default
+* Later set up an Android device or emulator
+
+## Edit your code
