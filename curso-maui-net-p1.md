@@ -1,6 +1,6 @@
 # Curso Maui .Net
 
-## Criando Projeto e Telas de Login - Parte 1 - Crud com Maui + Sqlite
+## [Criando Projeto e Telas de Login - Parte 1 - Crud com Maui + Sqlite](https://github.com/deyran/mobile-maui-training/blob/main/curso-maui-net-p1.md)
 
 ### 1:42 Criar projeto
 
@@ -28,6 +28,8 @@
 
 1. EditaUsuarioPage.xaml
 2. Adicionar
+
+[Parte 2](curso-maui-net-p2.md)
 
 <!--
 # Curso Maui .Net
