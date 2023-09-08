@@ -16,6 +16,21 @@
         <Label Text="E-mail" x:Name="lblEmail" />
         <Entry Placeholder="Digite seu e-mail" x:Name="txtEmail" />
 
+        <Label Text="Senha" x:Name="lblSenha" />
+        <Entry Placeholder="Digite sua Senha" x:Name="txtSenha" />
+
+        <Button 
+            Text="Entrar"
+            x:Name="btnEntrar"
+            Margin="10" 
+            Clicked="BtnEntrar_Clicked" />
+
+        <Button 
+            Text="Registrar-se"
+            x:Name="btnRegistrar"
+            Margin="10"
+            Clicked="BtnRegistrar_Clicked" />
+
     </StackLayout>
     
 </ContentPage>

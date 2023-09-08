@@ -6,4 +6,14 @@ public partial class LoginUsuarioPage : ContentPage
 	{
 		InitializeComponent();
 	}
+    
+    private void BtnEntrar_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void BtnRegistrar_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }
