@@ -24,7 +24,7 @@
         VerticalOptions = "Center"
         HorizontalOptions = "Center" />
 
-    <Label Text = "E-mail" x:Name = "lblName" />
+    <Label Text = "E-mail" x:Name = "lblEmail" />
     <Entry Placeholder = "Digite seu E-mail" x:Name = "txtEmail" />
 
     <Label Text = "Senha" x:Name = "lblSenha" />
@@ -55,5 +55,5 @@
 <!--
 # Curso Maui .Net
 ## Criando Projeto e Telas de Login - Parte 2 - Crud com Maui + Sqlite
-### 0:25 Visualisar tela de Login
+### 1:22 Editar o arquivo LoginUsuarioPage.xaml
 -->
