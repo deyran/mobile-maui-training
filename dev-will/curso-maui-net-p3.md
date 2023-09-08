@@ -11,16 +11,16 @@
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new LoginUsuarioPage());                
+            MainPage = new NavigationPage(new LoginUsuarioPage());
         }
 
    ```
-2. AAAAa
+2. Abra o arquivo **LoginUsuarioPage.xmal**, no metodo **BtnRegistrar_Clicked**, pressione F12
 
 [Parte 4](curso-maui-net-p3.md)
 
 <!--
 # Curso Maui .Net
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 3 - Crud com Maui + Sqlite
-### 00:22 Navegação entre telas
+### Navegação entre telas
 -->
