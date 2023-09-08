@@ -8,7 +8,7 @@ namespace OficinaApp
         {
             InitializeComponent();
 
-            MainPage = new LoginUsuarioPage();
+            MainPage = new NavigationPage(new LoginUsuarioPage());                
         }
     }
 }
