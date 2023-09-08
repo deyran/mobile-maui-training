@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\git-projects\mobile-maui-training\dev-will\OficinaApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-09-08T20:10:47.624</Modified>
+      <Modified>2023-09-08T20:17:52.487</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\dev-will\OficinaApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\OficinaApp.dll">
       <PackagePath>OficinaApp.dll</PackagePath>
-      <Modified>2023-09-08T20:10:45.448</Modified>
+      <Modified>2023-09-08T20:17:50.141</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\dev-will\OficinaApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>OficinaApp.exe</PackagePath>
-      <Modified>2023-09-08T20:10:45.466</Modified>
+      <Modified>2023-09-08T20:17:50.156</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\dev-will\OficinaApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\OficinaApp.deps.json">
       <PackagePath>OficinaApp.deps.json</PackagePath>

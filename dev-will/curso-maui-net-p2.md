@@ -51,9 +51,9 @@
 
 </StackLayout>
 ```
+[Parte 3](curso-maui-net-p3.md)
 
 <!--
 # Curso Maui .Net
 ## Criando Projeto e Telas de Login - Parte 2 - Crud com Maui + Sqlite
-### 1:22 Editar o arquivo LoginUsuarioPage.xaml
 -->
