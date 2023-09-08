@@ -15,7 +15,15 @@
         }
 
    ```
+
 2. Abra o arquivo **LoginUsuarioPage.xmal**, no metodo **BtnRegistrar_Clicked**, pressione F12
+3. No método **BtnRegistrar_Clicked** digite o seguite código:
+   
+   ```
+   Navigation.PushAsync(new EditaUsuarioPage());
+   ```
+
+4. AAA
 
 [Parte 4](curso-maui-net-p3.md)
 
