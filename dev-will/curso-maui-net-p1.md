@@ -34,5 +34,4 @@
 <!--
 # Curso Maui .Net
 ## Criando Projeto e Telas de Login - Parte 1 - Crud com Maui + Sqlite
-### 6:25 Tela de cadastro (Pages)
 -->
