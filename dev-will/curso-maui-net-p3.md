@@ -46,10 +46,12 @@
 
 ### 5:22 Model
 
+https://youtu.be/ncIcqT2yre4?t=321
+
 [Parte 4](curso-maui-net-p3.md)
 
 <!--
 # Curso Maui .Net
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 3 - Crud com Maui + Sqlite
-### 3:26 Editar or arquivo EditaUsuarioPage.xaml
+### 5:22 Model
 -->
