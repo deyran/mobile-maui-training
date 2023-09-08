@@ -1,6 +1,6 @@
 # Curso Maui .Net
 
-## [Criando Projeto e Telas de Login - Parte 1 - Crud com Maui + Sqlite]https://youtu.be/YsrJjHzQdL0?si=FH3NCGkP_GfSG4Zo)
+## [Criando Projeto e Telas de Login - Parte 1 - Crud com Maui + Sqlite](https://youtu.be/YsrJjHzQdL0?si=FH3NCGkP_GfSG4Zo)
 
 ### 1:42 Criar projeto
 
