@@ -1,0 +1,37 @@
+# [.NET MAUI Tutorial - Build your first multi-platform app in C#](https://dotnet.microsoft.com/en-us/learn/maui/first-app-tutorial/intro)
+
+## Create your app
+
+* MyFirstMauiApp
+
+## Run your app
+
+* Use *Window Machine* as the target by default
+* Later set up an Android device or emulator
+
+## Edit your code
+
+* It's possible change the XAML user interface (UI) while the application is running and the UI will update automatically
+* To edit the code follow these steps
+
+1. Open the MainPage.xaml file
+2. In the first **Label** text change from "Hello, World!" to "Deyvid Rannyere"
+
+## Configure Android device
+
+### Android SDK Install
+
+1. In **Debug**, point the mouse to the **Framework (Net 7.0 windows ...)**
+2. Select **net7.0-android**
+
+### Set up Android emulator
+
+### Set up Android device
+
+### Run on Android
+
+
+<!--
+# .NET MAUI Tutorial - Build your first multi-platform app in C#
+## Configure Android device
+-->
