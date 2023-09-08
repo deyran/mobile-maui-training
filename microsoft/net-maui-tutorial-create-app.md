@@ -1,4 +1,4 @@
-# .NET MAUI Tutorial - Build your first multi-platform app in C#
+# [.NET MAUI Tutorial - Build your first multi-platform app in C#](https://dotnet.microsoft.com/en-us/learn/maui/first-app-tutorial/intro)
 
 ## Create your app
 
@@ -17,19 +17,7 @@
 1. Open the MainPage.xaml file
 2. In the first **Label** text change from "Hello, World!" to "Deyvid Rannyere"
 
-## Configure Android device
-
-### Android SDK Install
-
-1. In **Debug**, point the mouse to the **Framework (Net 7.0 windows ...)**
-2. Select **net7.0-android**
-
-### Set up Android emulator
-
-### Set up Android device
-
-### Run on Android
-
+## [Microsofit Series](https://youtu.be/Hh279ES_FNQ?list=PLdo4fOcmZ0oUBAdL2NwBpDs32zwGqb9DY)
 
 <!--
 # .NET MAUI Tutorial - Build your first multi-platform app in C#
