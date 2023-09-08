@@ -1,4 +1,6 @@
-﻿namespace OficinaApp
+﻿using OficinaApp.Pages;
+
+namespace OficinaApp
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new LoginUsuarioPage();
         }
     }
 }

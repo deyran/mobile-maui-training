@@ -55,4 +55,5 @@
 <!--
 # Curso Maui .Net
 ## Criando Projeto e Telas de Login - Parte 2 - Crud com Maui + Sqlite
+### 0:25 Visualisar tela de Login
 -->
