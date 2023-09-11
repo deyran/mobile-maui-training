@@ -14,6 +14,6 @@ public partial class LoginUsuarioPage : ContentPage
 
     private void BtnRegistrar_Clicked(object sender, EventArgs e)
     {
-
+        Navigation.PushAsync(new EditaUsuarioPage());
     }
 }
