@@ -25,7 +25,8 @@
 
 ### 3:26 Editar or arquivo EditaUsuarioPage.xaml
 
-```    <StackLayout    VerticalOptions="CenterAndExpand"
+``` 
+   <StackLayout VerticalOptions="CenterAndExpand"
                     Margin="16"
                     Padding="16">
 
