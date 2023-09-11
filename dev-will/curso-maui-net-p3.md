@@ -72,5 +72,5 @@ public class Usuario
 <!--
 # Curso Maui .Net
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 3 - Crud com Maui + Sqlite
-### 5:22 Pasta Model
+### 6:40 Instalação do SQLit
 -->
