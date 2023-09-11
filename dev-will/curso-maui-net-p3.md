@@ -64,8 +64,9 @@ public class Usuario
 2. Selecionar "Gerenciar pacotes do NuGet para solução"
 3. Em procurar, escrever **sqlite-net-pcl**
 4. 8:17 Instalar
+    https://youtu.be/ncIcqT2yre4?t=495
       
-[Parte 4](curso-maui-net-p3.md)
+[Parte 4](curso-maui-net-p4.md)
 
 <!--
 # Curso Maui .Net
