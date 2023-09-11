@@ -45,7 +45,7 @@
     </StackLayout>
 ```
 
-### 5:22 Model
+### 5:22 Pasta Model
 
 1. Adicione o arquivo **Usuario.cs**
 2. 6:10 Implemente conforme é mostrado no código abaixo
@@ -72,5 +72,5 @@ public class Usuario
 <!--
 # Curso Maui .Net
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 3 - Crud com Maui + Sqlite
-### 3:26 Editar or arquivo EditaUsuarioPage.xaml
+### 5:22 Pasta Model
 -->
