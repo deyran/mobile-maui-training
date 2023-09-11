@@ -46,7 +46,19 @@
 
 ### 5:22 Model
 
-https://youtu.be/ncIcqT2yre4?t=321
+1. Adicione o arquivo **Usuario.cs**
+2. 6:10 Implemente conforme é mostrado no código abaixo
+
+```
+public class Usuario
+{
+    public Guid Id { get; set; }
+    public string email { get; set; }
+    public string senha { get; set; }
+}
+```
+
+
 
 [Parte 4](curso-maui-net-p3.md)
 
