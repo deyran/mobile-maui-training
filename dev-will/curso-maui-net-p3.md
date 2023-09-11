@@ -72,5 +72,5 @@ public class Usuario
 <!--
 # Curso Maui .Net
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 3 - Crud com Maui + Sqlite
-### 00:22 Navegação entre telas
+### 3:26 Editar or arquivo EditaUsuarioPage.xaml
 -->

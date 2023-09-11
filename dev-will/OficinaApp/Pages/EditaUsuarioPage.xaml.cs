@@ -6,4 +6,9 @@ public partial class EditaUsuarioPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void btnCadastrar_Cliked(object sender, EventArgs e)
+    {
+
+    }
 }
