@@ -58,12 +58,18 @@ public class Usuario
 }
 ```
 
+### 6:40 Instalação do SQLit
 
-
+1. Click com direita na Solution
+2. Selecionar "Gerenciar pacotes do NuGet para solução"
+3. Em procurar, escrever **sqlite-net-pcl**
+4. 8:17 Instalar
+      
 [Parte 4](curso-maui-net-p3.md)
 
 <!--
 # Curso Maui .Net
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 3 - Crud com Maui + Sqlite
-### 5:22 Model
+### 6:40 Instalação do SQLit
+#### 8:17 Instalar
 -->
