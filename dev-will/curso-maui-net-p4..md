@@ -71,4 +71,5 @@ public class SQLiteData
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 4 - Crud com Maui + Sqlite
 ### 00:10 Comunicação com banco de dados
 #### Criar a classe UsuarioData
+https://youtu.be/Sj0Ew5hiERs?t=522
 -->
