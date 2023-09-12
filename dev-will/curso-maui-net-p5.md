@@ -37,6 +37,8 @@ public static SQLiteData BancoDados
     }
 }
 
+public static Usuario Usuario { get; set; }
+
 public App
 {
     ...
