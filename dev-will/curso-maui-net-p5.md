@@ -31,9 +31,9 @@ public static SQLiteData BancoDados
                     DependencyService
                         .Get<ISQLiteDB>()
                         .SQLiteLocalPath("Dados.db3"));
-
-            return _bancoDados;
         }
+
+        return _bancoDados;
     }
 }
 
