@@ -30,9 +30,24 @@
             var usuario = _conexaoDB
                 .Table<Usuario>()
                 .Where(x => x.Email == email && x.Senha == senha)
-                .FirstOnDefaultAsync();
+                .FirstOrDefaultAsync();
 
             return usuario;
+        }
+
+        public Task<Usuario> ObtemUsuario(Guid id)
+        {
+            var usuario = _conexaoDB
+                .Table<Usuario>()
+                .Where(x => x.Id == id)
+                .FirstOrDefaultAsync();
+
+            return usuario;
+        }
+
+        public async Task<int> SalvarUsuario(Usuario usuario)
+        {
+            
         }
     }
    ```
@@ -71,5 +86,5 @@ public class SQLiteData
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 4 - Crud com Maui + Sqlite
 ### 00:10 Comunicação com banco de dados
 #### Criar a classe UsuarioData
-https://youtu.be/Sj0Ew5hiERs?t=522
+##### ObtemUsuario(Guid id)
 -->
