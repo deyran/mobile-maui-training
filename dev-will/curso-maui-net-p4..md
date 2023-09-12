@@ -47,7 +47,16 @@
 
         public async Task<int> SalvarUsuario(Usuario usuario)
         {
-            
+            var usuarioIsSalvo = await ObtemUsuario(usuario.Id);
+
+            if(usuarioIsSalvo == null)
+            {
+                return await _conexaoDB.InsertAsync(usuario);
+            }
+            else
+            {
+                return await _conexaoDB.UpdateAsync(usuario);
+            }
         }
     }
    ```
@@ -86,5 +95,5 @@ public class SQLiteData
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 4 - Crud com Maui + Sqlite
 ### 00:10 Comunicação com banco de dados
 #### Criar a classe UsuarioData
-##### ObtemUsuario(Guid id)
+##### SalvarUsuario(Usuario usuario)
 -->
