@@ -4,7 +4,38 @@
 
 ### 00:10 Comunicação com banco de dados
 
-1. UsuarioData
+1. [04:00](https://youtu.be/Sj0Ew5hiERs?t=243) Criar a classe **UsuarioData** conforme o código abaixo
+   
+   ```
+    public class UsuarioData
+    {
+        private SQLiteAsyncConnection _conexaoDB;
+
+        public UsuarioData(SQLiteAsyncConnection conexaoDB)
+        {
+            _conexaoDB = conexaoDB;
+        }
+
+        public Task<List<Usuario>> ListaUsuarios()
+        {
+            var lista = _conexaoDB
+                .Table<Usuario>()
+                .ToListAsync();
+
+            retun lista;                
+        }
+
+        public Task<Usuario> obtemUsuario(string email, string senha)
+        {
+            var usuario = _conexaoDB
+                .Table<Usuario>()
+                .Where(x => x.Email == email && x.Senha == senha)
+                .FirstOnDefaultAsync();
+
+            return usuario;
+        }
+    }
+   ```
    
 2. Na pasta **Data** criar a seguinte interface
    
@@ -39,5 +70,5 @@ public class SQLiteData
 # Curso Maui .Net
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 4 - Crud com Maui + Sqlite
 ### 00:10 Comunicação com banco de dados
-#### Criar a classe SQLiteData
+#### Criar a classe UsuarioData
 -->
