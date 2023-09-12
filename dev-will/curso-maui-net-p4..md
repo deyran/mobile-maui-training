@@ -91,14 +91,9 @@ public class SQLiteData
 }
 ```
 
-3. AAAAAA
-
-[Parte 5](curso-maui-net-p4.md)
+[Parte 5](curso-maui-net-p5.md)
 
 <!--
 # Curso Maui .Net
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 4 - Crud com Maui + Sqlite
-### 00:10 Comunicação com banco de dados
-#### Criar a classe UsuarioData
-##### ExcluiUsuario(Guid id)
 -->
