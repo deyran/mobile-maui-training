@@ -22,7 +22,19 @@ static SQLiteData _bancoDados;
 
 public static SQLiteData BancoDados
 {
+    get
+    {
+        if(_bancoDados == null)
+        {
+            _bancoDados =
+                new SQLiteData (
+                    DependencyService
+                        .Get<ISQLiteDB>()
+                        .SQLiteLocalPath("Dados.db3"));
 
+            return _bancoDados;
+        }
+    }
 }
 
 public App
