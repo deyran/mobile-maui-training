@@ -54,10 +54,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Data\" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <Compile Update="Pages\EditaUsuarioPage.xaml.cs">
 	    <DependentUpon>EditaUsuarioPage.xaml</DependentUpon>
 	  </Compile>

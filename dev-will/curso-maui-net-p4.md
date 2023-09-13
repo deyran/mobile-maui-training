@@ -29,7 +29,7 @@
         {
             var usuario = _conexaoDB
                 .Table<Usuario>()
-                .Where(x => x.Email == email && x.Senha == senha)
+                .Where(x => x.email == email && x.senha == senha)
                 .FirstOrDefaultAsync();
 
             return usuario;
