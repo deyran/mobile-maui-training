@@ -55,10 +55,22 @@ public App {...}
 ...
 ```
 
+4. [04:15](https://youtu.be/II90YWU2dKU?t=257) Atualizar o construtor da classe **SQLiteData**
+
+```
+..
+public SQLiteData(...)
+{
+    ...
+    UsuarioDataTable = new UsuarioData(_conexaoDB);
+}
+...
+```
+
 [Parte 6](curso-maui-net-p6.md)
 
 <!--
 # Curso Maui .Net
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 5 - Crud com Maui + Sqlite
-### Criar usuário estatico
+### Atualizar o construtor da classe SQLiteData
 -->
