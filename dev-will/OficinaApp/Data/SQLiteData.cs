@@ -1,4 +1,5 @@
 ﻿
+using OficinaApp.Model;
 using SQLite;
 
 namespace OficinaApp.Data
@@ -7,5 +8,11 @@ namespace OficinaApp.Data
     {
         readonly SQLiteAsyncConnection _conexaoDB;
         public UsuarioData UsuarioDataTable { get; set; }
+
+        public SQLiteData(string path)
+        {
+            _conexaoDB = new SQLiteAsyncConnection(path);
+            _conexaoDB.CreateTableAsync<Usuario>();
+        }
     }
 }
