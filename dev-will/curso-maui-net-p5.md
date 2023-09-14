@@ -120,10 +120,12 @@ private void btnVoltar_Cliked(object sender, EventArgs e)
 ...
 ```
 
+8. [10:00](https://youtu.be/II90YWU2dKU?t=610) Tirar navegação superior
+
 [Parte 6](curso-maui-net-p6.md)
 
 <!--
 # Curso Maui .Net
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 5 - Crud com Maui + Sqlite
-### Implementar o método "Voltar" na classe EditaUsuarioPage.xaml.cs
+### Tirar navegação superior
 -->
