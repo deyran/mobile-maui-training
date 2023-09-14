@@ -67,10 +67,35 @@ public SQLiteData(...)
 ...
 ```
 
+5. [05:15](https://youtu.be/II90YWU2dKU?t=316) Atualizar a classe **EditaUsuarioPage.xaml.cs**
+
+```
+...
+Usuario _usuario;
+
+public EditaUsuarioPage()
+{
+    ...
+    _usuario = new Usuario();
+    this.BindingContext = _usuario;
+}
+
+private void btnCadastrar_Cliked(object sender, EventArgs e)
+{
+    if(string.IsNullOrWhiteSpace(_usuario.Email) &&
+       string.IsNullOrWhiteSpace(_usuario.Senha))
+    {
+        await DisplayAlert("Atenção", "Preencha todas as informações", "Fechar");
+        return;
+    }
+}
+...
+```
+
 [Parte 6](curso-maui-net-p6.md)
 
 <!--
 # Curso Maui .Net
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 5 - Crud com Maui + Sqlite
-### Atualizar o construtor da classe SQLiteData
+### Atualizar a classe EditaUsuarioPage.xaml.cs
 -->

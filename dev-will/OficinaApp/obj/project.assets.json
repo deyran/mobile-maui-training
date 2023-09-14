@@ -27047,24 +27047,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DEYVIDRANNYERE\\.nuget\\packages\\": {},
+    "C:\\Users\\Windows\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git-projects\\mobile-maui-training\\dev-will\\OficinaApp\\OficinaApp.csproj",
+      "projectUniqueName": "C:\\github-projects\\mobile-maui-training\\dev-will\\OficinaApp\\OficinaApp.csproj",
       "projectName": "OficinaApp",
-      "projectPath": "C:\\git-projects\\mobile-maui-training\\dev-will\\OficinaApp\\OficinaApp.csproj",
-      "packagesPath": "C:\\Users\\DEYVIDRANNYERE\\.nuget\\packages\\",
-      "outputPath": "C:\\git-projects\\mobile-maui-training\\dev-will\\OficinaApp\\obj\\",
+      "projectPath": "C:\\github-projects\\mobile-maui-training\\dev-will\\OficinaApp\\OficinaApp.csproj",
+      "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+      "outputPath": "C:\\github-projects\\mobile-maui-training\\dev-will\\OficinaApp\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\DEYVIDRANNYERE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
