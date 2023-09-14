@@ -128,4 +128,6 @@ private void btnVoltar_Cliked(object sender, EventArgs e)
 # Curso Maui .Net
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 5 - Crud com Maui + Sqlite
 ### Tirar navegação superior
+
+https://youtu.be/II90YWU2dKU?t=610
 -->
