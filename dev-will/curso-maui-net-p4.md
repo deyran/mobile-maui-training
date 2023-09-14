@@ -96,4 +96,5 @@ public class SQLiteData
 <!--
 # Curso Maui .Net
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 4 - Crud com Maui + Sqlite
+### interface ISQLiteDB
 -->
