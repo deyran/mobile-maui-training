@@ -37,23 +37,28 @@ public static SQLiteData BancoDados
     }
 }
 
-public static Usuario Usuario { get; set; }
+...
 
-public App
-{
-    ...
-}
+public App {...}
 ...
 ```
 
-3. AAAA
+3. [03:00](https://youtu.be/II90YWU2dKU?t=185) Criar usuário estatico
+
+```
+...
+public static SQLiteData BancoDados {...}
+
+public static Usuario Usuario { get; set; }
+
+public App {...}
+...
+```
 
 [Parte 6](curso-maui-net-p6.md)
 
 <!--
 # Curso Maui .Net
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 5 - Crud com Maui + Sqlite
-### Injeção de dependência
-
-https://youtu.be/II90YWU2dKU?t=205
+### Criar usuário estatico
 -->
