@@ -86,7 +86,7 @@ public class SQLiteData
     public SQLiteData(string path)
     {
         _conexaoBD = new SQLiteAsyncConnection(path);
-        _conexaoBD.createTableAsync<usuario>.Wait();
+        _conexaoBD.createTableAsync<Usuario>.Wait();
     }
 }
 ```
@@ -96,5 +96,5 @@ public class SQLiteData
 <!--
 # Curso Maui .Net
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 4 - Crud com Maui + Sqlite
-### interface ISQLiteDB
+### class SQLiteData
 -->
