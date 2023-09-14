@@ -53,6 +53,7 @@ public App
 <!--
 # Curso Maui .Net
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 5 - Crud com Maui + Sqlite
+### Update classe Usuario
 
 https://youtu.be/II90YWU2dKU?t=205
 -->

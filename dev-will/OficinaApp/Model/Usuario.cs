@@ -11,5 +11,10 @@ namespace OficinaApp.Model
         public Guid Id { get; set; }
         public string email { get; set; }
         public string senha { get; set; }
+
+        public Usuario()
+        {
+            Id = Guid.NewGuid();
+        }
     }
 }
