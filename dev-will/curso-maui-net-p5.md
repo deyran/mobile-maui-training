@@ -99,10 +99,20 @@ private void btnCadastrar_Cliked(object sender, EventArgs e)
 ...
 ```
 
+6. [09:00](https://youtu.be/II90YWU2dKU?t=551) Adicionar o botão "Voltar" do arquivo **EditaUsuarioPage.xaml**
+
+```
+<Button 
+    Text="Voltar" 
+    x:Name="btnVoltar" 
+    Clicked="btnVoltar_Cliked"
+    Margin="10" />
+```
+
 [Parte 6](curso-maui-net-p6.md)
 
 <!--
 # Curso Maui .Net
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 5 - Crud com Maui + Sqlite
-### Atualizar a classe EditaUsuarioPage.xaml.cs
+### Adicionar o botão "Voltar" do arquivo EditaUsuarioPage.xaml
 -->
