@@ -31,4 +31,9 @@ public partial class EditaUsuarioPage : ContentPage
             await Navigation.PopAsync();
         }
     }
+
+    private async void btnVoltar_Cliked(object sender, EventArgs e)
+    {
+        await Navigation.PopAsync();
+    }
 }

@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OficinaApp.Pages.EditaUsuarioPage"
-             Title="EditaUsuarioPage">
+             Title="EditaUsuarioPage"
+             NavigationPage.HasNavigationBar="False">
 
     <StackLayout    VerticalOptions="CenterAndExpand"
                     Margin="16"
@@ -18,6 +19,12 @@
             Text="Cadastrar" 
             x:Name="btnCadastrar" 
             Clicked="btnCadastrar_Cliked"
+            Margin="10" />
+
+        <Button
+            Text="Voltar"
+            x:Name="btnVoltar"
+            Clicked="btnVoltar_Cliked"
             Margin="10" />
 
     </StackLayout>

@@ -122,11 +122,29 @@ private void btnVoltar_Cliked(object sender, EventArgs e)
 
 8. [10:00](https://youtu.be/II90YWU2dKU?t=610) Tirar navegação superior
 
+9. [15:00](https://youtu.be/II90YWU2dKU?t=933) Configuração da plataforma
+
+1. Na raiz do projeto criar uma classe statica chamada "Constantes.cs"
+
+```
+public static class Constantes
+{
+    private const string DBFileName = "Dados.db3";
+
+    public const SQLiteOpenFlags Flags = 
+        SQLiteOpenFlags.ReadWrite |
+        SQLiteOpenFlags.Create |
+        SQLiteOpenFlags.SharedCashe;
+}
+```
+
+2. AAAA
+
 [Parte 6](curso-maui-net-p6.md)
 
 <!--
 # Curso Maui .Net
 ## Curso Maui .Net - Navegando para página de Cadastro - Parte 5 - Crud com Maui + Sqlite
-
-https://youtu.be/II90YWU2dKU?t=610
+### Configuração da plataforma
+#### Classe Constantes
 -->
