@@ -43,7 +43,7 @@ public App {...}
 ...
 ```
 
-3. [03:00](https://youtu.be/II90YWU2dKU?t=185) Criar usuário estatico
+3. [03:00](https://youtu.be/II90YWU2dKU?t=185) Ainda no arquivo **App.xaml.cs**, crie usuário estatico
 
 ```
 ...
