@@ -13,6 +13,8 @@ namespace OficinaApp.Data
         {
             _conexaoDB = new SQLiteAsyncConnection(path);
             _conexaoDB.CreateTableAsync<Usuario>();
+
+            UsuarioDataTable = new UsuarioData(_conexaoDB);
         }
     }
 }

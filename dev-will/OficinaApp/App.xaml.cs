@@ -1,4 +1,5 @@
-﻿using OficinaApp.Data;
+﻿using OficinaApp.Model;
+using OficinaApp.Data;
 using OficinaApp.Pages;
 
 namespace OficinaApp
@@ -32,5 +33,7 @@ namespace OficinaApp
 
             MainPage = new NavigationPage(new LoginUsuarioPage());                
         }
+
+        public static Usuario Usuario { get; set; }
     }
 }
