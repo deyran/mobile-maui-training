@@ -44,6 +44,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = NetDocTest.Pages.StackLayo
 build_metadata.AdditionalFiles.TargetPath = Pages\StackLayoutTest.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\StackLayoutTest.xaml
 
+[C:/github-projects/mobile-maui-training/maui-doc/NetDocTest/Pages/VerticalStackLayoutTest.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NetDocTest.Pages.VerticalStackLayoutTest.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\VerticalStackLayoutTest.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\VerticalStackLayoutTest.xaml
+
 [C:/github-projects/mobile-maui-training/maui-doc/NetDocTest/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NetDocTest.Resources.Styles.Colors.xaml
