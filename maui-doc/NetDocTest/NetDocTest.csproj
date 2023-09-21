@@ -53,6 +53,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Pages\HorizontalStackLayoutTest.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\StackLayoutTest.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

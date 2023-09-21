@@ -8,7 +8,7 @@ namespace NetDocTest
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new StackLayoutTest());
+            MainPage = new NavigationPage(new HorizontalStackLayoutTest());
         }
     }
 }
