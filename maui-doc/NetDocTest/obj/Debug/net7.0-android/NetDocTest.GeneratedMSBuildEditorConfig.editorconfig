@@ -32,6 +32,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = NetDocTest.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
+[C:/github-projects/mobile-maui-training/maui-doc/NetDocTest/Pages/GridTest.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NetDocTest.Pages.GridTest.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\GridTest.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\GridTest.xaml
+
 [C:/github-projects/mobile-maui-training/maui-doc/NetDocTest/Pages/HorizontalStackLayoutTest.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NetDocTest.Pages.HorizontalStackLayoutTest.xaml
