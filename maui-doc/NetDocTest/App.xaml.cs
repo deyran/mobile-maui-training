@@ -1,4 +1,6 @@
-﻿namespace NetDocTest
+﻿using NetDocTest.Pages;
+
+namespace NetDocTest
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new StackLayoutTest());
         }
     }
 }
