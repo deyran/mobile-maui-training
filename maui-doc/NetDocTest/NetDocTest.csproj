@@ -53,16 +53,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Pages\GridTest.xaml">
+	  <MauiXaml Update="Pages\MainMenu\MyMainMenu.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\HorizontalStackLayoutTest.xaml">
+	  <MauiXaml Update="Pages\Tests\GridTest.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\StackLayoutTest.xaml">
+	  <MauiXaml Update="Pages\Tests\HorizontalStackLayoutTest.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\VerticalStackLayoutTest.xaml">
+	  <MauiXaml Update="Pages\Tests\StackLayoutTest.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Tests\VerticalStackLayoutTest.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

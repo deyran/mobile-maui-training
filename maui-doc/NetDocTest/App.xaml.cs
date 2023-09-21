@@ -1,4 +1,4 @@
-﻿using NetDocTest.Pages;
+﻿using NetDocTest.Pages.MainMenu;
 
 namespace NetDocTest
 {
@@ -8,7 +8,7 @@ namespace NetDocTest
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new GridTest());
+            MainPage = new NavigationPage(new MyMainMenu());
         }
     }
 }
