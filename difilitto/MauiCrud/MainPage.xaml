@@ -17,24 +17,33 @@
 
             <Button
                 x:Name="CounterBtn"
-                Text="Criar Banco de dados"                
+                Text="Criar Banco de dados"
                 HorizontalOptions="Center" />
 
             <Entry x:Name="IdEnt" Keyboard="Numeric" Placeholder="Informe o ID" />
             <Entry x:Name="ValorEnt" Placeholder="Informe o endereço do site" />
 
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Button
+                x:Name="InserirBtn"
+                Text="Inserir"
                 HorizontalOptions="Center" />
 
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
+                <Button
+                x:Name="AlterarBtn"
+                Text="Alterar"
                 HorizontalOptions="Center" />
+
+                <Button
+                x:Name="ExcluirBtn"
+                Text="Excluir"
+                HorizontalOptions="Center" />
+
+                <Button
+                x:Name="LocalizarBtn"
+                Text="Localizar"
+                HorizontalOptions="Center" />
+            </HorizontalStackLayout>           
 
         </VerticalStackLayout>
     </ScrollView>

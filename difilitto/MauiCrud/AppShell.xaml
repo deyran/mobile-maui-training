@@ -6,7 +6,8 @@
     xmlns:local="clr-namespace:MauiCrud"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent        
+    <ShellContent
+        Title="Melhores sites do ano"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
