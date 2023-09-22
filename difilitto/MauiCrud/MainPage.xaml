@@ -16,9 +16,10 @@
                 HorizontalOptions="Center" />
 
             <Button
-                x:Name="CounterBtn"
+                x:Name="CriarBancoDeDadosBtn"
                 Text="Criar Banco de dados"
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center"
+                Clicked="CriarBancoDeDadosBtn_Clicked"/>
 
             <Entry x:Name="IdEnt" Keyboard="Numeric" Placeholder="Informe o ID" />
             <Entry x:Name="ValorEnt" Placeholder="Informe o endereço do site" />
@@ -27,23 +28,28 @@
                 <HorizontalStackLayout HorizontalOptions="Center">
                     <Button
                         x:Name="InserirBtn"
-                        Text="Inserir" />
+                        Text="Inserir"
+                        Clicked="InserirBtn_Clicked" />
 
                     <Button
                         x:Name="AlterarBtn"
-                        Text="Alterar" />
+                        Text="Alterar"
+                        Clicked="AlterarBtn_Clicked" />
 
                     <Button
                         x:Name="ExcluirBtn"
-                        Text="Excluir" />
+                        Text="Excluir"
+                        Clicked="ExcluirBtn_Clicked" />
 
                     <Button
                         x:Name="LocalizarBtn"
-                        Text="Localizar" />
+                        Text="Localizar"
+                        Clicked="LocalizarBtn_Clicked" />
                     
                     <Button
                         x:Name="ListarBtn"
-                        Text="Listar" />
+                        Text="Listar"
+                        Clicked="ListarBtn_Clicked" />
                 </HorizontalStackLayout>
 
                 <CollectionView x:Name="ListaCv">
