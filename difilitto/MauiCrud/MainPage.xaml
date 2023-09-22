@@ -10,10 +10,18 @@
             VerticalOptions="Center">
 
             <Image
-                Source="dotnet_bot.png"
+                Source="sqlite.png"
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"
                 HeightRequest="200"
                 HorizontalOptions="Center" />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Criar Banco de dados"                
+                HorizontalOptions="Center" />
+
+            <Entry x:Name="IdEnt" Keyboard="Numeric" Placeholder="Informe o ID" />
+            <Entry x:Name="ValorEnt" Placeholder="Informe o endereço do site" />
 
             <Label
                 Text="Hello, World!"
@@ -26,12 +34,6 @@
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I"
                 FontSize="18"
-                HorizontalOptions="Center" />
-
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"                
                 HorizontalOptions="Center" />
 
         </VerticalStackLayout>
