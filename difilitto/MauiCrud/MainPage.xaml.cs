@@ -6,12 +6,10 @@ namespace MauiCrud
     {
         string _dbPath;
         SQLite.SQLiteConnection _conn;
-        Site site;
-
+        
         public MainPage()
         {
             InitializeComponent();
-            site = new Site();
         }
 
         private void CriarBancoDeDadosBtn_Clicked(object sender, EventArgs e)
@@ -26,7 +24,10 @@ namespace MauiCrud
         }
 
         private void InserirBtn_Clicked(object sender, EventArgs e)
-        {            
+        {
+            Site site;
+            site = new Site();
+
             site.Endereco = ValorEnt.Text;
             _conn.Insert(site);
 
@@ -36,12 +37,28 @@ namespace MauiCrud
 
         private void AlterarBtn_Clicked(object sender, EventArgs e)
         {
+            Site site;
+            site = new Site();
 
+            site.Id = int.Parse(IdEnt.Text);
+            site.Endereco = ValorEnt.Text;
+
+            _conn.Update(site);
+
+            LimparCampos();
+            ListarSites();
         }
 
         private void ExcluirBtn_Clicked(object sender, EventArgs e)
-        {           
-            
+        {
+            Site site;
+            site = new Site();
+
+            site.Id = int.Parse(IdEnt.Text);
+            _conn.Delete(site);
+
+            LimparCampos();
+            ListarSites();
         }
 
         private void LocalizarBtn_Clicked(object sender, EventArgs e)
