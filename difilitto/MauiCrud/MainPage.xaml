@@ -23,28 +23,29 @@
             <Entry x:Name="IdEnt" Keyboard="Numeric" Placeholder="Informe o ID" />
             <Entry x:Name="ValorEnt" Placeholder="Informe o endereço do site" />
 
-            <HorizontalStackLayout HorizontalOptions="Center">
-                <Button
-                x:Name="InserirBtn"
-                Text="Inserir"
-                HorizontalOptions="Center" />
+            <VerticalStackLayout x:Name="operacoesVSL">
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Button
+                        x:Name="InserirBtn"
+                        Text="Inserir" />
 
-                <Button
-                x:Name="AlterarBtn"
-                Text="Alterar"
-                HorizontalOptions="Center" />
+                    <Button
+                        x:Name="AlterarBtn"
+                        Text="Alterar" />
 
-                <Button
-                x:Name="ExcluirBtn"
-                Text="Excluir"
-                HorizontalOptions="Center" />
+                    <Button
+                        x:Name="ExcluirBtn"
+                        Text="Excluir" />
 
-                <Button
-                x:Name="LocalizarBtn"
-                Text="Localizar"
-                HorizontalOptions="Center" />
-            </HorizontalStackLayout>           
-
+                    <Button
+                        x:Name="LocalizarBtn"
+                        Text="Localizar" />
+                    
+                    <Button
+                        x:Name="ListarBtn"
+                        Text="Listar" />
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 
