@@ -1,5 +1,4 @@
 ﻿using SQLite;
-using UIKit;
 
 namespace MauiCrud
 {
@@ -19,6 +18,7 @@ namespace MauiCrud
             _conn = new SQLiteConnection(_dbPath);
 
             _conn.CreateTable<Site>();
+            OperacoesVSL.IsVisible = true;
         }
 
         private void InserirBtn_Clicked(object sender, EventArgs e)
