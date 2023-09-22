@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\git-projects\mobile-maui-training\difilitto\MauiCrud\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-09-22T09:29:44.032</Modified>
+      <Modified>2023-09-22T09:49:13.230</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\difilitto\MauiCrud\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-09-22T09:29:43.451</Modified>
+      <Modified>2023-09-22T09:48:31.426</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\difilitto\MauiCrud\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiCrud.runtimeconfig.json">
       <PackagePath>MauiCrud.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\difilitto\MauiCrud\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiCrud.dll">
       <PackagePath>MauiCrud.dll</PackagePath>
-      <Modified>2023-09-22T09:29:41.373</Modified>
+      <Modified>2023-09-22T09:49:11.480</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\difilitto\MauiCrud\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiCrud.exe</PackagePath>
-      <Modified>2023-09-22T09:29:41.411</Modified>
+      <Modified>2023-09-22T09:49:11.495</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\difilitto\MauiCrud\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiCrud.deps.json">
       <PackagePath>MauiCrud.deps.json</PackagePath>
