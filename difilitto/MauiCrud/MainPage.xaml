@@ -18,7 +18,7 @@
             <Entry x:Name="IdEnt" Keyboard="Numeric" Placeholder="Informe o ID" />
             <Entry x:Name="ValorEnt" Placeholder="Informe o endereço do site" />
 
-            <VerticalStackLayout x:Name="operacoesVSL">
+            <VerticalStackLayout x:Name="operacoesVSL" IsVisible="false">
                 <HorizontalStackLayout HorizontalOptions="Center">
                     <Button
                         x:Name="InserirBtn"
