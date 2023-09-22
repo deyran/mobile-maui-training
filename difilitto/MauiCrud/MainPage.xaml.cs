@@ -61,11 +61,6 @@ namespace MauiCrud
             ListarSites();
         }
 
-        private void LocalizarBtn_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
         private void ListarBtn_Clicked(object sender, EventArgs e)
         {
             LimparCampos();

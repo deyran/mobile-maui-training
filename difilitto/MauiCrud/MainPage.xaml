@@ -34,11 +34,6 @@
                         x:Name="ExcluirBtn"
                         Text="Excluir"
                         Clicked="ExcluirBtn_Clicked" />
-
-                    <Button
-                        x:Name="LocalizarBtn"
-                        Text="Localizar"
-                        Clicked="LocalizarBtn_Clicked" />
                     
                     <Button
                         x:Name="ListarBtn"
