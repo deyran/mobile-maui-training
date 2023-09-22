@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\github-projects\mobile-maui-training\maui-doc\NetDocTest\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-09-21T18:49:21.321</Modified>
+      <Modified>2023-09-21T19:06:00.814</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\maui-doc\NetDocTest\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-09-21T18:49:20.227</Modified>
+      <Modified>2023-09-21T18:59:44.242</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\maui-doc\NetDocTest\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\NetDocTest.runtimeconfig.json">
       <PackagePath>NetDocTest.runtimeconfig.json</PackagePath>
@@ -44,15 +44,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\maui-doc\NetDocTest\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\NetDocTest.dll">
       <PackagePath>NetDocTest.dll</PackagePath>
-      <Modified>2023-09-21T18:49:11.400</Modified>
+      <Modified>2023-09-21T19:05:58.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\maui-doc\NetDocTest\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>NetDocTest.exe</PackagePath>
-      <Modified>2023-09-21T18:49:11.509</Modified>
+      <Modified>2023-09-21T19:05:58.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\maui-doc\NetDocTest\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\NetDocTest.deps.json">
       <PackagePath>NetDocTest.deps.json</PackagePath>
-      <Modified>2023-09-21T18:49:19.071</Modified>
+      <Modified>2023-09-21T18:59:43.398</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

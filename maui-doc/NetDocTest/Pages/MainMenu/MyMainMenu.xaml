@@ -6,9 +6,11 @@
 
     <VerticalStackLayout x:Name="MyMainMenuVertical">
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Welcome to MyMainMenuContentPage"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        
+        
     </VerticalStackLayout>
     
 </ContentPage>

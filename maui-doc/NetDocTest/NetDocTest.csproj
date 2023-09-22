@@ -56,6 +56,9 @@
 	  <MauiXaml Update="Pages\MainMenu\MyMainMenu.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\MainMenu\MyMenuContent\MyMenu.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\Tests\GridTest.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

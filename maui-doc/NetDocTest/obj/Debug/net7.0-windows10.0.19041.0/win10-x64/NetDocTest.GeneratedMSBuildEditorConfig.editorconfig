@@ -34,6 +34,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = NetDocTest.Pages.MainMenu.
 build_metadata.AdditionalFiles.TargetPath = Pages\MainMenu\MyMainMenu.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\MainMenu\MyMainMenu.xaml
 
+[C:/github-projects/mobile-maui-training/maui-doc/NetDocTest/Pages/MainMenu/MyMenuContent/MyMenu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NetDocTest.Pages.MainMenu.MyMenuContent.MyMenu.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MainMenu\MyMenuContent\MyMenu.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MainMenu\MyMenuContent\MyMenu.xaml
+
 [C:/github-projects/mobile-maui-training/maui-doc/NetDocTest/Pages/Tests/GridTest.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NetDocTest.Pages.Tests.GridTest.xaml
