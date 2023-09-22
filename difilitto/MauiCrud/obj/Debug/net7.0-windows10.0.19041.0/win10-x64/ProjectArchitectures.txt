@@ -1,0 +1,1 @@
+C:\git-projects\mobile-maui-training\difilitto\MauiCrud\MauiCrud.csproj;x64
