@@ -10,8 +10,8 @@ namespace MauiAPI.APIEln
     {
         private readonly HttpClient _client;
         private readonly string _baseAddress = 
-        "https://sgestorweb.eletronorte.com.br/engenharia/segtrabalho/api/extintoralmoxarifados/";
-
+        "https://sgestorweb.eletronorte.com.br/engenharia/segtrabalho/api/";
+        //extintoralmoxarifados
         public ApiElnData()
         {
             _client = new HttpClient();
