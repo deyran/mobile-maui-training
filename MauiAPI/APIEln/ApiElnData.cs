@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace MauiAPI.APIEln
 {
@@ -11,11 +7,23 @@ namespace MauiAPI.APIEln
         private readonly HttpClient _client;
         private readonly string _baseAddress = 
         "https://sgestorweb.eletronorte.com.br/engenharia/segtrabalho/api/";
-        //extintoralmoxarifados
+        
         public ApiElnData()
         {
             _client = new HttpClient();
             _client.BaseAddress = new Uri(_baseAddress);
+        }
+
+        public async Task<List<ExtintorData>> GetItemsAsync()
+        {
+            var response = await _client.GetAsync("extintoralmoxarifados");
+
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+            }
+
+                return null;
         }
     }
 }
