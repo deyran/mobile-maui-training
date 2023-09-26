@@ -1,1 +1,0 @@
-C:\github-projects\mobile-maui-training\MauiAPI\MauiAPI.csproj;x64
