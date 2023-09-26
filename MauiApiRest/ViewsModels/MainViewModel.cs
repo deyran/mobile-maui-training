@@ -1,7 +1,9 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using MauiApiRest.Models;
 using System.Collections.ObjectModel;
+using System.Text;
 using System.Text.Json;
+using System.Windows.Input;
 
 namespace MauiApiRest.ViewsModels
 {
@@ -14,7 +16,7 @@ namespace MauiApiRest.ViewsModels
         [ObservableProperty]
         public string _categoriaInfoId;
         [ObservableProperty]
-        public string _categoriaInfoName;
+        public string _categoriaInfoNome;
         [ObservableProperty]
         public Categoria _categoria;
         [ObservableProperty]
@@ -34,6 +36,23 @@ namespace MauiApiRest.ViewsModels
             };
         }
 
-        // Iniciar o consumo da Api Rest
+        //iniciar o consumo da api rest
+        //retornar a coleção de categorias
+        public ICommand GetCategoriasCommand =>
+           new Command(async () => await CarregaCategoriasAsync());
+        private async Task CarregaCategoriasAsync()
+        {
+            var url = $"{baseUrl}/categorias";
+            var response = await client.GetAsync(url);
+            if (response.IsSuccessStatusCode)
+            {
+                using (var responseStream = await response.Content.ReadAsStreamAsync())
+                {
+                    var data = await JsonSerializer.DeserializeAsync<ObservableCollection<Categoria>>(responseStream, _serializerOptions);
+                    Categorias = data;
+                }
+            }
+        }
+
     }
 }
