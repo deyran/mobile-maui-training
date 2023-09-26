@@ -1,0 +1,1 @@
+C:\github-projects\mobile-maui-training\MauiApiRest\MauiApiRest.csproj;x64
