@@ -23,5 +23,17 @@ namespace MauiApiRest.ViewsModels
         private string _nome;
         [ObservableProperty]
         private string _imagemUrl;
+
+        public MainViewModel()
+        {
+            client = new HttpClient();
+            Categorias = new ObservableCollection<Categoria>();
+            _serializerOptions = new JsonSerializerOptions
+            { 
+                PropertyNameCaseInsensitive = true
+            };
+        }
+
+        // Iniciar o consumo da Api Rest
     }
 }
