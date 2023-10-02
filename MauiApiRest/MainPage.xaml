@@ -5,15 +5,15 @@
 
     <ScrollView>
         <VerticalStackLayout>
-            <Entry Placeholder="Categoria Id" Text="{Binding CategoriaInfoId}"/>
-            <Entry Placeholder="Categoria Id" Text="{Binding CategoriaInfoNome}"/>
+            <Entry Placeholder="Categoria Id"   Text="{Binding CategoriaInfoId}"/>
+            <Entry Placeholder="Categoria Nome" Text="{Binding CategoriaInfoNome}"/>
 
             <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Center">
-                <Button Text="Load" Command="{Binding GetCategoriasCommand}" />
-                <Button Text="Get" Command="{Binding GetCategoriaCommand}" />
-                <Button Text="Add" Command="{Binding AddCategoriaCommand}" />
-                <Button Text="Remove" Command="{Binding DeleteCategoriaCommand}" />
-                <Button Text="Update" Command="{Binding UpdateCategoriaCommand}" />
+                <Button Text="Load"     Command="{Binding GetCategoriasCommand}" />
+                <Button Text="Get"      Command="{Binding GetCategoriaCommand}" />
+                <Button Text="Add"      Command="{Binding AddCategoriaCommand}" />
+                <Button Text="Remove"   Command="{Binding DeleteCategoriaCommand}" />
+                <Button Text="Update"   Command="{Binding UpdateCategoriaCommand}" />
             </StackLayout>
 
             <CollectionView x:Name="ColView1" ItemsSource="{Binding Categorias}" 
