@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\github-projects\mobile-maui-training\MauiApiRest\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-03T17:52:35.418</Modified>
+      <Modified>2023-10-04T13:59:23.630</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiApiRest\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-02T20:19:12.495</Modified>
+      <Modified>2023-10-04T13:58:23.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiApiRest\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApiRest.runtimeconfig.json">
       <PackagePath>MauiApiRest.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiApiRest\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApiRest.dll">
       <PackagePath>MauiApiRest.dll</PackagePath>
-      <Modified>2023-10-03T17:52:31.374</Modified>
+      <Modified>2023-10-04T13:59:21.503</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiApiRest\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiApiRest.exe</PackagePath>
-      <Modified>2023-10-03T17:52:31.492</Modified>
+      <Modified>2023-10-04T13:59:21.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiApiRest\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApiRest.deps.json">
       <PackagePath>MauiApiRest.deps.json</PackagePath>
