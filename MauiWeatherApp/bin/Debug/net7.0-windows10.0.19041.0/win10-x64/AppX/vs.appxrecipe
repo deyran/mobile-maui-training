@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\git-projects\mobile-maui-training\MauiWeatherApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-04T00:38:15.665</Modified>
+      <Modified>2023-10-04T00:50:53.795</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\MauiWeatherApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiWeatherApp.dll">
       <PackagePath>MauiWeatherApp.dll</PackagePath>
-      <Modified>2023-10-04T00:38:13.294</Modified>
+      <Modified>2023-10-04T00:50:51.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\MauiWeatherApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiWeatherApp.exe</PackagePath>
-      <Modified>2023-10-04T00:38:13.321</Modified>
+      <Modified>2023-10-04T00:50:51.830</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\MauiWeatherApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiWeatherApp.deps.json">
       <PackagePath>MauiWeatherApp.deps.json</PackagePath>
