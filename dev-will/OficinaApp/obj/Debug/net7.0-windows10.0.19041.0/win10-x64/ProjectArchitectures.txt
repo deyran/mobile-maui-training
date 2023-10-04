@@ -1,1 +1,0 @@
-C:\git-projects\mobile-maui-training\dev-will\OficinaApp\OficinaApp.csproj;x64
