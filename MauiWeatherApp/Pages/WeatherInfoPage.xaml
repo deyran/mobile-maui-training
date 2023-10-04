@@ -18,5 +18,11 @@
                 <Button Text="Fetch" Grid.Column="2" />
             </Grid>
         </Frame>
+
+        <Image WidthRequest="100" HeightRequest="100" />
+        <Label HorizontalOptions="Center" FontSize="70" TextColor="White" Text="0ºC" />
+        <Label HorizontalOptions="Center" FontSize="25" FontAttributes="Bold" TextColor="White" Text="Raining" />
+        <Label HorizontalOptions="Center" FontSize="15" FontAttributes="Bold" TextColor="White" Text="New York, USA" />
+
     </VerticalStackLayout>    
 </ContentPage>
