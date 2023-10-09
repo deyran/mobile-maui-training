@@ -80,10 +80,59 @@ public class Categoria
 </ContentPage>
 ```
 
+## [17:29 - Implementação do padrão MVVM](https://youtu.be/waUne0fOz3s?t=1049)
+
+1. Instalar o pacote **Community.ToolKit.Mvvm**
+2. Criar a pasta **ViewsModels**
+3.  Criar a classe parcial **MainViewModel**
+```
+using CommunityToolkit.Mvvm.ComponentModel;
+using MauiApiRest.Models;
+using System.Collections.ObjectModel;
+using System.Text;
+using System.Text.Json;
+using System.Windows.Input;
+
+namespace MauiApiRest.ViewsModels
+{
+    public partial class MainViewModel : ObservableObject
+    {
+        HttpClient client;
+        JsonSerializerOptions _serializerOptions;
+        string baseUrl = "https://catalogo.macoratti.net/api/1";
+
+        [ObservableProperty]
+        public string _categoriaInfoId;
+        [ObservableProperty]
+        public string _categoriaInfoNome;
+        [ObservableProperty]
+        public Categoria _categoria;
+        [ObservableProperty]
+        public ObservableCollection<Categoria> _categorias;
+        [ObservableProperty]
+        private string _nome;
+        [ObservableProperty]
+        private string _imagemUrl;
+
+        public MainViewModel()
+        {
+            client = new HttpClient();
+            Categorias = new ObservableCollection<Categoria>();
+            _serializerOptions = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+        }
+
+    }
+}
+```
+
 <!--
 # Consumindo serviços REST
 ## 00:13 - Introdução
 ## 10:00 - Construindo app Maui
 ## 11:17 - Definindo modelo de domínio
 ## 13:42 - Atualizar o arquivo **MainPage.xaml**
+## 17:29 - Implementação do padrão MVVM
 -->
