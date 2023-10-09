@@ -54,35 +54,36 @@ namespace MauiApiRest.ViewsModels
             }
         }
 
-        // GetAsync - Específico    
+        // GetAsync - Específico
         public ICommand GetCategoriaCommand =>
-        new Command(async () =>
-         {
-             if (CategoriaInfoId is not null)
-             {
-                 var categoriaId = Convert.ToInt32(CategoriaInfoId);
-                 if (categoriaId > 0)
-                 {
-                     var url = $"{baseUrl}/categorias/{categoriaId}";
-                     var response = await client.GetAsync(url);
+            new Command(async() => CarregaCategoriaAsync());
+        private async Task CarregaCategoriaAsync()
+        {
+            if (CategoriaInfoId is not null)
+            {
+                var categoriaId = Convert.ToInt32(CategoriaInfoId);
+                if (categoriaId > 0)
+                {
+                    var url = $"{baseUrl}/categorias/{categoriaId}";
+                    var response = await client.GetAsync(url);
 
-                     Categorias.Clear();
+                    Categorias.Clear();
 
-                     if (response.IsSuccessStatusCode)
-                     {
-                         using (var responseStream =
-                                 await response.Content.ReadAsStreamAsync())
-                         {
-                             var data = await JsonSerializer
-                              .DeserializeAsync<Categoria>(responseStream, _serializerOptions);
-                             Categoria = data;
-                         }
+                    if (response.IsSuccessStatusCode)
+                    {
+                        using (var responseStream =
+                                await response.Content.ReadAsStreamAsync())
+                        {
+                            var data = await JsonSerializer
+                            .DeserializeAsync<Categoria>(responseStream, _serializerOptions);
+                            Categoria = data;
+                        }
 
-                         Categorias.Add(Categoria);
-                     }
-                 }
-             }
-         });
+                        Categorias.Add(Categoria);
+                    }
+                }
+            }
+        }
 
         // PostAsync - add
         public ICommand AddCategoriaCommand =>
@@ -108,5 +109,26 @@ namespace MauiApiRest.ViewsModels
             }
         });
 
+        // PutAsync - Update
+        public ICommand UpdateCategoriaCommand =>
+        new Command(async () =>
+        {
+            if (CategoriaInfoId is not null && CategoriaInfoNome is not null)
+            {
+                var categoriaId = Convert.ToInt32(CategoriaInfoId);
+                var categoria = Categorias.FirstOrDefault(x => x.CategoriaId == categoriaId);
+
+                var url = $"{baseUrl}/categorias/{categoriaId}";
+                categoria.Nome = CategoriaInfoNome;
+
+                string jsonResponse = JsonSerializer.Serialize<Categoria>(categoria, _serializerOptions);
+
+                StringContent content = new StringContent(jsonResponse, Encoding.UTF8, "application/json");
+
+                var response = await client.PutAsync(url, content);
+
+                await CarregaCategoriaAsync(); // Carrega o item atualizado
+            }
+        });
     }
 }

@@ -192,32 +192,32 @@ private async Task CarregaCategoriasAsync()
 ```
 public ICommand GetCategoriaCommand =>
 new Command(async () =>
+{
+    if (CategoriaInfoId is not null)
     {
-        if (CategoriaInfoId is not null)
+        var categoriaId = Convert.ToInt32(CategoriaInfoId);
+        if (categoriaId > 0)
         {
-            var categoriaId = Convert.ToInt32(CategoriaInfoId);
-            if (categoriaId > 0)
+            var url = $"{baseUrl}/categorias/{categoriaId}";
+            var response = await client.GetAsync(url);
+
+            Categorias.Clear();
+
+            if (response.IsSuccessStatusCode)
             {
-                var url = $"{baseUrl}/categorias/{categoriaId}";
-                var response = await client.GetAsync(url);
-
-                Categorias.Clear();
-
-                if (response.IsSuccessStatusCode)
+                using (var responseStream =
+                        await response.Content.ReadAsStreamAsync())
                 {
-                    using (var responseStream =
-                            await response.Content.ReadAsStreamAsync())
-                    {
-                        var data = await JsonSerializer
-                        .DeserializeAsync<Categoria>(responseStream, _serializerOptions);
-                        Categoria = data;
-                    }
-
-                    Categorias.Add(Categoria);
+                    var data = await JsonSerializer
+                    .DeserializeAsync<Categoria>(responseStream, _serializerOptions);
+                    Categoria = data;
                 }
+
+                Categorias.Add(Categoria);
             }
         }
-    });
+    }
+});
 
 ```
 
