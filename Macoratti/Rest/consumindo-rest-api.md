@@ -128,6 +128,27 @@ namespace MauiApiRest.ViewsModels
 }
 ```
 
+## [19:11 - Coleção de categoria - **GetAsync**](https://youtu.be/waUne0fOz3s?t=1151)
+
+```
+//retornar a coleção de categorias
+public ICommand GetCategoriasCommand =>
+    new Command(async () => await CarregaCategoriasAsync());
+private async Task CarregaCategoriasAsync()
+{
+    var url = $"{baseUrl}/categorias";
+    var response = await client.GetAsync(url);
+    if (response.IsSuccessStatusCode)
+    {
+        using (var responseStream = await response.Content.ReadAsStreamAsync())
+        {
+            var data = await JsonSerializer.DeserializeAsync<ObservableCollection<Categoria>>(responseStream, _serializerOptions);
+            Categorias = data;
+        }
+    }
+}
+```
+
 <!--
 # Consumindo serviços REST
 ## 00:13 - Introdução
@@ -135,4 +156,5 @@ namespace MauiApiRest.ViewsModels
 ## 11:17 - Definindo modelo de domínio
 ## 13:42 - Atualizar o arquivo **MainPage.xaml**
 ## 17:29 - Configuração da implementação do padrão MVVM
+## 19:11 - Coleção de categoria - **GetAsync**
 -->

@@ -35,5 +35,24 @@ namespace MauiApiRest.ViewsModels
                 PropertyNameCaseInsensitive = true
             };
         }
+
+        // GetAsync
+        //retornar a coleção de categorias
+        public ICommand GetCategoriasCommand =>
+           new Command(async () => await CarregaCategoriasAsync());
+        private async Task CarregaCategoriasAsync()
+        {
+            var url = $"{baseUrl}/categorias";
+            var response = await client.GetAsync(url);
+            if (response.IsSuccessStatusCode)
+            {
+                using (var responseStream = await response.Content.ReadAsStreamAsync())
+                {
+                    var data = await JsonSerializer.DeserializeAsync<ObservableCollection<Categoria>>(responseStream, _serializerOptions);
+                    Categorias = data;
+                }
+            }
+        }
+
     }
 }
