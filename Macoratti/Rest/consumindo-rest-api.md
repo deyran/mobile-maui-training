@@ -149,6 +149,26 @@ private async Task CarregaCategoriasAsync()
 }
 ```
 
+## [21:25 - Atualizar o arquivo **MainPage.xaml.cs**](hhttps://youtu.be/waUne0fOz3s?t=1285)
+
+```
+using MauiApiRest.ViewModels;
+
+namespace MauiApiRest
+{
+    public partial class MainPage : ContentPage
+    {
+        public MainPage()
+        {
+            InitializeComponent();
+            BindingContext = new MainViewModel();
+        }
+    }
+}
+```
+
+hhttps://youtu.be/waUne0fOz3s?t=1285
+
 <!--
 # Consumindo serviços REST
 ## 00:13 - Introdução
@@ -157,4 +177,5 @@ private async Task CarregaCategoriasAsync()
 ## 13:42 - Atualizar o arquivo **MainPage.xaml**
 ## 17:29 - Configuração da implementação do padrão MVVM
 ## 19:11 - Coleção de categoria - **GetAsync**
+## 21:25 - Atualizar o arquivo **MainPage.xaml.cs**
 -->
