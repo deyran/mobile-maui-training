@@ -272,7 +272,30 @@ new Command(async () =>
 });
 ```
 
+## [31:26 - Delete - Delete um item](https://youtu.be/waUne0fOz3s?t=1886)
+
+```
+public ICommand DeleteCategoriaCommand =>
+    new Command(async() => DeleteCategoriaAsync());
+private async Task DeleteCategoriaAsync()
+{
+    if (CategoriaInfoId is not null)
+    {
+        var categoriaId = Convert.ToInt32(CategoriaInfoId);
+        if (categoriaId > 0)
+        {
+            var url = $"{baseUrl}/categorias/{categoriaId}";
+            var response = await client.DeleteAsync(url);
+            await CarregaCategoriasAsync();
+        }
+    }
+}
+
+```
+
 <!--
+Muito bom, implementei e fiz pequenas modificações!
+
 # Consumindo serviços REST
 ## 00:13 - Introdução
 ## 10:00 - Construindo app Maui
@@ -284,4 +307,7 @@ new Command(async () =>
 ## 20:27 - GetAsync - Lista
 ## 23:36 - GetAsync - um item
 ## 29:12 - PutAsync - Atualiza um item
+## 31:26 - Delete - Delete um item
+
+https://github.com/deyran/mobile-maui-training/tree/main/Macoratti/Rest
 -->

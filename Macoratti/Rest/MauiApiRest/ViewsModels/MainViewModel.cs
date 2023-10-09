@@ -130,5 +130,22 @@ namespace MauiApiRest.ViewsModels
                 await CarregaCategoriaAsync(); // Carrega o item atualizado
             }
         });
+
+        // DeleteAsync - Delete
+        public ICommand DeleteCategoriaCommand =>
+            new Command(async() => DeleteCategoriaAsync());
+        private async Task DeleteCategoriaAsync()
+        {
+            if (CategoriaInfoId is not null)
+            {
+                var categoriaId = Convert.ToInt32(CategoriaInfoId);
+                if (categoriaId > 0)
+                {
+                    var url = $"{baseUrl}/categorias/{categoriaId}";
+                    var response = await client.DeleteAsync(url);
+                    await CarregaCategoriasAsync();
+                }
+            }
+        }
     }
 }
