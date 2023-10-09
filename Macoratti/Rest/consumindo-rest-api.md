@@ -19,9 +19,71 @@ public class Categoria
 }
 ```
 
+## [13:42 - Atualizar o arquivo **MainPage.xaml**](https://youtu.be/waUne0fOz3s?t=822)
+
+```
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApiRest.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="5">
+            <Entry Placeholder="Categoria Id" Text="{Binding CategoriaInfoId}"/>
+            <Entry Placeholder="Categoria Nome" Text="{Binding CategoriaInfoNome}"/>
+
+            <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Center">
+                <Button  Text="Load" Command="{Binding GetCategoriasCommand}" />
+                <Button  Text="Get" Command="{Binding GetCategoriaCommand}"/>
+                <Button  Text="Add" Command="{Binding AddCategoriaCommand}" />
+                <Button  Text="Update" Command="{Binding UpdateCategoriaCommand}"/>
+                <Button  Text="Remove" Command="{Binding DeleteCategoriaCommand}"/>
+                
+            </StackLayout>
+
+            <CollectionView x:Name="ColView1" ItemsSource="{Binding Categorias}"
+                              EmptyView="Nenhum item encontrado">
+                
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2"/>
+                </CollectionView.ItemsLayout>
+                
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <VerticalStackLayout Padding="5">
+                            <Frame CornerRadius="10" HasShadow="True" 
+                                                   Padding="2">
+                                <Grid Padding="5" ColumnSpacing="0" 
+                                                RowSpacing="0" 
+                                                Margin="2">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="180"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Label Grid.Row="0" Text ="{Binding CategoriaId}"  
+                                                       HorizontalOptions="End"/>
+                                    <Image Grid.Row="1" Source="{Binding ImagemUrl}"
+                                                      Aspect="AspectFit"/>
+                                    <Label Grid.Row="2" Text="{Binding Nome}" 
+                                                      TextColor="Magenta"
+                                                      HorizontalTextAlignment="Center" />
+                                </Grid>
+                            </Frame>
+                        </VerticalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+```
+
 <!--
 # Consumindo serviços REST
 ## 00:13 - Introdução
 ## 10:00 - Construindo app Maui
 ## 11:17 - Definindo modelo de domínio
+## 13:42 - Atualizar o arquivo **MainPage.xaml**
 -->
