@@ -6,10 +6,10 @@
 
 * Nome da App -> MauiApiRest
 
-## 10:40 - Definindo modelo de domínio
+## [11:17 - Definindo modelo de domínio](https://youtu.be/waUne0fOz3s?t=677)
 
 1. Na raiz criar pasta **Models**
-2. Implementar a classe **Categoria**
+2. Implementar a classe **Categoria** na pasta Models
 ```
 public class Categoria
 {
@@ -23,5 +23,5 @@ public class Categoria
 # Consumindo serviços REST
 ## 00:13 - Introdução
 ## 10:00 - Construindo app Maui
-## 10:40 - Definindo modelo de domínio
+## 11:17 - Definindo modelo de domínio
 -->
