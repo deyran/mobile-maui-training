@@ -12,33 +12,33 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = MauiApiRest
-build_property.ProjectDir = C:\github-projects\mobile-maui-training\MauiApiRest\
+build_property.ProjectDir = C:\git-projects\mobile-maui-training\MauiApiRest\
 
-[C:/github-projects/mobile-maui-training/MauiApiRest/App.xaml]
+[C:/git-projects/mobile-maui-training/MauiApiRest/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApiRest.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/github-projects/mobile-maui-training/MauiApiRest/AppShell.xaml]
+[C:/git-projects/mobile-maui-training/MauiApiRest/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApiRest.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/github-projects/mobile-maui-training/MauiApiRest/MainPage.xaml]
+[C:/git-projects/mobile-maui-training/MauiApiRest/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApiRest.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/github-projects/mobile-maui-training/MauiApiRest/Resources/Styles/Colors.xaml]
+[C:/git-projects/mobile-maui-training/MauiApiRest/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApiRest.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/github-projects/mobile-maui-training/MauiApiRest/Resources/Styles/Styles.xaml]
+[C:/git-projects/mobile-maui-training/MauiApiRest/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApiRest.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
