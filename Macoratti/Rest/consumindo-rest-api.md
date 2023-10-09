@@ -152,7 +152,7 @@ private async Task CarregaCategoriasAsync()
 ## [21:25 - Atualizar o arquivo **MainPage.xaml.cs**](hhttps://youtu.be/waUne0fOz3s?t=1285)
 
 ```
-using MauiApiRest.ViewModels;
+using MauiApiRest.ViewsModels;
 
 namespace MauiApiRest
 {
@@ -167,7 +167,60 @@ namespace MauiApiRest
 }
 ```
 
-hhttps://youtu.be/waUne0fOz3s?t=1285
+## [20:27 - GetAsync - Lista](https://youtu.be/waUne0fOz3s?t=1227)
+
+```
+public ICommand GetCategoriasCommand =>
+   new Command(async () => await CarregaCategoriasAsync());
+private async Task CarregaCategoriasAsync()
+{
+    var url = $"{baseUrl}/categorias";
+    var response = await client.GetAsync(url);
+    if (response.IsSuccessStatusCode)
+    {
+        using (var responseStream = await response.Content.ReadAsStreamAsync())
+        {
+            var data = await JsonSerializer.DeserializeAsync<ObservableCollection<Categoria>>(responseStream, _serializerOptions);
+            Categorias = data;
+        }
+    }
+}
+```
+
+## GetAsync - um item
+
+```
+public ICommand GetCategoriaCommand =>
+new Command(async () =>
+    {
+        if (CategoriaInfoId is not null)
+        {
+            var categoriaId = Convert.ToInt32(CategoriaInfoId);
+            if (categoriaId > 0)
+            {
+                var url = $"{baseUrl}/categorias/{categoriaId}";
+                var response = await client.GetAsync(url);
+
+                Categorias.Clear();
+
+                if (response.IsSuccessStatusCode)
+                {
+                    using (var responseStream =
+                            await response.Content.ReadAsStreamAsync())
+                    {
+                        var data = await JsonSerializer
+                        .DeserializeAsync<Categoria>(responseStream, _serializerOptions);
+                        Categoria = data;
+                    }
+
+                    Categorias.Add(Categoria);
+                }
+            }
+        }
+    });
+
+```
+
 
 <!--
 # Consumindo serviços REST
@@ -178,4 +231,5 @@ hhttps://youtu.be/waUne0fOz3s?t=1285
 ## 17:29 - Configuração da implementação do padrão MVVM
 ## 19:11 - Coleção de categoria - **GetAsync**
 ## 21:25 - Atualizar o arquivo **MainPage.xaml.cs**
+## 20:27 - GetAsync - Lista
 -->

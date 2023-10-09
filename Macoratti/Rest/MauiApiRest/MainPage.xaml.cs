@@ -1,4 +1,4 @@
-﻿using MauiApiRest.ViewModels;
+﻿using MauiApiRest.ViewsModels;
 
 namespace MauiApiRest
 {

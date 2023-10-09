@@ -1,0 +1,1 @@
+C:\git-projects\mobile-maui-training\Macoratti\Rest\MauiApiRest\MauiApiRest.csproj;x64
