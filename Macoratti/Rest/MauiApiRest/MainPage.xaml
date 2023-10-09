@@ -8,13 +8,12 @@
             <Entry Placeholder="Categoria Id" Text="{Binding CategoriaInfoId}"/>
             <Entry Placeholder="Categoria Nome" Text="{Binding CategoriaInfoNome}"/>
 
-            <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Center">
+            <StackLayout Orientation="Horizontal" Padding="5" Spacing="10" HorizontalOptions="Center">
                 <Button  Text="Load" Command="{Binding GetCategoriasCommand}" />
                 <Button  Text="Get" Command="{Binding GetCategoriaCommand}"/>
                 <Button  Text="Add" Command="{Binding AddCategoriaCommand}" />
                 <Button  Text="Update" Command="{Binding UpdateCategoriaCommand}"/>
                 <Button  Text="Remove" Command="{Binding DeleteCategoriaCommand}"/>
-
             </StackLayout>
 
             <CollectionView x:Name="ColView1" ItemsSource="{Binding Categorias}"

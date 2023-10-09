@@ -54,35 +54,59 @@ namespace MauiApiRest.ViewsModels
             }
         }
 
-        // GetAsync - Específico
+        // GetAsync - Específico    
         public ICommand GetCategoriaCommand =>
         new Command(async () =>
-     {
-         if (CategoriaInfoId is not null)
          {
-             var categoriaId = Convert.ToInt32(CategoriaInfoId);
-             if (categoriaId > 0)
+             if (CategoriaInfoId is not null)
              {
-                 var url = $"{baseUrl}/categorias/{categoriaId}";
-                 var response = await client.GetAsync(url);
-
-                 Categorias.Clear();
-
-                 if (response.IsSuccessStatusCode)
+                 var categoriaId = Convert.ToInt32(CategoriaInfoId);
+                 if (categoriaId > 0)
                  {
-                     using (var responseStream =
-                             await response.Content.ReadAsStreamAsync())
-                     {
-                         var data = await JsonSerializer
-                          .DeserializeAsync<Categoria>(responseStream, _serializerOptions);
-                         Categoria = data;
-                     }
+                     var url = $"{baseUrl}/categorias/{categoriaId}";
+                     var response = await client.GetAsync(url);
 
-                     Categorias.Add(Categoria);
+                     Categorias.Clear();
+
+                     if (response.IsSuccessStatusCode)
+                     {
+                         using (var responseStream =
+                                 await response.Content.ReadAsStreamAsync())
+                         {
+                             var data = await JsonSerializer
+                              .DeserializeAsync<Categoria>(responseStream, _serializerOptions);
+                             Categoria = data;
+                         }
+
+                         Categorias.Add(Categoria);
+                     }
                  }
              }
-         }
-     });
+         });
+
+        // PostAsync - add
+        public ICommand AddCategoriaCommand =>
+        new Command(async () =>
+        {
+            var url = $"{baseUrl}/categorias";
+
+            if (CategoriaInfoNome is not null)
+            {
+                var categoria =
+                    new Categoria
+                    {
+                        Nome = CategoriaInfoNome,
+                        ImagemUrl = "https://www.macoratti.net/Imagens/lanches/pudim1.jpg"
+                    };
+                string json = JsonSerializer.Serialize<Categoria>(categoria, _serializerOptions);
+
+                StringContent content =
+                    new StringContent(json, Encoding.UTF8, "application/json");
+
+                var response = await client.PostAsync(url, content);
+                await CarregaCategoriasAsync();
+            }
+        });
 
     }
 }

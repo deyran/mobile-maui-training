@@ -15,7 +15,7 @@ public class Categoria
 {
     public int CategoriaId { get; set; }
     public string Nome { get; set; }
-    public string imageUrl { get; set; }
+    public string ImagemUrl { get; set; }
 }
 ```
 
@@ -221,6 +221,56 @@ new Command(async () =>
 
 ```
 
+## [26:03 - PostAsync - Add um item](https://youtu.be/waUne0fOz3s?t=1563)
+
+```
+public ICommand AddCategoriaCommand =>
+new Command(async () =>
+{
+    var url = $"{baseUrl}/categorias";
+
+    if (CategoriaInfoNome is not null)
+    {
+        var categoria =
+            new Categoria
+            {
+                Nome = CategoriaInfoNome,
+                ImagemUrl = "https://www.macoratti.net/Imagens/lanches/pudim1.jpg"
+            };
+        string json = JsonSerializer.Serialize<Categoria>(categoria, _serializerOptions);
+
+        StringContent content =
+            new StringContent(json, Encoding.UTF8, "application/json");
+
+        var response = await client.PostAsync(url, content);
+        await CarregaCategoriasAsync();
+    }
+});
+```
+
+## [29:12 - PutAsync - Atualiza um item](https://youtu.be/waUne0fOz3s?t=1752)
+
+```
+public ICommand UpdateCategoriaCommand =>
+new Command(async () =>
+{
+    if (CategoriaInfoId is not null && CategoriaInfoNome is not null)
+    {
+        var categoriaId = Convert.ToInt32(CategoriaInfoId);
+        var categoria = Categorias.FirstOrDefault(x => x.CategoriaId == categoriaId);
+
+        var url = $"{baseUrl}/categorias/{categoriaId}";
+        categoria.Nome = CategoriaInfoNome;
+
+        string jsonResponse = JsonSerializer.Serialize<Categoria>(categoria, _serializerOptions);
+
+        StringContent content = new StringContent(jsonResponse, Encoding.UTF8, "application/json");
+
+        var response = await client.PutAsync(url, content);
+        await CarregaCategoriasAsync(); // Atualiza a lista de produtos
+    }
+});
+```
 
 <!--
 # Consumindo serviços REST
@@ -233,4 +283,5 @@ new Command(async () =>
 ## 21:25 - Atualizar o arquivo **MainPage.xaml.cs**
 ## 20:27 - GetAsync - Lista
 ## 23:36 - GetAsync - um item
+## 29:12 - PutAsync - Atualiza um item
 -->
