@@ -187,7 +187,7 @@ private async Task CarregaCategoriasAsync()
 }
 ```
 
-## GetAsync - um item
+## [23:36 - GetAsync - um item](https://youtu.be/waUne0fOz3s?t=1416)
 
 ```
 public ICommand GetCategoriaCommand =>
@@ -232,4 +232,5 @@ new Command(async () =>
 ## 19:11 - Coleção de categoria - **GetAsync**
 ## 21:25 - Atualizar o arquivo **MainPage.xaml.cs**
 ## 20:27 - GetAsync - Lista
+## 23:36 - GetAsync - um item
 -->
