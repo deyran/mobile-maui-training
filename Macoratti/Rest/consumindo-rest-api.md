@@ -80,7 +80,7 @@ public class Categoria
 </ContentPage>
 ```
 
-## [17:29 - Implementação do padrão MVVM](https://youtu.be/waUne0fOz3s?t=1049)
+## [17:29 - Configuração da implementação do padrão MVVM](https://youtu.be/waUne0fOz3s?t=1049)
 
 1. Instalar o pacote **Community.ToolKit.Mvvm**
 2. Criar a pasta **ViewsModels**
@@ -134,5 +134,5 @@ namespace MauiApiRest.ViewsModels
 ## 10:00 - Construindo app Maui
 ## 11:17 - Definindo modelo de domínio
 ## 13:42 - Atualizar o arquivo **MainPage.xaml**
-## 17:29 - Implementação do padrão MVVM
+## 17:29 - Configuração da implementação do padrão MVVM
 -->
