@@ -160,6 +160,8 @@ namespace MauiElnExtintor.ViewsModels
                     var url = $"{baseUrl}/extintoralmoxarifados/{extintorAlmInfoId}";
                     var response = await client.DeleteAsync(url);
                     await LoadExtintorAlmoxarifadosAsync();
+
+                    ExtintorAlmInfoId = null;
                 }
             }
         }
