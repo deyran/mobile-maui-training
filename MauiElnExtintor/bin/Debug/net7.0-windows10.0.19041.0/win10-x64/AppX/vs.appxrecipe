@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\git-projects\mobile-maui-training\MauiElnExtintor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-10T00:02:16.339</Modified>
+      <Modified>2023-10-10T01:27:57.806</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\MauiElnExtintor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-10T00:02:15.589</Modified>
+      <Modified>2023-10-10T01:09:21.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\MauiElnExtintor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiElnExtintor.runtimeconfig.json">
       <PackagePath>MauiElnExtintor.runtimeconfig.json</PackagePath>
@@ -44,15 +44,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\MauiElnExtintor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiElnExtintor.dll">
       <PackagePath>MauiElnExtintor.dll</PackagePath>
-      <Modified>2023-10-10T00:02:11.819</Modified>
+      <Modified>2023-10-10T01:27:55.739</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiElnExtintor.exe</PackagePath>
-      <Modified>2023-10-10T00:02:11.859</Modified>
+      <Modified>2023-10-10T01:27:55.746</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\MauiElnExtintor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiElnExtintor.deps.json">
       <PackagePath>MauiElnExtintor.deps.json</PackagePath>
-      <Modified>2023-10-10T00:02:14.719</Modified>
+      <Modified>2023-10-10T01:09:20.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DEYVIDRANNYERE\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
