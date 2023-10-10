@@ -17,7 +17,7 @@
                 <Button x:Name="DeleteBtn"  Text="Delete" />
             </HorizontalStackLayout>
 
-            <CollectionView ItemsSource="{Binding Items}">
+            <CollectionView ItemsSource="{Binding ExtintorAlmoxarifado}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Grid>
@@ -28,10 +28,15 @@
                                 <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
 
-                            <Label Grid.Column="0" Text="{Binding Field1}" />
-                            <Label Grid.Column="1" Text="{Binding Field2}" />
-                            <Label Grid.Column="2" Text="{Binding Field3}" />
-                            <Label Grid.Column="3" Text="{Binding Field4}" />
+                            <Label Grid.Column="0" Text="Id" />
+                            <Label Grid.Column="1" Text="Descrição" />
+                            <Label Grid.Column="2" Text="Uf" />
+                            <Label Grid.Column="3" Text="ExtintorFisicos" />
+
+                            <Label Grid.Column="0" Text="{Binding ExtintorAlmoxarifadoID}" />
+                            <Label Grid.Column="1" Text="{Binding Descricao}" />
+                            <Label Grid.Column="2" Text="{Binding Uf}" />
+                            <Label Grid.Column="3" Text="{Binding ExtintorFisicos}" />
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
