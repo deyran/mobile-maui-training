@@ -12,10 +12,10 @@
             <Entry Placeholder="Extintor Físico" Text="{Binding ExtintorAlmInfoFisico}" />
 
             <HorizontalStackLayout HorizontalOptions="Center" Padding="10">
-                <Button x:Name="GetAllBtn"  Text="Load" Command="{Binding GetExtintorAlmoxarifadosCommand}" />
-                <Button x:Name="GetByIdBtn" Text="Find" Command="{Binding GetExtintorAlmoxarifadoCommand}" />
-                <Button x:Name="PostBtn"    Text="Add"  Command="{Binding AddExtintorAlmoxarifadoCommand}" />
-                <Button x:Name="PutBtn"     Text="Update" />
+                <Button x:Name="GetAllBtn"  Text="Load"     Command="{Binding GetExtintorAlmoxarifadosCommand}" />
+                <Button x:Name="GetByIdBtn" Text="Find"     Command="{Binding GetExtintorAlmoxarifadoCommand}" />
+                <Button x:Name="PostBtn"    Text="Add"      Command="{Binding AddExtintorAlmoxarifadoCommand}" />
+                <Button x:Name="PutBtn"     Text="Update"   Command="{Binding PutExtintorAlmoxarifadoCommand}" />
                 <Button x:Name="DeleteBtn"  Text="Delete" />
             </HorizontalStackLayout>
 
