@@ -24,9 +24,9 @@ namespace MauiElnExtintor.ViewsModels
         [ObservableProperty]
         private string _descricao;
         [ObservableProperty]
-        private string _uf;
+        private string _extintorAlmInfoUf;//_uf;
         [ObservableProperty]
-        private string _extintorFisico;
+        private string _extintorAlmInfoFisico;// _extintorFisico;
 
         public MainViewModel()
         {
@@ -56,7 +56,7 @@ namespace MauiElnExtintor.ViewsModels
             }
         }
 
-        //GET - One item
+        //GET - |Get an item
         public ICommand GetExtintorAlmoxarifadoCommand =>
             new Command(async () => await LoadExtintorAlmoxarifadoCommand());
         private async Task LoadExtintorAlmoxarifadoCommand()
@@ -81,6 +81,11 @@ namespace MauiElnExtintor.ViewsModels
                             ExtintorAlmoxarifado = data;
                         }
 
+                        ExtintorAlmInfoId = Convert.ToString(ExtintorAlmoxarifado.ExtintorAlmoxarifadoID);
+                        ExtintorAlmInfoDesc = ExtintorAlmoxarifado.Descricao;
+                        ExtintorAlmInfoUf = ExtintorAlmoxarifado.Uf;
+                        ExtintorAlmInfoFisico = ExtintorAlmoxarifado.ExtintorFisico;
+
                         ExtintorAlmoxarifados.Add(ExtintorAlmoxarifado);
 
                     }
@@ -88,19 +93,21 @@ namespace MauiElnExtintor.ViewsModels
             }
         }
 
-        //Post - add one item
+        //Post - add an item
         public ICommand AddExtintorAlmoxarifadoCommand =>
-            new Command(
-                async () =>
+        new Command(
+            async () =>
+            {
+                if (ExtintorAlmInfoDesc is not null)
                 {
                     var url = $"{baseUrl}/extintoralmoxarifados";
 
                     var extintorAlmoxarifado = new ExtintorAlmoxarifado();
                     extintorAlmoxarifado.Descricao = ExtintorAlmInfoDesc;
-                    extintorAlmoxarifado.Uf = "PA";
-                    extintorAlmoxarifado.ExtintorFisico = "Ext - Deyvid";
+                    extintorAlmoxarifado.Uf = ExtintorAlmInfoUf;
+                    extintorAlmoxarifado.ExtintorFisico = ExtintorAlmInfoFisico;
 
-                    string json = 
+                    string json =
                         JsonSerializer.Serialize<ExtintorAlmoxarifado>(extintorAlmoxarifado, _serializerOptions);
 
                     StringContent content =
@@ -109,6 +116,36 @@ namespace MauiElnExtintor.ViewsModels
                     var response = await client.PostAsync(url, content);
                     await LoadExtintorAlmoxarifadosAsync();
                 }
-            );
+            }
+        );
+
+        //Put - Update an item
+        public ICommand PutExtintorAlmoxarifadoCommand =>
+        new Command(
+            async() =>
+            {
+                if (ExtintorAlmInfoId is not null && ExtintorAlmInfoDesc is not null)
+                {
+                    var url = $"{baseUrl}/extintoralmoxarifados";
+                    var extintorAlmInfoId = Convert.ToInt32(ExtintorAlmInfoId);
+                    var extintorAlmoxarifado = new ExtintorAlmoxarifado();
+
+                    extintorAlmoxarifado.ExtintorAlmoxarifadoID = extintorAlmInfoId;
+                    extintorAlmoxarifado.Descricao = ExtintorAlmInfoDesc;
+                    extintorAlmoxarifado.Uf = ExtintorAlmInfoUf;
+                    extintorAlmoxarifado.ExtintorFisico = ExtintorAlmInfoFisico;
+                                        
+                    string jsonResponse = JsonSerializer
+                        .Serialize<ExtintorAlmoxarifado>(extintorAlmoxarifado, _serializerOptions);
+
+                    StringContent content = 
+                    new StringContent(jsonResponse, Encoding.UTF8, "application/json");
+
+                    var response = await client.PutAsync(url, content);
+
+                    await LoadExtintorAlmoxarifadoCommand();
+                }
+            }
+        );
     }
 }
