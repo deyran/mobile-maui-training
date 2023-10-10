@@ -154,8 +154,8 @@ namespace MauiElnExtintor.ViewsModels
         {
             if (ExtintorAlmInfoId is not null)
             {
-                var ExtintorAlmInfoId = Convert.ToInt32(ExtintorAlmInfoId);
-                if (ExtintorAlmInfoId > 0)
+                var extintorAlmInfoId = Convert.ToInt32(ExtintorAlmInfoId);
+                if (extintorAlmInfoId > 0)
                 {
                     var url = $"{baseUrl}/extintoralmoxarifados/{extintorAlmInfoId}";
                     var response = await client.DeleteAsync(url);
