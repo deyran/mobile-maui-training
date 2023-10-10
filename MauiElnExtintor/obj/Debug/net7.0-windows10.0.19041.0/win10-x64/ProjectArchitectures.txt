@@ -1,1 +1,1 @@
-C:\git-projects\mobile-maui-training\MauiElnExtintor\MauiElnExtintor.csproj;x64
+C:\github-projects\mobile-maui-training\MauiElnExtintor\MauiElnExtintor.csproj;x64

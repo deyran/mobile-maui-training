@@ -12,33 +12,33 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = MauiElnExtintor
-build_property.ProjectDir = C:\git-projects\mobile-maui-training\MauiElnExtintor\
+build_property.ProjectDir = C:\github-projects\mobile-maui-training\MauiElnExtintor\
 
-[C:/git-projects/mobile-maui-training/MauiElnExtintor/App.xaml]
+[C:/github-projects/mobile-maui-training/MauiElnExtintor/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiElnExtintor.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/git-projects/mobile-maui-training/MauiElnExtintor/AppShell.xaml]
+[C:/github-projects/mobile-maui-training/MauiElnExtintor/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiElnExtintor.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/git-projects/mobile-maui-training/MauiElnExtintor/MainPage.xaml]
+[C:/github-projects/mobile-maui-training/MauiElnExtintor/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiElnExtintor.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/git-projects/mobile-maui-training/MauiElnExtintor/Resources/Styles/Colors.xaml]
+[C:/github-projects/mobile-maui-training/MauiElnExtintor/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiElnExtintor.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/git-projects/mobile-maui-training/MauiElnExtintor/Resources/Styles/Styles.xaml]
+[C:/github-projects/mobile-maui-training/MauiElnExtintor/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiElnExtintor.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
