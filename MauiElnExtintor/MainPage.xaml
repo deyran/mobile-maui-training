@@ -10,14 +10,14 @@
             <Entry Placeholder="Descricao"      Text="{Binding ExtintorAlmInfoDesc}" /> 
             
             <HorizontalStackLayout HorizontalOptions="Center" Padding="10">
-                <Button x:Name="GetAllBtn"  Text="Load" />
+                <Button x:Name="GetAllBtn"  Text="Load" Command="{Binding LoadExtintorAlmoxarifadosAsync}" />
                 <Button x:Name="GetByIdBtn" Text="Find" />
                 <Button x:Name="PostBtn"    Text="Add" />
                 <Button x:Name="PutBtn"     Text="Update" />
                 <Button x:Name="DeleteBtn"  Text="Delete" />
             </HorizontalStackLayout>
 
-            <CollectionView ItemsSource="{Binding ExtintorAlmoxarifado}">
+            <CollectionView ItemsSource="{Binding ExtintorAlmoxarifados}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Grid>

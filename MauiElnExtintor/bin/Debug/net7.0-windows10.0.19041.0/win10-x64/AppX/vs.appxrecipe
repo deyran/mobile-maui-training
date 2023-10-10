@@ -30,29 +30,29 @@
     <AppXManifest Include="C:\git-projects\mobile-maui-training\MauiElnExtintor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-10T01:44:34.390</Modified>
+      <Modified>2023-10-10T02:09:13.031</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\MauiElnExtintor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-10T01:09:21.120</Modified>
+      <Modified>2023-10-10T02:05:23.192</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\MauiElnExtintor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiElnExtintor.runtimeconfig.json">
       <PackagePath>MauiElnExtintor.runtimeconfig.json</PackagePath>
-      <Modified>2023-10-10T00:02:15.029</Modified>
+      <Modified>2023-10-10T02:05:22.690</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\MauiElnExtintor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiElnExtintor.dll">
       <PackagePath>MauiElnExtintor.dll</PackagePath>
-      <Modified>2023-10-10T01:44:32.322</Modified>
+      <Modified>2023-10-10T02:09:11.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiElnExtintor.exe</PackagePath>
-      <Modified>2023-10-10T01:44:32.335</Modified>
+      <Modified>2023-10-10T02:09:11.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\MauiElnExtintor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiElnExtintor.deps.json">
       <PackagePath>MauiElnExtintor.deps.json</PackagePath>
-      <Modified>2023-10-10T01:09:20.548</Modified>
+      <Modified>2023-10-10T02:05:22.360</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DEYVIDRANNYERE\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -809,6 +809,10 @@
     <AppxPackagedFile Include="C:\Users\DEYVIDRANNYERE\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.29\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2023-06-09T20:10:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DEYVIDRANNYERE\.nuget\packages\communitytoolkit.mvvm\8.2.1\lib\net6.0\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+      <Modified>2023-07-05T18:52:50.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DEYVIDRANNYERE\.nuget\packages\microsoft.extensions.configuration\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
