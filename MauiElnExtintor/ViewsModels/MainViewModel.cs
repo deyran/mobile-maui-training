@@ -43,7 +43,7 @@ namespace MauiElnExtintor.ViewsModels
         new Command(async () => await LoadExtintorAlmoxarifadosAsync());
         private async Task LoadExtintorAlmoxarifadosAsync()
         {
-            var url = $"{baseUrl}/extintoralmoxarifados";
+            var url = $"{baseUrl}/extintoralmoxarifados/";
             var response = await client.GetAsync(url);
 
             if (response.IsSuccessStatusCode) 
