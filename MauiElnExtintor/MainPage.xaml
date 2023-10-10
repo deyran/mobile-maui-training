@@ -6,13 +6,15 @@
     <ScrollView>
         <VerticalStackLayout  Padding="10" Margin="10">
 
-            <Entry Placeholder="Extintor Id"    Text="{Binding ExtintorAlmInfoId}" />
-            <Entry Placeholder="Descricao"      Text="{Binding ExtintorAlmInfoDesc}" /> 
-            
+            <Entry Placeholder="Extintor Id"     Text="{Binding ExtintorAlmInfoId}" />
+            <Entry Placeholder="Descricao"       Text="{Binding ExtintorAlmInfoDesc}" />
+            <Entry Placeholder="Uf"              Text="{Binding ExtintorAlmInfoUf}" />
+            <Entry Placeholder="Extintor Físico" Text="{Binding ExtintorAlmInfoFisico}" />
+
             <HorizontalStackLayout HorizontalOptions="Center" Padding="10">
-                <Button x:Name="GetAllBtn"  Text="Load" Command="{Binding GetExtintorAlmoxarifadosCommand}" />                
-                <Button x:Name="GetByIdBtn" Text="Find" />
-                <Button x:Name="PostBtn"    Text="Add" />
+                <Button x:Name="GetAllBtn"  Text="Load" Command="{Binding GetExtintorAlmoxarifadosCommand}" />
+                <Button x:Name="GetByIdBtn" Text="Find" Command="{Binding GetExtintorAlmoxarifadoCommand}" />
+                <Button x:Name="PostBtn"    Text="Add"  Command="{Binding AddExtintorAlmoxarifadoCommand}" />
                 <Button x:Name="PutBtn"     Text="Update" />
                 <Button x:Name="DeleteBtn"  Text="Delete" />
             </HorizontalStackLayout>
