@@ -120,32 +120,48 @@ namespace MauiElnExtintor.ViewsModels
         );
 
         //Put - Update an item
-        public ICommand PutExtintorAlmoxarifadoCommand =>
-        new Command(
-            async() =>
+        public ICommand UpdateExtintorAlmoxarifadoCommand =>
+            new Command(async () => PutExtintorAlmoxarifado());
+        private async Task PutExtintorAlmoxarifado()
+        {
+            if (ExtintorAlmInfoId is not null && ExtintorAlmInfoDesc is not null)
             {
-                if (ExtintorAlmInfoId is not null && ExtintorAlmInfoDesc is not null)
+                var extintorAlmInfoId = Convert.ToInt32(ExtintorAlmInfoId);
+                var extintorAlmoxarifado = ExtintorAlmoxarifados
+                    .FirstOrDefault(x => x.ExtintorAlmoxarifadoID == extintorAlmInfoId);
+
+                var url = $"{baseUrl}/extintoralmoxarifados/{extintorAlmInfoId}";
+
+                extintorAlmoxarifado.Descricao = ExtintorAlmInfoDesc;
+                extintorAlmoxarifado.Uf = ExtintorAlmInfoUf;
+                extintorAlmoxarifado.ExtintorFisico = ExtintorAlmInfoFisico;
+
+                string jsonResponse = JsonSerializer
+                    .Serialize<ExtintorAlmoxarifado>(extintorAlmoxarifado, _serializerOptions);
+
+                StringContent content = new StringContent(jsonResponse, Encoding.UTF8, "application/json");
+
+                var response = await client.PutAsync(url, content);
+
+                await LoadExtintorAlmoxarifadoCommand();
+            }
+        }
+
+        //Delete - Delete an item
+        public ICommand DeleteExtintorAlmoxarifadoCommand =>
+            new Command(async () => DeleteExtintorAlmoxarifado());
+        private async Task DeleteExtintorAlmoxarifado()
+        {
+            if (ExtintorAlmInfoId is not null)
+            {
+                var ExtintorAlmInfoId = Convert.ToInt32(ExtintorAlmInfoId);
+                if (ExtintorAlmInfoId > 0)
                 {
-                    var url = $"{baseUrl}/extintoralmoxarifados";
-                    var extintorAlmInfoId = Convert.ToInt32(ExtintorAlmInfoId);
-                    var extintorAlmoxarifado = new ExtintorAlmoxarifado();
-
-                    extintorAlmoxarifado.ExtintorAlmoxarifadoID = extintorAlmInfoId;
-                    extintorAlmoxarifado.Descricao = ExtintorAlmInfoDesc;
-                    extintorAlmoxarifado.Uf = ExtintorAlmInfoUf;
-                    extintorAlmoxarifado.ExtintorFisico = ExtintorAlmInfoFisico;
-                                        
-                    string jsonResponse = JsonSerializer
-                        .Serialize<ExtintorAlmoxarifado>(extintorAlmoxarifado, _serializerOptions);
-
-                    StringContent content = 
-                    new StringContent(jsonResponse, Encoding.UTF8, "application/json");
-
-                    var response = await client.PutAsync(url, content);
-
-                    await LoadExtintorAlmoxarifadoCommand();
+                    var url = $"{baseUrl}/extintoralmoxarifados/{extintorAlmInfoId}";
+                    var response = await client.DeleteAsync(url);
+                    await LoadExtintorAlmoxarifadosAsync();
                 }
             }
-        );
+        }
     }
 }

@@ -30,29 +30,29 @@
     <AppXManifest Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-10T13:16:21.956</Modified>
+      <Modified>2023-10-10T13:52:45.027</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-10T13:08:27.412</Modified>
+      <Modified>2023-10-10T13:52:43.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiElnExtintor.runtimeconfig.json">
       <PackagePath>MauiElnExtintor.runtimeconfig.json</PackagePath>
-      <Modified>2023-10-10T13:08:26.440</Modified>
+      <Modified>2023-10-10T13:52:42.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiElnExtintor.dll">
       <PackagePath>MauiElnExtintor.dll</PackagePath>
-      <Modified>2023-10-10T13:16:17.560</Modified>
+      <Modified>2023-10-10T13:52:31.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiElnExtintor.exe</PackagePath>
-      <Modified>2023-10-10T13:16:17.599</Modified>
+      <Modified>2023-10-10T13:52:31.951</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiElnExtintor.deps.json">
       <PackagePath>MauiElnExtintor.deps.json</PackagePath>
-      <Modified>2023-10-10T13:08:26.051</Modified>
+      <Modified>2023-10-10T13:52:42.505</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -944,23 +944,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-10-10T13:07:49.866</Modified>
+      <Modified>2023-10-10T13:52:28.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-10-10T13:07:50.037</Modified>
+      <Modified>2023-10-10T13:52:28.954</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-10-10T13:07:50.190</Modified>
+      <Modified>2023-10-10T13:52:29.012</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-10-10T13:07:50.280</Modified>
+      <Modified>2023-10-10T13:52:29.086</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-10-10T13:07:50.673</Modified>
+      <Modified>2023-10-10T13:52:29.386</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -972,207 +972,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-10-10T13:07:50.994</Modified>
+      <Modified>2023-10-10T13:52:29.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-10-10T13:07:52.764</Modified>
+      <Modified>2023-10-10T13:52:30.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-10-10T13:07:52.808</Modified>
+      <Modified>2023-10-10T13:52:30.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-10-10T13:07:52.833</Modified>
+      <Modified>2023-10-10T13:52:30.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-10-10T13:07:52.874</Modified>
+      <Modified>2023-10-10T13:52:30.171</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-10-10T13:07:53.028</Modified>
+      <Modified>2023-10-10T13:52:30.340</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.541</Modified>
+      <Modified>2023-10-10T13:52:29.684</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.558</Modified>
+      <Modified>2023-10-10T13:52:29.685</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.607</Modified>
+      <Modified>2023-10-10T13:52:29.715</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.569</Modified>
+      <Modified>2023-10-10T13:52:29.691</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.583</Modified>
+      <Modified>2023-10-10T13:52:29.701</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.410</Modified>
+      <Modified>2023-10-10T13:52:29.640</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.420</Modified>
+      <Modified>2023-10-10T13:52:29.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.467</Modified>
+      <Modified>2023-10-10T13:52:29.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.429</Modified>
+      <Modified>2023-10-10T13:52:29.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.437</Modified>
+      <Modified>2023-10-10T13:52:29.663</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.064</Modified>
+      <Modified>2023-10-10T13:52:29.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.084</Modified>
+      <Modified>2023-10-10T13:52:29.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.122</Modified>
+      <Modified>2023-10-10T13:52:29.566</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.149</Modified>
+      <Modified>2023-10-10T13:52:29.575</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.169</Modified>
+      <Modified>2023-10-10T13:52:29.585</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.305</Modified>
+      <Modified>2023-10-10T13:52:29.591</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.313</Modified>
+      <Modified>2023-10-10T13:52:29.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.403</Modified>
+      <Modified>2023-10-10T13:52:29.633</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.363</Modified>
+      <Modified>2023-10-10T13:52:29.606</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.379</Modified>
+      <Modified>2023-10-10T13:52:29.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.781</Modified>
+      <Modified>2023-10-10T13:52:29.834</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.798</Modified>
+      <Modified>2023-10-10T13:52:29.844</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.817</Modified>
+      <Modified>2023-10-10T13:52:29.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.841</Modified>
+      <Modified>2023-10-10T13:52:29.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.926</Modified>
+      <Modified>2023-10-10T13:52:29.909</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.693</Modified>
+      <Modified>2023-10-10T13:52:29.783</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.720</Modified>
+      <Modified>2023-10-10T13:52:29.791</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.735</Modified>
+      <Modified>2023-10-10T13:52:29.798</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.746</Modified>
+      <Modified>2023-10-10T13:52:29.807</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.767</Modified>
+      <Modified>2023-10-10T13:52:29.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.618</Modified>
+      <Modified>2023-10-10T13:52:29.723</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.627</Modified>
+      <Modified>2023-10-10T13:52:29.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.637</Modified>
+      <Modified>2023-10-10T13:52:29.736</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.666</Modified>
+      <Modified>2023-10-10T13:52:29.743</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.685</Modified>
+      <Modified>2023-10-10T13:52:29.776</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.942</Modified>
+      <Modified>2023-10-10T13:52:29.921</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.965</Modified>
+      <Modified>2023-10-10T13:52:29.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-10-10T13:07:52.444</Modified>
+      <Modified>2023-10-10T13:52:29.952</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-10-10T13:07:52.509</Modified>
+      <Modified>2023-10-10T13:52:29.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-10-10T13:07:52.607</Modified>
+      <Modified>2023-10-10T13:52:30.064</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.167</Modified>
+      <Modified>2023-10-10T13:52:29.623</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.315</Modified>
+      <Modified>2023-10-10T13:52:29.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.381</Modified>
+      <Modified>2023-10-10T13:52:29.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.428</Modified>
+      <Modified>2023-10-10T13:52:29.704</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\github-projects\mobile-maui-training\MauiElnExtintor\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-10-10T13:07:51.534</Modified>
+      <Modified>2023-10-10T13:52:29.818</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

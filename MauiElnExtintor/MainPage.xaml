@@ -15,8 +15,8 @@
                 <Button x:Name="GetAllBtn"  Text="Load"     Command="{Binding GetExtintorAlmoxarifadosCommand}" />
                 <Button x:Name="GetByIdBtn" Text="Find"     Command="{Binding GetExtintorAlmoxarifadoCommand}" />
                 <Button x:Name="PostBtn"    Text="Add"      Command="{Binding AddExtintorAlmoxarifadoCommand}" />
-                <Button x:Name="PutBtn"     Text="Update"   Command="{Binding PutExtintorAlmoxarifadoCommand}" />
-                <Button x:Name="DeleteBtn"  Text="Delete" />
+                <Button x:Name="PutBtn"     Text="Update"   Command="{Binding UpdateExtintorAlmoxarifadoCommand}" />
+                <Button x:Name="DeleteBtn"  Text="Delete"   Command="{Binding DeleteExtintorAlmoxarifadoCommand}" />
             </HorizontalStackLayout>
 
             <CollectionView ItemsSource="{Binding ExtintorAlmoxarifados}">                
