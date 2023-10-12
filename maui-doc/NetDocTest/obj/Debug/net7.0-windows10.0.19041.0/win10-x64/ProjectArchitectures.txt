@@ -1,1 +1,0 @@
-C:\github-projects\mobile-maui-training\maui-doc\NetDocTest\NetDocTest.csproj;x64
