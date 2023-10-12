@@ -9,9 +9,19 @@
 
 ## Create new project
 
-* MAuiPages
+1. MAuiPages
+2. Delete the files **MainPage.xaml** and **AppShell.xmal**
+3. Create folder called **Pages**
 
-## 0:48 - MAUI Content Page
+## 1:10 - MAUI Content Page
+
+1. Inside the Page folder create the **DemoContentPage1.xaml**
+2. In the **App.xaml.cs**, write the folling code
+   ````
+   MainPage = new DemoContentPage1();
+   ``
+3. AAA
+
 ## 8:26 - MAUI Navigation Page
 ## 13:34 - MAUI Flyout Page
 ## 17:40 - MAUI Tabbed Page
@@ -20,5 +30,6 @@
 # .NET MAUI Page Types | DotNet MAUI Navigation | .NET MAUI pages
 ## Different types of pages
 ## Create new project
+## 1:10 - MAUI Content Page
 
 -->
