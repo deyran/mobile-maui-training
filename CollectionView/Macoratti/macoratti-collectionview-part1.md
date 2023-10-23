@@ -188,7 +188,25 @@ public partial class ProdutoView : ContentPage
 }
 ```   
 
-7. AAAA
+7. No arquivo **App.xaml.cs** faça a seguinte modificação:
+
+```
+using MauiCollectionView.MVVM.Views;
+
+namespace MauiCollectionView
+{
+    public partial class App : Application
+    {
+        public App()
+        {
+            InitializeComponent();
+            MainPage = new ProdutoView();
+        }
+    }
+}
+```
+
+8. AAAA
 
    
 <!--
