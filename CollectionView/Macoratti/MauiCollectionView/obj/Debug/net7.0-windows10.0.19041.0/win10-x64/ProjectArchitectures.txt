@@ -1,0 +1,1 @@
+C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\MauiCollectionView.csproj;x64

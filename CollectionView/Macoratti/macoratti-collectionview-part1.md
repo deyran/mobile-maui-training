@@ -30,6 +30,14 @@
 </CollectionView>
 ```
 
+4.
+
+<p align="center">
+    <img src="ch16-Pictures/Listing 16-1.png" /><br />
+    <b>Listing 16-1.</b> Simplifying the example routes in the RouteConfig.cs file
+</p>  
+
+
 <!--
 # .NET MAUI : Apresentando CollectionView - I
 ## Características do CollectionView
