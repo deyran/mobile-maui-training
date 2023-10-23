@@ -171,6 +171,26 @@ namespace MauiCollectionView.MVVM.ViewModels
 
 5. Na pasta **Views**, crie o arquivo **ProdutoView.xaml**, usando o seguinte template: **.NET MAUI ContentPage (XAML)**
    
+6. No arquivo **ProdutoView.xaml.cs**, faça a seguinte modificação
+   
+```
+using MauiCollectionView.MVVM.ViewModels;
+
+namespace MauiCollectionView.MVVM.Views;
+
+public partial class ProdutoView : ContentPage
+{
+	public ProdutoView()
+	{
+		InitializeComponent();
+		BindingContext = new ProdutoViewModel();
+	}
+}
+```   
+
+7. AAAA
+
+   
 <!--
 # .NET MAUI : Apresentando CollectionView - I
 ## Características do CollectionView
