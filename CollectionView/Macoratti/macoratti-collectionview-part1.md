@@ -38,7 +38,7 @@
 
 1. No diretório raiz crie a pasta **MVVM**
 2. Dentro da pasta *MVVM* crie as seguintes pastas: Models, ViewModels, Views
-3. AAA
+3. Na pasta **Views**, crie o arquivo **ProdutoView.xaml**, usando o seguinte template: .NET MAUI ContentPage (XAML)
    
 <!--
 # .NET MAUI : Apresentando CollectionView - I
