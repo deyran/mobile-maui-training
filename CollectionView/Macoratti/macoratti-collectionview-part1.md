@@ -34,9 +34,15 @@
 
 <p align="center"><img src="img01.png" /></p>  
 
+## Exemple prático com **DataBinding** e **arquitetura MVVM**
 
+1. No diretório raiz crie a pasta **MVVM**
+2. Dentro da pasta *MVVM* crie as seguintes pastas: Models, ViewModels, Views
+3. AAA
+   
 <!--
 # .NET MAUI : Apresentando CollectionView - I
 ## Características do CollectionView
 ## Propriedades que definem os dados e sua aparência
+## Exemple prático com DataBinding e arquitetura MVVM
 -->
