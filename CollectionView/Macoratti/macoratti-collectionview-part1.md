@@ -30,12 +30,9 @@
 </CollectionView>
 ```
 
-4.
+4. Execultando o código acima teremos o seguinte resultado
 
-<p align="center">
-    <img src="ch16-Pictures/Listing 16-1.png" /><br />
-    <b>Listing 16-1.</b> Simplifying the example routes in the RouteConfig.cs file
-</p>  
+<p align="center"><img src="img01.png" /></p>  
 
 
 <!--
