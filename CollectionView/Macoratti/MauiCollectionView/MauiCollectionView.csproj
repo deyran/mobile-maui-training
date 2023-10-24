@@ -49,7 +49,34 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\dragonball1.jpg" />
+	  <None Remove="Resources\Images\elektra1.jpg" />
+	  <None Remove="Resources\Images\gaviaonegro1.jpg" />
+	  <None Remove="Resources\Images\gravitation1.jpg" />
+	  <None Remove="Resources\Images\inuyasha1.jpg" />
+	  <None Remove="Resources\Images\karekano1.jpg" />
+	  <None Remove="Resources\Images\konosuba1.jpg" />
+	  <None Remove="Resources\Images\lovehina1.jpg" />
+	  <None Remove="Resources\Images\mangas.jpg" />
+	  <None Remove="Resources\Images\naruto1.jpg" />
+	  <None Remove="Resources\Images\negina1.jpg" />
+	  <None Remove="Resources\Images\orquideanegra1.jpg" />
+	  <None Remove="Resources\Images\platinumend1.jpg" />
+	  <None Remove="Resources\Images\rebon1.jpg" />
+	  <None Remove="Resources\Images\sakura1.jpg" />
+	  <None Remove="Resources\Images\semfoto.jpg" />
+	  <None Remove="Resources\Images\spirit1.jpg" />
+	  <None Remove="Resources\Images\superone1.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="MVVM\Views\ProdutoView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
