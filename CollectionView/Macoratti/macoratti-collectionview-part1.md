@@ -225,11 +225,72 @@ namespace MauiCollectionView
 
 <p align="center"><img src="img02.png" /></p>  
 
+## Trabalhando com Collection.ItemTemplate
+
+1. Edit o arquivo **ProdutoView.xaml** como mostrado logo abaixo
+
+```
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiCollectionView.MVVM.Views.ProdutoView"
+             Title="ProdutoView">
+
+    <CollectionView ItemsSource="{Binding Produtos}">
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Grid Margin="15, 10, 15, 0"
+                      ColumnDefinitions=".1*, .2*, .7*"
+                      RowDefinitions="*,*">
+                    <Frame
+                        Grid.RowSpan="2"
+                        Grid.Column="1"
+                        Grid.ColumnSpan="2"
+                        BackgroundColor="LightGray"
+                        BorderColor="White">
+                    </Frame>
+
+                    <Image 
+                        Grid.RowSpan="2"
+                        Margin="10"
+                        HeightRequest="100"
+                        Source="{Binding Imagem}" />
+
+                    <Label
+	                    Grid.Column="2"
+	                    FontSize="Large"
+	                    FontAttributes="Bold"
+	                    TextColor="Blue"
+	                    Text="{Binding Nome}"
+	                    VerticalOptions="Start" />
+
+                    <Label
+	                    Grid.Column="2"
+	                    Grid.Row="1"                        
+	                    FontSize="Large"
+	                    FontAttributes="Bold"
+	                    TextColor="Black"
+	                    Text="{Binding Preco, StringFormat='{0:C}'}"
+	                    VerticalOptions="Start" />
+                </Grid>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+
+</ContentPage>
+```
+
+2. Execute a aplicação e veja o seguite resultado
+   
+<p align="center"><img src="img03.png" /></p>  
+
+## ResourceDictionary
 <!--
 # .NET MAUI : Apresentando CollectionView - I
-## Exemple prático com DataBinding e arquitetura MVVM
+## Trabalhando com Collection.ItemTemplate
 
 ## Características do CollectionView
 ## Propriedades que definem os dados e sua aparência
 ## Exemple prático com DataBinding e arquitetura MVVM
+## Trabalhando com Collection.ItemTemplate
 -->
