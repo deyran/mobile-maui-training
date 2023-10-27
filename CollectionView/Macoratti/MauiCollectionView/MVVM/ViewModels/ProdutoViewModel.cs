@@ -5,7 +5,7 @@ namespace MauiCollectionView.MVVM.ViewModels
 {
     public class ProdutoViewModel
     {
-        public ObservableCollection<Produto> Produtos;
+        public ObservableCollection<Produto> Produtos { get; set; }
         public ProdutoViewModel()
         {
             CriarProdutor();

@@ -64,7 +64,8 @@ namespace MauiCollectionView.MVVM.ViewModels
 {
     public class ProdutoViewModel
     {
-        public ObservableCollection<Produto> Produtos;
+        public ObservableCollection<Produto> Produtos { get; set; }
+
         public ProdutoViewModel()
         {
             CriarProdutor();
@@ -206,11 +207,28 @@ namespace MauiCollectionView
 }
 ```
 
-8. AAAA
-
+8. Edite o arquivo **ProdutoView.xaml** da seguinte forma:
    
+```
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiCollectionView.MVVM.Views.ProdutoView"
+             Title="ProdutoView">
+
+    <CollectionView ItemsSource="{Binding Produtos}" />
+
+</ContentPage>
+```
+
+9. Execultando o código acima teremos o seguinte resultado
+
+<p align="center"><img src="img02.png" /></p>  
+
 <!--
 # .NET MAUI : Apresentando CollectionView - I
+## Exemple prático com DataBinding e arquitetura MVVM
+
 ## Características do CollectionView
 ## Propriedades que definem os dados e sua aparência
 ## Exemple prático com DataBinding e arquitetura MVVM
