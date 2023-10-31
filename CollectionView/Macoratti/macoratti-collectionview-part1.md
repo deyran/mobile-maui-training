@@ -290,16 +290,41 @@ namespace MauiCollectionView
    1. Escolha a opção ".NET MAUI ResourceDictionary (XAML)
    2. Exclua o arquivo **CollectionViewDictionary.xaml.cs**
    3. Edite o **CollectionViewDictionary.xaml** para ficar neste formato:
+   
         ```
         <?xml version="1.0" encoding="utf-8" ?>
         <?xaml-comp compile="true" ?>
         <ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
                     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
+            Colocar aqui o DataTemplate
+
         </ResourceDictionary>        
         ```
+
+    4. No arquivo **ProductView.xaml**, remova o DataTemplate e coloque no arquivo **CollectionViewDictionary**
+    5. Addione  **x:Key="ProdutosStyle"** and DataTemplate
    
-2. Inclua o Resource dictionary no arquivo **App.xaml**
+2. Inclua o Resource dictionary no arquivo **App.xaml** como é mostrado no código seguinte:
+
+    ```
+    <?xml version = "1.0" encoding = "UTF-8" ?>
+    <Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                xmlns:local="clr-namespace:MauiCollectionView"
+                x:Class="MauiCollectionView.App">
+        <Application.Resources>
+            <ResourceDictionary>
+                <ResourceDictionary.MergedDictionaries>
+                    <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                    <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+                    <ResourceDictionary Source="Resources/Styles/CollectionViewDictionary.xaml" />
+                </ResourceDictionary.MergedDictionaries>
+            </ResourceDictionary>
+        </Application.Resources>
+    </Application>
+    ```
+
 3. Definir a propriedade **ItemTemplate** no arquivo **ProductView**
 
 <!--
