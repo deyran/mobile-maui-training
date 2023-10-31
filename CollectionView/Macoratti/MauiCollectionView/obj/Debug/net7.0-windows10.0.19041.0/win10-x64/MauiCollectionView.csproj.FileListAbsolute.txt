@@ -229,7 +229,6 @@ C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView
 C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
-C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.1123.42427.dll
 C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\msquic.dll
@@ -340,3 +339,4 @@ C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView
 C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\semfoto.scale-100.jpg
 C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\spirit1.scale-100.jpg
 C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\superone1.scale-100.jpg
+C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.1323.51816.dll

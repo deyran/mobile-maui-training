@@ -285,12 +285,30 @@ namespace MauiCollectionView
 <p align="center"><img src="img03.png" /></p>  
 
 ## ResourceDictionary
+
+1. Na pasta **Resource/Styles** Crie o arquivo **CollectionViewDictionary**
+   1. Escolha a opção ".NET MAUI ResourceDictionary (XAML)
+   2. Exclua o arquivo **CollectionViewDictionary.xaml.cs**
+   3. Edite o **CollectionViewDictionary.xaml** para ficar neste formato:
+        ```
+        <?xml version="1.0" encoding="utf-8" ?>
+        <?xaml-comp compile="true" ?>
+        <ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+        </ResourceDictionary>        
+        ```
+   
+2. Inclua o Resource dictionary no arquivo **App.xaml**
+3. Definir a propriedade **ItemTemplate** no arquivo **ProductView**
+
 <!--
 # .NET MAUI : Apresentando CollectionView - I
-## Trabalhando com Collection.ItemTemplate
+## ResourceDictionary
 
 ## Características do CollectionView
 ## Propriedades que definem os dados e sua aparência
 ## Exemple prático com DataBinding e arquitetura MVVM
 ## Trabalhando com Collection.ItemTemplate
+## ResourceDictionary
 -->
