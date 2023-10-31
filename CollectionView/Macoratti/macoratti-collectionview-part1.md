@@ -325,7 +325,13 @@ namespace MauiCollectionView
     </Application>
     ```
 
-3. Definir a propriedade **ItemTemplate** no arquivo **ProductView**
+3. Definir a propriedade **ItemTemplate** no arquivo **ProductView.xaml** mostrado no código seguinte:
+   
+   ```
+   <CollectionView ItemsSource="{Binding Produtos}"
+                ItemTemplate="{StaticResource ProdutosStyle}">
+    </CollectionView>
+   ```
 
 <!--
 # .NET MAUI : Apresentando CollectionView - I
