@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-31T02:45:34.656</Modified>
+      <Modified>2023-11-01T00:22:19.391</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-31T02:35:49.655</Modified>
+      <Modified>2023-11-01T00:22:18.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiCollectionView.runtimeconfig.json">
       <PackagePath>MauiCollectionView.runtimeconfig.json</PackagePath>
@@ -44,15 +44,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiCollectionView.dll">
       <PackagePath>MauiCollectionView.dll</PackagePath>
-      <Modified>2023-10-31T02:45:32.610</Modified>
+      <Modified>2023-11-01T00:22:15.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiCollectionView.exe</PackagePath>
-      <Modified>2023-10-31T02:45:32.626</Modified>
+      <Modified>2023-11-01T00:22:15.209</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiCollectionView.deps.json">
       <PackagePath>MauiCollectionView.deps.json</PackagePath>
-      <Modified>2023-10-31T02:35:48.837</Modified>
+      <Modified>2023-11-01T00:22:18.239</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DEYVIDRANNYERE\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.13\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

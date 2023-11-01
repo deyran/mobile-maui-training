@@ -302,7 +302,7 @@ namespace MauiCollectionView
         </ResourceDictionary>        
         ```
 
-    4. No arquivo **ProductView.xaml**, remova o DataTemplate e coloque no arquivo **CollectionViewDictionary**
+    4. No arquivo **ProductView.xaml**, recorte o DataTemplate e coloque no arquivo **CollectionViewDictionary.xaml**
     5. Addione  **x:Key="ProdutosStyle"** and DataTemplate
    
 2. Inclua o Resource dictionary no arquivo **App.xaml** como é mostrado no código seguinte:
