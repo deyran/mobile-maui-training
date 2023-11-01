@@ -333,13 +333,16 @@ namespace MauiCollectionView
     </CollectionView>
    ```
 
+## DataTemplateSelector
+
 <!--
 # .NET MAUI : Apresentando CollectionView - I
-## ResourceDictionary
+## DataTemplateSelector
 
 ## Características do CollectionView
 ## Propriedades que definem os dados e sua aparência
 ## Exemple prático com DataBinding e arquitetura MVVM
 ## Trabalhando com Collection.ItemTemplate
 ## ResourceDictionary
+## DataTemplateSelector
 -->
