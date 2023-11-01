@@ -4,8 +4,45 @@
              x:Class="MauiCollectionView.MVVM.Views.ProdutoView"
              Title="ProdutoView">
 
-    <CollectionView ItemsSource="{Binding Produtos}"
-                    ItemTemplate="{StaticResource ProdutosStyle}">
+    <CollectionView ItemsSource="{Binding Produtos}">
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Grid Margin="15, 10, 15, 0"
+                      ColumnDefinitions=".1*, .2*, .7*"
+                      RowDefinitions="*,*">
+                    <Frame
+                        Grid.RowSpan="2"
+                        Grid.Column="1"
+                        Grid.ColumnSpan="2"
+                        BackgroundColor="LightGray"
+                        BorderColor="White">
+                    </Frame>
+
+                    <Image 
+                        Grid.RowSpan="2"
+                        Margin="10"
+                        HeightRequest="100"
+                        Source="{Binding Imagem}" />
+
+                    <Label
+	                    Grid.Column="2"
+	                    FontSize="Large"
+	                    FontAttributes="Bold"
+	                    TextColor="Blue"
+	                    Text="{Binding Nome}"
+	                    VerticalOptions="Start" />
+
+                    <Label
+	                    Grid.Column="2"
+	                    Grid.Row="1"                        
+	                    FontSize="Large"
+	                    FontAttributes="Bold"
+	                    TextColor="Black"
+	                    Text="{Binding Preco, StringFormat='{0:C}'}"
+	                    VerticalOptions="Start" />
+                </Grid>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
     </CollectionView>
 
 </ContentPage>
