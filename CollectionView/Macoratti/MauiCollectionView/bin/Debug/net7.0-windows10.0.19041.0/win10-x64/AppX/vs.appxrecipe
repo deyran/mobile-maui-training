@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-01T00:22:19.391</Modified>
+      <Modified>2023-11-03T19:12:27.092</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>

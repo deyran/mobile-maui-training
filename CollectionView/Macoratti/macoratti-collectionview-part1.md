@@ -335,6 +335,13 @@ namespace MauiCollectionView
 
 ## DataTemplateSelector
 
+O **DataTemplateSelector** permite selecionar ou trocar um DataTemplate dinamicamente em tempo de execução.
+
+Para tornar isso possível é necessário realizar dois passas
+
+1. Criar uma classe que herde de **DataTemplateSelector**
+2. Sobrescrever o método **OnSelectorTemplate** para retornar um DataTemplate específico
+
 <!--
 # .NET MAUI : Apresentando CollectionView - I
 ## DataTemplateSelector
