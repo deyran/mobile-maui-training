@@ -344,7 +344,48 @@ Para tornar isso possível é necessário realizar dois passas
 
 ### Aplicando DataTemplateSelector
 
-1. Criar outro DataTemplate chamado **EmOfertaStyle**
+1. Abra o arquivo **CollectionViewDictionary.xaml** e crie outro DataTemplate chamado **EmOfertaStyle** como mostra o código seguinte:
+   
+    ```
+    <DataTemplate x:Key="EmOfertaStyle">
+        <Grid Margin="15, 10, 15, 0"
+          ColumnDefinitions=".1*, .2*, .7*"
+          RowDefinitions="*,*">
+            <Frame
+            Grid.RowSpan="2"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            BackgroundColor="LightGray"
+            BorderColor="LightCoral">
+            </Frame>
+
+            <Image 
+            Grid.RowSpan="2"
+            Margin="10"
+            HeightRequest="100"
+            Source="{Binding Imagem}" />
+
+            <Label
+            Grid.Column="2"
+            FontSize="Large"
+            FontAttributes="Bold"
+            TextColor="Blue"
+            Text="{Binding Nome, StringFormat='OFERTA: {0}'}"
+            VerticalOptions="Start" />
+
+            <Label
+            Grid.Column="2"
+            Grid.Row="1"                        
+            FontSize="Large"
+            FontAttributes="Bold"
+            TextColor="Black"
+            Text="{Binding Preco, StringFormat='{0:C}'}"
+            VerticalOptions="Start" />
+        </Grid>
+    </DataTemplate>
+
+    ```
+
 2. No diretório raiz crie a pasta **Selectors**
 3. Dentro da pasta Selectors addicione a classe **ProdutoDataTemplateSelector**
 
