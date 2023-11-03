@@ -5,6 +5,10 @@
              xmlns:DataTemplates="clr-namespace:MauiCollectionView.Selectors"
              Title="ProdutoView">
 
+    <ContentPage.Resources>
+        <DataTemplates:ProdutoDataTemplateSelector x:Key="ProdutoTemplate" />
+    </ContentPage.Resources>
+
     <CollectionView ItemsSource="{Binding Produtos}"
                     ItemTemplate="{StaticResource ProdutosStyle}">
     </CollectionView>

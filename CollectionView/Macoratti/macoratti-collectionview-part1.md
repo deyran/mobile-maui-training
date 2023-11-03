@@ -427,10 +427,23 @@ Para tornar isso possível é necessário realizar dois passas
     ...
     ```
 
-5. AAA
-6. AAA
-7. AAA
+5. Adicione o elemento **ContentPage.Resources** com atributo **x:Key** "settado" **ProdutoTemplate**, como mostrado no código abaixo:
+    
+    ```
+    <ContentPage.Resources>
+        <DataTemplates:ProdutoDataTemplateSelector x:Key="ProdutoTemplate" />
+    </ContentPage.Resources>
+    ```
 
+6. No atributo **ItemTemplate** do elemento **CollectionView**, substitua **ProdutosStyle** por **ProdutoTemplate**, como mostrado no código abaixo:
+
+    ```
+    <CollectionView ItemsSource="{Binding Produtos}"
+                    ItemTemplate="{StaticResource ProdutoTemplate}">
+    </CollectionView>
+    ```
+
+7. AAA
 
 <!--
 # .NET MAUI : Apresentando CollectionView - I
