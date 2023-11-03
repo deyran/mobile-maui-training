@@ -444,13 +444,9 @@ Para tornar isso possível é necessário realizar dois passas
 
 7. Rode a aplicação e terá o seguinte resultado:
    
-   <p align="center"><img src="img03.png" /></p>  
+   <p align="center"><img src="img04.png" /></p>  
 
 <!--
-# .NET MAUI : Apresentando CollectionView - I
-## DataTemplateSelector
-### Aplicando DataTemplateSelector
-
 ## Características do CollectionView
 ## Propriedades que definem os dados e sua aparência
 ## Exemple prático com DataBinding e arquitetura MVVM
