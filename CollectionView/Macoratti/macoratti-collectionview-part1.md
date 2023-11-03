@@ -416,7 +416,20 @@ Para tornar isso possível é necessário realizar dois passas
     }    
     ```
 
-4. AAA
+4. No arquivo **ProdutoView.xaml**, no elemento **ContentPage**, adicione o namespace como mostrado no código seguinte:
+
+    ```
+    <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                x:Class="MauiCollectionView.MVVM.Views.ProdutoView"
+                xmlns:DataTemplates="clr-namespace:MauiCollectionView.Selectors"
+                Title="ProdutoView">
+    ...
+    ```
+
+5. AAA
+6. AAA
+7. AAA
 
 
 <!--
