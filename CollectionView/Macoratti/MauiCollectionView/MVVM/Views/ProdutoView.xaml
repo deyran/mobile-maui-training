@@ -10,7 +10,7 @@
     </ContentPage.Resources>
 
     <CollectionView ItemsSource="{Binding Produtos}"
-                    ItemTemplate="{StaticResource ProdutosStyle}">
+                    ItemTemplate="{StaticResource ProdutoTemplate}">
     </CollectionView>
 
 </ContentPage>

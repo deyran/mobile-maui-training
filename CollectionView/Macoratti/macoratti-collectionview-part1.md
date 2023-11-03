@@ -348,42 +348,41 @@ Para tornar isso possível é necessário realizar dois passas
    
     ```
     <DataTemplate x:Key="EmOfertaStyle">
-        <Grid Margin="15, 10, 15, 0"
-          ColumnDefinitions=".1*, .2*, .7*"
-          RowDefinitions="*,*">
+        <Grid   Margin="15,10,15,0"
+                HeightRequest="110"
+                ColumnDefinitions=".3*,.7*"
+                RowDefinitions="*,*">
+            
             <Frame
-            Grid.RowSpan="2"
-            Grid.Column="1"
-            Grid.ColumnSpan="2"
-            BackgroundColor="LightGray"
-            BorderColor="LightCoral">
+                Grid.RowSpan="2"
+                Grid.ColumnSpan="2"
+                CornerRadius="10"
+                BackgroundColor="LightCoral"
+                BorderColor="Black">
             </Frame>
-
-            <Image 
-            Grid.RowSpan="2"
-            Margin="10"
-            HeightRequest="100"
-            Source="{Binding Imagem}" />
-
+            
+            <Image Grid.RowSpan="2"
+                HeightRequest="100"
+                Source="{Binding Imagem}"/>
+            
             <Label
-            Grid.Column="2"
-            FontSize="Large"
-            FontAttributes="Bold"
-            TextColor="Blue"
-            Text="{Binding Nome, StringFormat='OFERTA: {0}'}"
-            VerticalOptions="Start" />
-
+                Grid.Column="2"
+                FontSize="Title"
+                FontAttributes="Bold"
+                TextColor="White"
+                Text="{Binding Nome, StringFormat='OFERTA: {0}'}"
+                VerticalOptions="Start" />
+            
             <Label
-            Grid.Column="2"
-            Grid.Row="1"                        
-            FontSize="Large"
-            FontAttributes="Bold"
-            TextColor="Black"
-            Text="{Binding Preco, StringFormat='{0:C}'}"
-            VerticalOptions="Start" />
+                Grid.Column="2"
+                Grid.Row="1"
+                FontSize="Title"
+                FontAttributes="Bold"
+                TextColor="Black"
+                Text="{Binding Preco, StringFormat='R{0:C}'}"
+                VerticalOptions="Start" />
         </Grid>
     </DataTemplate>
-
     ```
 
 2. No diretório raiz crie a pasta **Selectors**
@@ -443,7 +442,9 @@ Para tornar isso possível é necessário realizar dois passas
     </CollectionView>
     ```
 
-7. AAA
+7. Rode a aplicação e terá o seguinte resultado:
+   
+   <p align="center"><img src="img03.png" /></p>  
 
 <!--
 # .NET MAUI : Apresentando CollectionView - I
