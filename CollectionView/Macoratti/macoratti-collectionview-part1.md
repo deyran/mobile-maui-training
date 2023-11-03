@@ -387,7 +387,37 @@ Para tornar isso possível é necessário realizar dois passas
     ```
 
 2. No diretório raiz crie a pasta **Selectors**
-3. Dentro da pasta Selectors addicione a classe **ProdutoDataTemplateSelector**
+3. Dentro da pasta Selectors addicione a classe **ProdutoDataTemplateSelector** com seguinte implementação:
+   
+    ```
+    using MauiCollectionView.MVVM.Models;
+
+    namespace MauiCollectionView.Selectors
+    {
+        class ProdutoDataTemplateSelector : DataTemplateSelector
+        {
+            protected override DataTemplate OnSelectTemplate(object item, BindableObject container)
+            {
+                var produto = item as Produto;
+
+                if (!produto.EmOferta)
+                {
+                    Application.Current.Resources.TryGetValue("ProdutosStyle", out var produtoStyle);
+                    return produtoStyle as DataTemplate;
+                }
+                else
+                {
+                    Application.Current.Resources.TryGetValue("EmOfertaStyle", out var emOfertaStyle);
+                    return emOfertaStyle as DataTemplate;
+
+                }
+            }
+        }
+    }    
+    ```
+
+4. AAA
+
 
 <!--
 # .NET MAUI : Apresentando CollectionView - I
