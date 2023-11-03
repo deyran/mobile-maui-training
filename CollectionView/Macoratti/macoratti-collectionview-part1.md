@@ -342,9 +342,16 @@ Para tornar isso possível é necessário realizar dois passas
 1. Criar uma classe que herde de **DataTemplateSelector**
 2. Sobrescrever o método **OnSelectorTemplate** para retornar um DataTemplate específico
 
+### Aplicando DataTemplateSelector
+
+1. Criar outro DataTemplate chamado **EmOfertaStyle**
+2. No diretório raiz crie a pasta **Selectors**
+3. Dentro da pasta Selectors addicione a classe **ProdutoDataTemplateSelector**
+
 <!--
 # .NET MAUI : Apresentando CollectionView - I
 ## DataTemplateSelector
+### Aplicando DataTemplateSelector
 
 ## Características do CollectionView
 ## Propriedades que definem os dados e sua aparência
@@ -352,4 +359,5 @@ Para tornar isso possível é necessário realizar dois passas
 ## Trabalhando com Collection.ItemTemplate
 ## ResourceDictionary
 ## DataTemplateSelector
+### Aplicando DataTemplateSelector
 -->
