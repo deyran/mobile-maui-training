@@ -3,10 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiCollectionView.MVVM.Views.LayoutView"
              Title="LayoutView">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+    <CollectionView ItemsSource="{Binding Produtos}">
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Frame  Margin="15" HeightRequest="250" WidthRequest="180">
+                    <VerticalStackLayout>
+                        <Image Source="{Binding Imagem}" />
+                        <Label HorizontalTextAlignment="Center" Text="{Binding Nome}" />
+                    </VerticalStackLayout>
+                </Frame>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+    
 </ContentPage>
