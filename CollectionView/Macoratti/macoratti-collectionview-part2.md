@@ -34,20 +34,45 @@
 	    <GridItemsLayout Orientation="Vertical" />	
     </CollectionView.ItemsLayout>
 
+    ...
 </CollectionView>
 ```
 
+### Exemplo prático
+
+1. Abra o projeto **MauiCollectionView**, na pasta **Views**, criar o arquivo **LayoutView.xaml**
+2. No arquivo **LayoutView.xaml.cs**, crie uma instancia do classe **ProdutoViewModel** para a propriedade **BindingContext**, como mostrado no código a seguir:
+
+```
+using MauiCollectionView.MVVM.ViewModels;
+
+namespace MauiCollectionView.MVVM.Views;
+
+public partial class LayoutView : ContentPage
+{
+	public LayoutView()
+	{
+		InitializeComponent();
+		BindingContext = new ProdutoViewModel();
+	}
+}
+```
+
+3. AAAA
+4. AAAA
+5. AAAA
+6. AAA
 
 ## XXXX
 
 <!--
 # .NET MAUI : Apresentando CollectionView - II
 ## ItemsLayout - Definindo layout no CollectionView
-### Customizável
+### Exemplo prático
 
 -----------------------
 # .NET MAUI : Apresentando CollectionView - II
 ## ItemsLayout - Definindo layout no CollectionView
 ### Propriedade ItemsLayout
-### Customizável
+### Exemplo prático
 -->
