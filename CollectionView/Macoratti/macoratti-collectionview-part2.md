@@ -18,12 +18,36 @@
 </CollectionView>
 ```
 
-2. AAA
+2. Customizável, como mostrado no código seguinte:
+
+```
+<CollectionView ItemsSourcer="{Binding Produtos}">
+    ...
+
+    <CollectionView.ItemsLayout>
+	    <LinearItemsLayout Orientation="Horizontal" />	
+    </CollectionView.ItemsLayout>
+
+    ....
+
+    <CollectionView.ItemsLayout>
+	    <GridItemsLayout Orientation="Vertical" />	
+    </CollectionView.ItemsLayout>
+
+</CollectionView>
+```
+
 
 ## XXXX
 
 <!--
 # .NET MAUI : Apresentando CollectionView - II
 ## ItemsLayout - Definindo layout no CollectionView
+### Customizável
+
+-----------------------
+# .NET MAUI : Apresentando CollectionView - II
+## ItemsLayout - Definindo layout no CollectionView
 ### Propriedade ItemsLayout
+### Customizável
 -->
