@@ -2,10 +2,10 @@
 
 ## ItemsLayout - Definindo layout no CollectionView
 
-1. AAA
-2. AAA
-3. AAA
-4. AAA
+* Existem dois tipos de layouts no CollectionView:
+
+1. Listas (VerticalList, HorizontalList) - Listas com colunas ou linhas únicas
+2. Grades (VerticalGrid, HorizontalGrid) - Grades com colunas ou linhas
 
 ## XXXX
 
