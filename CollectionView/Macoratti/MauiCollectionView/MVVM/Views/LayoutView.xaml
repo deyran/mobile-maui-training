@@ -5,7 +5,7 @@
              Title="LayoutView">
 
     <CollectionView ItemsSource="{Binding Produtos}"
-                    ItemsLayout="HorizontalList">
+                    ItemsLayout="HorizontalGrid, 3">
         <CollectionView.ItemTemplate>
             <DataTemplate>
                 <Frame  Margin="15" HeightRequest="250" WidthRequest="180">

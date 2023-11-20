@@ -95,8 +95,13 @@ public partial class LayoutView : ContentPage
    
     <p align="center"><img src="img06.png" /></p>
 
-8. AAAA
-9.  AAA
+8. Para definir Grades, basta de definir o tipo (VerticalGrid, HorizontalGrid), e o número de colunas/linhas.
+   
+9. Por examplo, defina o ItemsLayout da seguinte forma: ItemsLayout="HorizontalGrid, 3". Você terá o seguinte resultado:
+
+    <p align="center"><img src="img07.png" /></p>    
+
+10. AAA
 
 ## XXXX
 
