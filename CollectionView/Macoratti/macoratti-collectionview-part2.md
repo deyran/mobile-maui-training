@@ -58,7 +58,31 @@ public partial class LayoutView : ContentPage
 }
 ```
 
-3. AAAA
+3. Edite o arquivo **LayoutView.xaml** da seguinte forma:
+
+```
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiCollectionView.MVVM.Views.LayoutView"
+             Title="LayoutView">
+
+    <CollectionView ItemsSource="{Binding Produtos}">
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Frame  Margin="15" HeightRequest="250" WidthRequest="180">
+                    <VerticalStackLayout>
+                        <Image Source="{Binding Imagem}" />
+                        <Label HorizontalTextAlignment="Center" Text="{Binding Nome}" />
+                    </VerticalStackLayout>
+                </Frame>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+    
+</ContentPage>
+```
+
 4. AAAA
 5. AAAA
 6. AAA
