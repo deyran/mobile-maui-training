@@ -89,7 +89,14 @@ public partial class LayoutView : ContentPage
 
     <p align="center"><img src="img05.png" /></p>
    
-6. AAA
+6. Como pode ser visto a propriedade **ItemsLayout** do **CollectionView** foi omitida. Isso porque o valor padrão é **ItemsLayout="VerticalList"**. 
+   
+7. Atribua o valor **HorizontalList** e você terá o seguinte resultado:
+   
+    <p align="center"><img src="img06.png" /></p>
+
+8. AAAA
+9.  AAA
 
 ## XXXX
 

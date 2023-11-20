@@ -4,7 +4,8 @@
              x:Class="MauiCollectionView.MVVM.Views.LayoutView"
              Title="LayoutView">
 
-    <CollectionView ItemsSource="{Binding Produtos}">
+    <CollectionView ItemsSource="{Binding Produtos}"
+                    ItemsLayout="HorizontalList">
         <CollectionView.ItemTemplate>
             <DataTemplate>
                 <Frame  Margin="15" HeightRequest="250" WidthRequest="180">
