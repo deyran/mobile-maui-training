@@ -133,18 +133,22 @@ public partial class LayoutView : ContentPage
 
 11. Ao rodar a aplicação teremos o seguinte resultado:
 
-<p align="center"><img src="img07.png" /></p>    
+<p align="center"><img src="img08.png" /></p>    
 
-## XXXX
+## CollectionView: Header e Footer
+
+## XXXXX
+## XXXXX
+## XXXXX
 
 <!--
 # .NET MAUI : Apresentando CollectionView - II
-## ItemsLayout - Definindo layout no CollectionView
-### Exemplo prático
+## CollectionView: Header e Footer
 
 -----------------------
 # .NET MAUI : Apresentando CollectionView - II
 ## ItemsLayout - Definindo layout no CollectionView
 ### Propriedade ItemsLayout
 ### Exemplo prático
+## CollectionView: Header e Footer
 -->
