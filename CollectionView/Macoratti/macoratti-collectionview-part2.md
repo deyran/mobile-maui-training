@@ -101,7 +101,39 @@ public partial class LayoutView : ContentPage
 
     <p align="center"><img src="img07.png" /></p>    
 
-10. AAA
+10. A propriedade ItemsLayout pode ser customizada como mostra o código seguinte:
+    
+```
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiCollectionView.MVVM.Views.LayoutView"
+             Title="LayoutView">
+
+    <CollectionView ItemsSource="{Binding Produtos}">
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Frame  Margin="15" HeightRequest="250" WidthRequest="180">
+                    <VerticalStackLayout>
+                        <Image Source="{Binding Imagem}" />
+                        <Label HorizontalTextAlignment="Center" Text="{Binding Nome}" />
+                    </VerticalStackLayout>
+                </Frame>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+
+        <CollectionView.ItemsLayout>
+            <LinearItemsLayout Orientation="Horizontal" />
+        </CollectionView.ItemsLayout>
+        
+    </CollectionView>
+    
+</ContentPage>
+```
+
+11. Ao rodar a aplicação teremos o seguinte resultado:
+
+<p align="center"><img src="img07.png" /></p>    
 
 ## XXXX
 
