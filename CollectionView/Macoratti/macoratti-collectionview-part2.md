@@ -84,7 +84,11 @@ public partial class LayoutView : ContentPage
 ```
 
 4. Edite o arquivo *App.xaml.cs*, de **MainPage = new ProdutoView();** para **MainPage = new LayoutView();**
-5. AAAA
+   
+5. Rode a aplicação e veja o seguinte resultado:
+
+    <p align="center"><img src="img05.png" /></p>
+   
 6. AAA
 
 ## XXXX
