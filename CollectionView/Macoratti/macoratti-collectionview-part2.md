@@ -83,7 +83,7 @@ public partial class LayoutView : ContentPage
 </ContentPage>
 ```
 
-4. AAAA
+4. Edite o arquivo *App.xaml.cs*, de **MainPage = new ProdutoView();** para **MainPage = new LayoutView();**
 5. AAAA
 6. AAA
 
