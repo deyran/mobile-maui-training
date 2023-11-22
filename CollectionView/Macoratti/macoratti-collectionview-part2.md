@@ -137,6 +137,11 @@ public partial class LayoutView : ContentPage
 
 ## CollectionView: Header e Footer
 
+Header e Footer são trabalhados de duas formas: 1. Texto simples; 2. Customizado
+
+1. Texto simples
+2. Customizado
+
 ## XXXXX
 ## XXXXX
 ## XXXXX
