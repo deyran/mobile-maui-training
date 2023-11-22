@@ -5,37 +5,39 @@
              Title="LayoutView">
 
     <CollectionView ItemsSource="{Binding Produtos}">
+
         <CollectionView.ItemTemplate>
             <DataTemplate>
-                <Frame  Margin="15" HeightRequest="250" WidthRequest="180">
+                <Frame Margin="15" HeightRequest="250"                                  
+                                   WidthRequest="180">
                     <VerticalStackLayout>
-                        <Image Source="{Binding Imagem}" />
-                        <Label HorizontalTextAlignment="Center" Text="{Binding Nome}" />
+                        <Image Source="{Binding Imagem}"/>
+                        <Label HorizontalTextAlignment="Center"
+                               Text="{Binding Nome}"/>
                     </VerticalStackLayout>
                 </Frame>
             </DataTemplate>
         </CollectionView.ItemTemplate>
-
+        
         <CollectionView.ItemsLayout>
-            <LinearItemsLayout Orientation="Vertical" />
+            <LinearItemsLayout Orientation="Vertical"/>
         </CollectionView.ItemsLayout>
 
         <CollectionView.Header>
-            <Frame  Background="Blue">
-                <Label  Text="Lista de produtos"
-                        TextColor="White"
-                        HorizontalTextAlignment="Center"
-                        FontSize="Large" />
+            <Frame BackgroundColor="{StaticResource Primary}">
+                <Label Text="Produtos" 
+                TextColor="White"
+                HorizontalTextAlignment="Center"
+                FontSize="Large" />
             </Frame>
         </CollectionView.Header>
         <CollectionView.Footer>
-            <HorizontalStackLayout  HorizontalOptions="Center">
-                <Label  Text="Fim da lista"
-                        FontAttributes="Bold"
-                        FontSize="Title" />
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Label Text="Fim da lista" 
+                FontAttributes="Bold"
+                FontSize="Title"/>
             </HorizontalStackLayout>
         </CollectionView.Footer>
-        
     </CollectionView>
     
 </ContentPage>

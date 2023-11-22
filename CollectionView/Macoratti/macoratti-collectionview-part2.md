@@ -167,14 +167,13 @@ Header e Footer são trabalhados de duas formas: 1. Texto simples; 2. Customizad
 </CollectionView.Footer>
 ```
 
-## XXXXX
+## CollectionView: SelectionMode e SelectionChanged
 ## XXXXX
 ## XXXXX
 
 <!--
 # .NET MAUI : Apresentando CollectionView - II
-## CollectionView: Header e Footer
-### Customizado
+## CollectionView: SelectionMode e SelectionChanged
 
 -----------------------
 # .NET MAUI : Apresentando CollectionView - II
@@ -184,4 +183,5 @@ Header e Footer são trabalhados de duas formas: 1. Texto simples; 2. Customizad
 ## CollectionView: Header e Footer
 ### Texto simples
 ### Customizado
+## CollectionView: SelectionMode e SelectionChanged
 -->
