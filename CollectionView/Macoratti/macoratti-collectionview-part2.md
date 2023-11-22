@@ -149,6 +149,24 @@ Header e Footer são trabalhados de duas formas: 1. Texto simples; 2. Customizad
 
 2. Customizado
 
+```
+<CollectionView.Header>
+    <Frame  Background="Blue">
+        <Label  Text="Lista de produtos"
+                TextColor="White"
+                HorizontalTextAlignment="Center"
+                FontSize="Large" />
+    </Frame>
+</CollectionView.Header>
+<CollectionView.Footer>
+    <HorizontalStackLayout  HorizontalOptions="Center">
+        <Label  Text="Fim da lista"
+                FontAttributes="Bold"
+                FontSize="Title" />
+    </HorizontalStackLayout>
+</CollectionView.Footer>
+```
+
 ## XXXXX
 ## XXXXX
 ## XXXXX
@@ -156,7 +174,7 @@ Header e Footer são trabalhados de duas formas: 1. Texto simples; 2. Customizad
 <!--
 # .NET MAUI : Apresentando CollectionView - II
 ## CollectionView: Header e Footer
-### Texto simples
+### Customizado
 
 -----------------------
 # .NET MAUI : Apresentando CollectionView - II
@@ -165,4 +183,5 @@ Header e Footer são trabalhados de duas formas: 1. Texto simples; 2. Customizad
 ### Exemplo prático
 ## CollectionView: Header e Footer
 ### Texto simples
+### Customizado
 -->

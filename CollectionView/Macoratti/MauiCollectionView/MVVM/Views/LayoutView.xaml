@@ -4,9 +4,7 @@
              x:Class="MauiCollectionView.MVVM.Views.LayoutView"
              Title="LayoutView">
 
-    <CollectionView ItemsSource="{Binding Produtos}"
-                    Header="Lista de produtos"
-                    Footer="Fim da lista">
+    <CollectionView ItemsSource="{Binding Produtos}">
         <CollectionView.ItemTemplate>
             <DataTemplate>
                 <Frame  Margin="15" HeightRequest="250" WidthRequest="180">
@@ -19,8 +17,24 @@
         </CollectionView.ItemTemplate>
 
         <CollectionView.ItemsLayout>
-            <LinearItemsLayout Orientation="Horizontal" />
+            <LinearItemsLayout Orientation="Vertical" />
         </CollectionView.ItemsLayout>
+
+        <CollectionView.Header>
+            <Frame  Background="Blue">
+                <Label  Text="Lista de produtos"
+                        TextColor="White"
+                        HorizontalTextAlignment="Center"
+                        FontSize="Large" />
+            </Frame>
+        </CollectionView.Header>
+        <CollectionView.Footer>
+            <HorizontalStackLayout  HorizontalOptions="Center">
+                <Label  Text="Fim da lista"
+                        FontAttributes="Bold"
+                        FontSize="Title" />
+            </HorizontalStackLayout>
+        </CollectionView.Footer>
         
     </CollectionView>
     
