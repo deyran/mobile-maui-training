@@ -139,7 +139,14 @@ public partial class LayoutView : ContentPage
 
 Header e Footer são trabalhados de duas formas: 1. Texto simples; 2. Customizado
 
-1. Texto simples
+1. Texto simples - Um texto simples mostrado no início do texto e no final. 
+
+```
+<CollectionView ItemsSource="{Binding Produtos}"
+                Header="Lista de produtos"
+                Footer="Fim da lista">
+```
+
 2. Customizado
 
 ## XXXXX
@@ -149,6 +156,7 @@ Header e Footer são trabalhados de duas formas: 1. Texto simples; 2. Customizad
 <!--
 # .NET MAUI : Apresentando CollectionView - II
 ## CollectionView: Header e Footer
+### Texto simples
 
 -----------------------
 # .NET MAUI : Apresentando CollectionView - II
@@ -156,4 +164,5 @@ Header e Footer são trabalhados de duas formas: 1. Texto simples; 2. Customizad
 ### Propriedade ItemsLayout
 ### Exemplo prático
 ## CollectionView: Header e Footer
+### Texto simples
 -->
