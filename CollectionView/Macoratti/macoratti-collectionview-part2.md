@@ -218,10 +218,6 @@ private void CollectionView_SelectionChanged(object sender, SelectionChangedEven
 
 <!--
 # .NET MAUI : Apresentando CollectionView - II
-## CollectionView: EmptyView
-
------------------------
-# .NET MAUI : Apresentando CollectionView - II
 ## ItemsLayout - Definindo layout no CollectionView
 ### Propriedade ItemsLayout
 ### Exemplo prático
