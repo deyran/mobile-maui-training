@@ -227,4 +227,7 @@ private void CollectionView_SelectionChanged(object sender, SelectionChangedEven
 ## CollectionView: SelectionMode
 ### CollectionView: SelectionMode - Single
 ## CollectionView: EmptyView
+
+
+https://github.com/deyran/mobile-maui-training/blob/main/CollectionView/Macoratti/macoratti-collectionview-part2.md
 -->
