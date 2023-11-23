@@ -193,13 +193,32 @@ private void CollectionView_SelectionChanged(object sender, SelectionChangedEven
 
 ```
 
-## XXXXX
-## XXXXX
+## CollectionView: EmptyView
+
+1. Propriedade da CollectionView
+   
+```
+<CollectionView ItemsSource="{Binding Produtos}" EmptyView="Sem dados...">
+...
+</CollectionView>
+```
+
+2.Customizado
+
+```
+<CollectionView.EmptyView>
+	<VerticalStackLayout VerticalOptions="Center">
+		<Image Source="semfoto.jpg" />
+		<Label	Text="Sem dados"
+			FontSize="Large"
+			HorizontalTextAlignment="Center"/>
+	</VerticalStackLayout>
+</CollectionView.EmptyView>
+```
 
 <!--
 # .NET MAUI : Apresentando CollectionView - II
-## CollectionView: SelectionMode
-### CollectionView: SelectionMode - Single
+## CollectionView: EmptyView
 
 -----------------------
 # .NET MAUI : Apresentando CollectionView - II
@@ -211,4 +230,5 @@ private void CollectionView_SelectionChanged(object sender, SelectionChangedEven
 ### Customizado
 ## CollectionView: SelectionMode
 ### CollectionView: SelectionMode - Single
+## CollectionView: EmptyView
 -->
