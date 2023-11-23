@@ -18,16 +18,33 @@ namespace MauiCollectionView.MVVM.Models
 }
 ```
 
-2. AAA
+2. Na pasta MVVM/Models crie a classe ContatoGroup, mostrado no código abaixo
+
+```
+namespace MauiCollectionView.MVVM.Models
+{
+    public class ContatoGroup: List<Contato>
+    {
+        public string Nome { get; private set; }
+
+        public ContatoGroup(string nome, List<Contato> contatos): base(contatos)
+        {
+            Nome = nome;
+        }
+    }
+}
+```
+
 3. AAA
 
 <!--
 # .NET MAUI : Apresentando CollectionView - III | Agrupando dados
 ## Exibindo lista de contatos agrupados por ordem alfabética
-### Criar classe Contato
+### Criar classe ContatoGroup
 --------------------------
 
 # .NET MAUI : Apresentando CollectionView - III | Agrupando dados
 ## Exibindo lista de contatos agrupados por ordem alfabética
 ### Criar classe Contato
+### Criar classe ContatoGroup
 -->
