@@ -167,13 +167,39 @@ Header e Footer são trabalhados de duas formas: 1. Texto simples; 2. Customizad
 </CollectionView.Footer>
 ```
 
-## CollectionView: SelectionMode e SelectionChanged
+## CollectionView: SelectionMode
+
+Existem três tipos de Seleção de items: None (Padrão); Single; Multiple
+
+### CollectionView: SelectionMode - Single
+
+1. No arquivo **LayoutView.xaml**
+   
+```
+<CollectionView ItemsSource="{Binding Produtos}"
+                SelectionMode="Single"
+                SelectionChanged="CollectionView_SelectionChanged">
+
+```
+
+2. No arquivo **LayoutView.xaml.cs**
+
+```
+private void CollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+{
+    var anterior = e.PreviousSelection;
+    var atual = e.CurrentSelection;
+}
+
+```
+
 ## XXXXX
 ## XXXXX
 
 <!--
 # .NET MAUI : Apresentando CollectionView - II
-## CollectionView: SelectionMode e SelectionChanged
+## CollectionView: SelectionMode
+### CollectionView: SelectionMode - Single
 
 -----------------------
 # .NET MAUI : Apresentando CollectionView - II
@@ -183,5 +209,6 @@ Header e Footer são trabalhados de duas formas: 1. Texto simples; 2. Customizad
 ## CollectionView: Header e Footer
 ### Texto simples
 ### Customizado
-## CollectionView: SelectionMode e SelectionChanged
+## CollectionView: SelectionMode
+### CollectionView: SelectionMode - Single
 -->

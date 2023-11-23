@@ -4,7 +4,9 @@
              x:Class="MauiCollectionView.MVVM.Views.LayoutView"
              Title="LayoutView">
 
-    <CollectionView ItemsSource="{Binding Produtos}">
+    <CollectionView ItemsSource="{Binding Produtos}"
+                    SelectionMode="Single"
+                    SelectionChanged="CollectionView_SelectionChanged">
 
         <CollectionView.ItemTemplate>
             <DataTemplate>
