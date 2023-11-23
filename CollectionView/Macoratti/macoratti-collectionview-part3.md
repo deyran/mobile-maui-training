@@ -35,16 +35,21 @@ namespace MauiCollectionView.MVVM.Models
 }
 ```
 
-3. AAA
+3. Na pasta MVVM/ViewModels crie a classe ContatoViewModel, mostrado no código abaixo
+
+```
+
+```
 
 <!--
 # .NET MAUI : Apresentando CollectionView - III | Agrupando dados
 ## Exibindo lista de contatos agrupados por ordem alfabética
-### Criar classe ContatoGroup
+### Criar classe ContatoViewModel
 --------------------------
 
 # .NET MAUI : Apresentando CollectionView - III | Agrupando dados
 ## Exibindo lista de contatos agrupados por ordem alfabética
 ### Criar classe Contato
 ### Criar classe ContatoGroup
+### Criar classe ContatoViewModel
 -->
