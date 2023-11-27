@@ -7,7 +7,7 @@ namespace MauiCollectionView
         public App()
         {
             InitializeComponent();
-            MainPage = new LayoutView();
+            MainPage = new ContatosView();
         }
     }
 }

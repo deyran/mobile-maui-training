@@ -176,12 +176,32 @@ public partial class ContatosView : ContentPage
 }
 ```
 
-6. AAAA
+6. Editar o arquivo **App.xaml.cs**
+
+```
+using MauiCollectionView.MVVM.Views;
+
+namespace MauiCollectionView
+{
+    public partial class App : Application
+    {
+        public App()
+        {
+            InitializeComponent();
+            MainPage = new ContatosView();
+        }
+    }
+}
+```
+
+7. Ao rodar a aplicação teremos o seguinte resultado:
+
+<p align="center"><img src="img09.png" /></p>    
 
 <!--
 # .NET MAUI : Apresentando CollectionView - III | Agrupando dados
 ## Exibindo lista de contatos agrupados por ordem alfabética
-### Editar o BindingContext do arquivo ContatosView.xaml.cs
+### Rodar a aplicação
 --------------------------
 
 # .NET MAUI : Apresentando CollectionView - III | Agrupando dados
@@ -191,4 +211,6 @@ public partial class ContatosView : ContentPage
 ### Criar classe ContatoViewModel
 ### Na pasta MVVM/View criar o arquivo ContatosView.xaml
 ### Editar o BindingContext do arquivo ContatosView.xaml.cs
+### Editar o arquivo App.xaml.cs
+### Rodar a aplicação
 -->
