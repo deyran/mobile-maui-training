@@ -128,7 +128,7 @@ namespace MauiCollectionView.MVVM.ViewModels
 }
 ```
 
-4. Na pasta MVVM/View criar o arquivo *ContatosView.xaml*
+4. Na pasta MVVM/View criar o arquivo **ContatosView.xaml**
 
 ```
 <?xml version="1.0" encoding="utf-8" ?>
@@ -159,10 +159,29 @@ namespace MauiCollectionView.MVVM.ViewModels
 </ContentPage>
 ```
 
+5. Editar o **BindingContext** do arquivo **ContatosView.xaml.cs**
+
+```
+using MauiCollectionView.MVVM.ViewModels;
+
+namespace MauiCollectionView.MVVM.Views;
+
+public partial class ContatosView : ContentPage
+{
+	public ContatosView()
+	{
+		InitializeComponent();
+		BindingContext = new ContatoViewModel();		
+	}
+}
+```
+
+6. AAAA
+
 <!--
 # .NET MAUI : Apresentando CollectionView - III | Agrupando dados
 ## Exibindo lista de contatos agrupados por ordem alfabética
-### Na pasta MVVM/View criar o arquivo ContatosView.xaml
+### Editar o BindingContext do arquivo ContatosView.xaml.cs
 --------------------------
 
 # .NET MAUI : Apresentando CollectionView - III | Agrupando dados
@@ -171,4 +190,5 @@ namespace MauiCollectionView.MVVM.ViewModels
 ### Criar classe ContatoGroup
 ### Criar classe ContatoViewModel
 ### Na pasta MVVM/View criar o arquivo ContatosView.xaml
+### Editar o BindingContext do arquivo ContatosView.xaml.cs
 -->
