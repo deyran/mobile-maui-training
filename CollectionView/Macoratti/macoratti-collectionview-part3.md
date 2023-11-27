@@ -128,10 +128,12 @@ namespace MauiCollectionView.MVVM.ViewModels
 }
 ```
 
+4. Na pasta MVVM/View criar o arquivo *ContatosView.xaml*
+
 <!--
 # .NET MAUI : Apresentando CollectionView - III | Agrupando dados
 ## Exibindo lista de contatos agrupados por ordem alfabética
-### Criar classe ContatoViewModel
+### Na pasta MVVM/View criar o arquivo ContatosView.xaml
 --------------------------
 
 # .NET MAUI : Apresentando CollectionView - III | Agrupando dados
@@ -139,4 +141,5 @@ namespace MauiCollectionView.MVVM.ViewModels
 ### Criar classe Contato
 ### Criar classe ContatoGroup
 ### Criar classe ContatoViewModel
+### Na pasta MVVM/View criar o arquivo ContatosView.xaml
 -->

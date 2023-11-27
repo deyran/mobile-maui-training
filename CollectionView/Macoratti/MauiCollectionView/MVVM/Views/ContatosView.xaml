@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiCollectionView.MVVM.Views.ContatosView"
+             Title="Contatos">
+
+    <CollectionView ItemsSource="{Binding ContatosAgrupados}"
+                    IsGrouped="True">
+
+        <CollectionView.ItemsLayout>
+            <LinearItemsLayout ItemSpacing="10" Orientation="Vertical"/>
+        </CollectionView.ItemsLayout>
+
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <VerticalStackLayout Margin="20, 0, 0, 0">
+                    <Label Text="{Binding Nome}" FontSize="Large" />
+                    <Label Text="{Binding Email}" FontAttributes="Bold" TextColor="Blue" />
+                    <Label Text="{Binding Telefone}" FontAttributes="Bold" />
+                </VerticalStackLayout>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+
+    </CollectionView>
+    
+</ContentPage>
