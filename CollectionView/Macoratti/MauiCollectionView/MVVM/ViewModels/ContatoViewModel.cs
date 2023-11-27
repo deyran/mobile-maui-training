@@ -18,6 +18,18 @@ namespace MauiCollectionView.MVVM.ViewModels
                                 into grupos
                                 select new ContatoGroup(grupos.Key, grupos.ToList());
 
+
+            int id = 1;
+            foreach (var group in gruposContato)
+            {
+                foreach (var contato in group)
+                {
+                    contato.Id = id;
+                    id++;
+                }
+            }
+
+
             ContatosAgrupados = new ObservableCollection<ContatoGroup>(gruposContato.ToList());
         }
 
