@@ -198,10 +198,20 @@ namespace MauiCollectionView
 
 <p align="center"><img src="img09.png" /></p>    
 
+## GroupHeaderTemplate
+
+1. AAA
+2. AAA
+3. AAA
+4. AAA
+5. AAAA
+6. AAA
+7. AAA
+
 <!--
 # .NET MAUI : Apresentando CollectionView - III | Agrupando dados
-## Exibindo lista de contatos agrupados por ordem alfabética
-### Rodar a aplicação
+## GroupHeaderTemplate
+
 --------------------------
 
 # .NET MAUI : Apresentando CollectionView - III | Agrupando dados
@@ -213,4 +223,5 @@ namespace MauiCollectionView
 ### Editar o BindingContext do arquivo ContatosView.xaml.cs
 ### Editar o arquivo App.xaml.cs
 ### Rodar a aplicação
+## GroupHeaderTemplate
 -->

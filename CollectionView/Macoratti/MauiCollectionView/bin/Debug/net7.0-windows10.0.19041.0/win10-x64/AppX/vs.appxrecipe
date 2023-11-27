@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-27T20:04:22.130</Modified>
+      <Modified>2023-11-27T20:24:32.154</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiCollectionView.dll">
       <PackagePath>MauiCollectionView.dll</PackagePath>
-      <Modified>2023-11-27T20:04:17.120</Modified>
+      <Modified>2023-11-27T20:24:29.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiCollectionView.exe</PackagePath>
-      <Modified>2023-11-27T20:04:17.270</Modified>
+      <Modified>2023-11-27T20:24:29.240</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiCollectionView.deps.json">
       <PackagePath>MauiCollectionView.deps.json</PackagePath>

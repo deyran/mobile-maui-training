@@ -21,6 +21,17 @@
             </DataTemplate>
         </CollectionView.ItemTemplate>
 
+        <CollectionView.GroupHeaderTemplate>
+            <DataTemplate>
+                <Label Text="{Binding Nome}"
+                       BackgroundColor="{StaticResource Primary}"
+                       FontAttributes="Bold"
+                       FontSize="30"
+                       HorizontalTextAlignment="Center"
+                       TextColor="White" />
+            </DataTemplate>
+        </CollectionView.GroupHeaderTemplate>                        
+        
     </CollectionView>
     
 </ContentPage>
