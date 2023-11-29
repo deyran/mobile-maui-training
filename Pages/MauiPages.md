@@ -35,6 +35,14 @@ namespace MauiDemoPages
 await Navigation.PushAsync(new MainPage());
 ```
 
+### Remover página da pilha de navegação
+
+Ao clicar no botão voltar (<-) ou usar o seguinte método:
+
+```
+await Navigation.PopAsync();
+```
+
 ## FlyoutPage
 
 ## TabbedPage
@@ -42,7 +50,7 @@ await Navigation.PushAsync(new MainPage());
 <!--
 # NET MAUI PAGES
 ## NavigationPage
-### Navegação da página
+### Remover página da pilha de navegação
 
 -------------------------
 # NET MAUI PAGES
@@ -50,4 +58,5 @@ await Navigation.PushAsync(new MainPage());
 ### Exemplo prático
 ## NavigationPage
 ### Navegação da página
+### Remover página da pilha de navegação
 -->
