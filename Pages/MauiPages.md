@@ -26,8 +26,14 @@ namespace MauiDemoPages
 
 ## [NavigationPage](https://youtu.be/9D42vT3CzO4?list=PLJ4k1IC8GhW3VlYa0p9QhV98Waka7oghq&t=662)
 
-* Permite navegação pelas páginas de forma hieráquica estilo **Pilha**
+* Permite navegação pelas páginas de forma hieráquica estilo **Pilha** LIFO
 * Último a entrar, primeiro ao sair
+
+### Navegação da página
+
+```
+await Navigation.PushAsync(new MainPage());
+```
 
 ## FlyoutPage
 
@@ -36,10 +42,12 @@ namespace MauiDemoPages
 <!--
 # NET MAUI PAGES
 ## NavigationPage
+### Navegação da página
 
 -------------------------
 # NET MAUI PAGES
 ## ContentPage
 ### Exemplo prático
 ## NavigationPage
+### Navegação da página
 -->
