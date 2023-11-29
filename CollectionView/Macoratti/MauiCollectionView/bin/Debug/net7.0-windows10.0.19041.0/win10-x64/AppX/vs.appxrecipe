@@ -30,29 +30,29 @@
     <AppXManifest Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-27T20:24:32.154</Modified>
+      <Modified>2023-11-29T18:21:49.437</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-11-27T20:04:21.371</Modified>
+      <Modified>2023-11-29T18:16:17.882</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiCollectionView.runtimeconfig.json">
       <PackagePath>MauiCollectionView.runtimeconfig.json</PackagePath>
-      <Modified>2023-11-23T18:38:50.484</Modified>
+      <Modified>2023-11-29T18:16:16.136</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiCollectionView.dll">
       <PackagePath>MauiCollectionView.dll</PackagePath>
-      <Modified>2023-11-27T20:24:29.107</Modified>
+      <Modified>2023-11-29T18:21:47.311</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiCollectionView.exe</PackagePath>
-      <Modified>2023-11-27T20:24:29.240</Modified>
+      <Modified>2023-11-29T18:21:47.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiCollectionView.deps.json">
       <PackagePath>MauiCollectionView.deps.json</PackagePath>
-      <Modified>2023-11-27T20:04:20.736</Modified>
+      <Modified>2023-11-29T18:16:15.232</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DEYVIDRANNYERE\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.14\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -940,23 +940,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-11-23T18:38:36.103</Modified>
+      <Modified>2023-11-29T18:15:58.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-11-23T18:38:36.216</Modified>
+      <Modified>2023-11-29T18:15:58.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-11-23T18:38:36.337</Modified>
+      <Modified>2023-11-29T18:15:59.091</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-11-23T18:38:36.513</Modified>
+      <Modified>2023-11-29T18:15:59.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-11-23T18:38:37.252</Modified>
+      <Modified>2023-11-29T18:16:00.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -968,207 +968,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-11-23T18:38:37.591</Modified>
+      <Modified>2023-11-29T18:16:00.674</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.921</Modified>
+      <Modified>2023-11-29T18:16:02.332</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.971</Modified>
+      <Modified>2023-11-29T18:16:02.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-11-23T18:38:39.056</Modified>
+      <Modified>2023-11-29T18:16:02.442</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-11-23T18:38:39.126</Modified>
+      <Modified>2023-11-29T18:16:02.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-11-23T18:38:39.580</Modified>
+      <Modified>2023-11-29T18:16:02.791</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.134</Modified>
+      <Modified>2023-11-29T18:16:01.340</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.182</Modified>
+      <Modified>2023-11-29T18:16:01.365</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.249</Modified>
+      <Modified>2023-11-29T18:16:01.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.216</Modified>
+      <Modified>2023-11-29T18:16:01.375</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.227</Modified>
+      <Modified>2023-11-29T18:16:01.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.059</Modified>
+      <Modified>2023-11-29T18:16:01.155</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.070</Modified>
+      <Modified>2023-11-29T18:16:01.168</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.126</Modified>
+      <Modified>2023-11-29T18:16:01.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.082</Modified>
+      <Modified>2023-11-29T18:16:01.181</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.104</Modified>
+      <Modified>2023-11-29T18:16:01.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-11-23T18:38:37.628</Modified>
+      <Modified>2023-11-29T18:16:00.764</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-11-23T18:38:37.677</Modified>
+      <Modified>2023-11-29T18:16:00.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-11-23T18:38:37.686</Modified>
+      <Modified>2023-11-29T18:16:00.894</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-11-23T18:38:37.711</Modified>
+      <Modified>2023-11-29T18:16:00.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-11-23T18:38:37.929</Modified>
+      <Modified>2023-11-29T18:16:00.966</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-11-23T18:38:37.952</Modified>
+      <Modified>2023-11-29T18:16:01.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-11-23T18:38:37.987</Modified>
+      <Modified>2023-11-29T18:16:01.026</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.049</Modified>
+      <Modified>2023-11-29T18:16:01.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-11-23T18:38:37.996</Modified>
+      <Modified>2023-11-29T18:16:01.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.013</Modified>
+      <Modified>2023-11-29T18:16:01.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.414</Modified>
+      <Modified>2023-11-29T18:16:01.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.429</Modified>
+      <Modified>2023-11-29T18:16:01.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.451</Modified>
+      <Modified>2023-11-29T18:16:01.850</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.476</Modified>
+      <Modified>2023-11-29T18:16:01.891</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.556</Modified>
+      <Modified>2023-11-29T18:16:01.966</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.337</Modified>
+      <Modified>2023-11-29T18:16:01.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.351</Modified>
+      <Modified>2023-11-29T18:16:01.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.364</Modified>
+      <Modified>2023-11-29T18:16:01.708</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.377</Modified>
+      <Modified>2023-11-29T18:16:01.741</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.402</Modified>
+      <Modified>2023-11-29T18:16:01.776</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.272</Modified>
+      <Modified>2023-11-29T18:16:01.504</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.281</Modified>
+      <Modified>2023-11-29T18:16:01.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.292</Modified>
+      <Modified>2023-11-29T18:16:01.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.307</Modified>
+      <Modified>2023-11-29T18:16:01.607</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.324</Modified>
+      <Modified>2023-11-29T18:16:01.636</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.585</Modified>
+      <Modified>2023-11-29T18:16:01.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.621</Modified>
+      <Modified>2023-11-29T18:16:02.028</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.652</Modified>
+      <Modified>2023-11-29T18:16:02.071</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.692</Modified>
+      <Modified>2023-11-29T18:16:02.131</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.875</Modified>
+      <Modified>2023-11-29T18:16:02.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.190</Modified>
+      <Modified>2023-11-29T18:16:01.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.244</Modified>
+      <Modified>2023-11-29T18:16:01.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.280</Modified>
+      <Modified>2023-11-29T18:16:01.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.338</Modified>
+      <Modified>2023-11-29T18:16:01.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-11-23T18:38:38.479</Modified>
+      <Modified>2023-11-29T18:16:01.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\CollectionView\Macoratti\MauiCollectionView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dragonball1.scale-100.jpg">
       <PackagePath>dragonball1.scale-100.jpg</PackagePath>

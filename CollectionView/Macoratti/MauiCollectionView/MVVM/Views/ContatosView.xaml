@@ -28,7 +28,7 @@
                        FontAttributes="Bold"
                        FontSize="30"
                        HorizontalTextAlignment="Center"
-                       TextColor="White" />
+                       TextColor="White"  />
             </DataTemplate>
         </CollectionView.GroupHeaderTemplate>                        
         

@@ -200,13 +200,26 @@ namespace MauiCollectionView
 
 ## GroupHeaderTemplate
 
-1. AAA
-2. AAA
-3. AAA
-4. AAA
-5. AAAA
-6. AAA
-7. AAA
+```
+<CollectionView ItemsSource="{Binding ContatosAgrupados}"
+                IsGrouped="True">
+
+    ...  ...
+
+    <CollectionView.GroupHeaderTemplate>
+        <DataTemplate>
+            <Label Text="{Binding Nome}"
+                    BackgroundColor="{StaticResource Primary}"
+                    FontAttributes="Bold"
+                    FontSize="30"
+                    HorizontalTextAlignment="Center"
+                    TextColor="White"  />
+        </DataTemplate>
+    </CollectionView.GroupHeaderTemplate>                        
+    
+</CollectionView>
+
+```
 
 <!--
 # .NET MAUI : Apresentando CollectionView - III | Agrupando dados
