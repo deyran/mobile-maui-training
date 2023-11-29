@@ -5,8 +5,8 @@
              Title="MinhaPagina">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="MinhaPagina é página principal!"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center" />        
     </VerticalStackLayout>
 </ContentPage>

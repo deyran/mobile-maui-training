@@ -1,0 +1,1 @@
+C:\git-projects\mobile-maui-training\Pages\MauiDemoPages\MauiDemoPages.csproj;x64
