@@ -24,21 +24,22 @@ namespace MauiDemoPages
 }
 ```
 
-3. AAAAAAAA
+## [NavigationPage](https://youtu.be/9D42vT3CzO4?list=PLJ4k1IC8GhW3VlYa0p9QhV98Waka7oghq&t=662)
+
+* Permite navegação pelas páginas de forma hieráquica estilo **Pilha**
+* Último a entrar, primeiro ao sair
 
 ## FlyoutPage
-
-## NavigationPage
 
 ## TabbedPage
 
 <!--
 # NET MAUI PAGES
-## ContentPage
-### Exemplo prático
+## NavigationPage
 
 -------------------------
 # NET MAUI PAGES
 ## ContentPage
 ### Exemplo prático
+## NavigationPage
 -->
