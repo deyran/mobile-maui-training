@@ -5,6 +5,10 @@
 * Exibe uma única View, ou Grid ou ScrollView ou StackLayout
 * Representa o conteúdo da página
 
+### Exemplo prático
+
+1. Crie uma ContentPage, chamado **MinhaPagina.xaml**
+
 ## FlyoutPage
 
 ## NavigationPage
@@ -14,4 +18,10 @@
 <!--
 # NET MAUI PAGES
 ## ContentPage
+### Exemplo prático
+
+-------------------------
+# NET MAUI PAGES
+## ContentPage
+### Exemplo prático
 -->
