@@ -8,6 +8,23 @@
 ### Exemplo prático
 
 1. Crie uma ContentPage, chamado **MinhaPagina.xaml**
+2. Edite o arquivo **App.Xaml.cs** para definir **MinhaPagina.xaml** como página principal
+   
+```
+namespace MauiDemoPages
+{
+    public partial class App : Application
+    {
+        public App()
+        {
+            InitializeComponent();
+            MainPage = new MinhaPagina();
+        }
+    }
+}
+```
+
+3. AAAAAAAA
 
 ## FlyoutPage
 
