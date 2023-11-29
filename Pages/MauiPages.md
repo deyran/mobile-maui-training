@@ -43,6 +43,43 @@ Ao clicar no botão voltar (<-) ou usar o seguinte método:
 await Navigation.PopAsync();
 ```
 
+### Exemplo prático
+
+1. Edite o arquivo **App.xaml.cs** crie a pilha, como mostrado no código seguinte:
+
+```
+namespace MauiDemoPages
+{
+    public partial class App : Application
+    {
+        public App()
+        {
+            InitializeComponent();
+            MainPage = new NavigationPage(new MinhaPagina());
+        }
+    }
+}
+```
+
+2. Edite o arquivo **MinhaPagina.xaml** da seguinte forma:
+
+```
+<Button Text="Navegar para outra Página"
+        HorizontalOptions="Center" 
+        Clicked="Button_Clicked" />
+```
+
+3. Edite o arquivo **MinhaPagina.xaml.cs** da seguinte forma:
+
+```
+private async Task Button_ClickedAsync(object sender, EventArgs e)
+{
+    await Navigation.PushAsync(new MainPage());
+}
+```
+
+4. AAAA
+
 ## FlyoutPage
 
 ## TabbedPage
@@ -50,7 +87,7 @@ await Navigation.PopAsync();
 <!--
 # NET MAUI PAGES
 ## NavigationPage
-### Remover página da pilha de navegação
+### Exemplo prático
 
 -------------------------
 # NET MAUI PAGES
@@ -59,4 +96,5 @@ await Navigation.PopAsync();
 ## NavigationPage
 ### Navegação da página
 ### Remover página da pilha de navegação
+### Exemplo prático
 -->

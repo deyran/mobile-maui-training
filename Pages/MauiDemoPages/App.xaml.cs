@@ -5,7 +5,7 @@
         public App()
         {
             InitializeComponent();
-            MainPage = new MinhaPagina();
+            MainPage = new NavigationPage(new MinhaPagina());
         }
     }
 }

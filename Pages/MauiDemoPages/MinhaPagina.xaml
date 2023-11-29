@@ -7,6 +7,10 @@
         <Label 
             Text="MinhaPagina é página principal!"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />        
+            HorizontalOptions="Center" />
+
+        <Button Text="Navegar para outra Página"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>
