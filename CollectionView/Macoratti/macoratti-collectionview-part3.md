@@ -221,9 +221,30 @@ namespace MauiCollectionView
 
 ```
 
+## GroupFooterTemplate
+
+```
+<CollectionView ItemsSource="{Binding ContatosAgrupados}"
+                IsGrouped="True">
+
+    ...  ...
+    
+    <CollectionView.GroupFooterTemplate>
+        <DataTemplate>
+            <Label BackgroundColor="AliceBlue"
+                    Text="{Binding Count, StringFormat='Total de contato{s}: {0:D}'}"
+                    HorizontalTextAlignment="Center"
+                    FontSize="Medium"
+                    TextColor="Black" />
+        </DataTemplate>
+    </CollectionView.GroupFooterTemplate>
+
+</CollectionView>
+```
+
 <!--
 # .NET MAUI : Apresentando CollectionView - III | Agrupando dados
-## GroupHeaderTemplate
+## GroupFooterTemplate
 
 --------------------------
 
@@ -237,4 +258,5 @@ namespace MauiCollectionView
 ### Editar o arquivo App.xaml.cs
 ### Rodar a aplicação
 ## GroupHeaderTemplate
+## GroupFooterTemplate
 -->
