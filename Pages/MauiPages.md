@@ -78,15 +78,20 @@ private async Task Button_ClickedAsync(object sender, EventArgs e)
 }
 ```
 
-4. AAAA
+## [FlyoutPage](https://youtu.be/T3HPTy86rU4?list=PLJ4k1IC8GhW3VlYa0p9QhV98Waka7oghq)
 
-## FlyoutPage
+* Trata da relação Submenu e detalhes
+* Propriedade Title é obrigatória
+
+### Exemplo prático
+
+1. Crie ContentPage (XAML), com nome **FlyoutPageDemo.xaml**
 
 ## TabbedPage
 
 <!--
 # NET MAUI PAGES
-## NavigationPage
+## FlyoutPage
 ### Exemplo prático
 
 -------------------------
@@ -96,5 +101,7 @@ private async Task Button_ClickedAsync(object sender, EventArgs e)
 ## NavigationPage
 ### Navegação da página
 ### Remover página da pilha de navegação
+### Exemplo prático
+## FlyoutPage
 ### Exemplo prático
 -->
