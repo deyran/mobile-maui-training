@@ -116,12 +116,14 @@ private async Task Button_ClickedAsync(object sender, EventArgs e)
 <FlyoutPage.Detail>
     <ContentPage BackgroundColor="Yellow">
         <Label Text="Detalhes" 
-               FontSize="Large"/>
+            FontSize="Large"
+            HorizontalTextAlignment="Center" 
+            VerticalTextAlignment="Center" />    
     </ContentPage>
 </FlyoutPage.Detail>
 ```
 
-5. AAAA
+5. Coloque FlyoutPageDemo como página principal
 
 ## TabbedPage
 
