@@ -86,6 +86,22 @@ private async Task Button_ClickedAsync(object sender, EventArgs e)
 ### Exemplo prático
 
 1. Crie ContentPage (XAML), com nome **FlyoutPageDemo.xaml**
+2. No arquivo **FlyoutPageDemo.xaml** troque ContentPage para FlyoutPage, como mostra o código abaixo:
+
+```
+<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiDemoPages.FlyoutPageDemo"
+             Title="FlyoutPageDemo">
+
+    ...
+
+</FlyoutPage>
+```
+
+3. aaa
+4. aaaa
 
 ## TabbedPage
 
