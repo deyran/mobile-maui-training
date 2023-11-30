@@ -100,8 +100,28 @@ private async Task Button_ClickedAsync(object sender, EventArgs e)
 </FlyoutPage>
 ```
 
-3. aaa
-4. aaaa
+3. No arquivo **FlyoutPageDemo.xaml.cs** troque ContentPage para FlyoutPage
+   
+4. No arquivo **FlyoutPageDemo.xaml** coleque o seguinte código:
+
+```
+<FlyoutPage.Flyout>
+    <ContentPage Title="Flyout Submenu" BackgroundColor="Aquamarine">
+        <Label Text="Submenu"
+               FontSize="Large"
+               HorizontalTextAlignment="Center" 
+               VerticalTextAlignment="Center"/>
+    </ContentPage>
+</FlyoutPage.Flyout>
+<FlyoutPage.Detail>
+    <ContentPage BackgroundColor="Yellow">
+        <Label Text="Detalhes" 
+               FontSize="Large"/>
+    </ContentPage>
+</FlyoutPage.Detail>
+```
+
+5. AAAA
 
 ## TabbedPage
 
