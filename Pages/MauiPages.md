@@ -129,6 +129,13 @@ private async Task Button_ClickedAsync(object sender, EventArgs e)
 
 **TabbedPage** é uma classe que mantém uma coleção de filhos do tipo **Page**. Cada filho é identificado por uma série de guias na parte superior ou inferior. Normalmente, cada filho será um **ContentPage** e quando sua guia é selecionada, o conteúdo da página é exibido.
 
+### Exemplo prático
+
+1. Crie um novo arquivo ".NET MAUI ContentPage (XAML)" chamado **TabbedPageDemo.xaml**
+2. Ainda no arquivo **TabbedPageDemo.xaml**, troque **ContentPage** por **TabbedPage**. 
+3. Faça o mesmo no arquivo **TabbedPageDemo.xaml.cs**
+4. AAAA
+
 <!--
 # NET MAUI PAGES
 ## TabbedPage
