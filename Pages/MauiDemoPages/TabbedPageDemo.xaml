@@ -4,7 +4,11 @@
              x:Class="MauiDemoPages.TabbedPageDemo"
              Title="TabbedPageDemo">
 
-    <ContentPage Title="Pag. 1" BackgroundColor="BlanchedAlmond"></ContentPage>
+    <ContentPage Title="Pag. 1" 
+                 BackgroundColor="BlanchedAlmond"
+                 IconImageSource="trash.svg">
+        <Label Text="A simple content" />
+    </ContentPage>
     <ContentPage Title="Pag. 2" BackgroundColor="Red"></ContentPage>
     <ContentPage Title="Pag. 3" BackgroundColor="Purple"></ContentPage>
     <ContentPage Title="Pag. 4" BackgroundColor="Pink"></ContentPage>
