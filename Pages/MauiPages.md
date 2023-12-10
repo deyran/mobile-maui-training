@@ -138,13 +138,35 @@ private async Task Button_ClickedAsync(object sender, EventArgs e)
 3. Faça o mesmo no arquivo **TabbedPageDemo.xaml.cs**
 4. No arquivo **App.xaml.cs**, instancie a classe **TabbedPageDemo** no **MainPage**
 
+#### Implementação
+
+1. Edit o arquivo **TabbedPageDemo.xaml** da seguinte forma:
+
+```
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiDemoPages.TabbedPageDemo"
+             Title="TabbedPageDemo">
+
+    <ContentPage Title="Pag. 1" BackgroundColor="BlanchedAlmond"></ContentPage>
+    <ContentPage Title="Pag. 2" BackgroundColor="Red"></ContentPage>
+    <ContentPage Title="Pag. 3" BackgroundColor="Purple"></ContentPage>
+    <ContentPage Title="Pag. 4" BackgroundColor="Pink"></ContentPage>
+
+</TabbedPage>
+```
+
+2. AAAA
+3. AAAA
+
 <!--
 # NET MAUI PAGES
 ## TabbedPage
 ### Exemplo prático
-#### Configurações iniciais
-
+#### Implementação
 -------------------------
+
 # NET MAUI PAGES
 ## ContentPage
 ### Exemplo prático
@@ -157,4 +179,5 @@ private async Task Button_ClickedAsync(object sender, EventArgs e)
 ## TabbedPage
 ### Exemplo prático
 #### Configurações iniciais
+#### Implementação
 -->

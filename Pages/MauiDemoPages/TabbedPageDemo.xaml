@@ -3,6 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiDemoPages.TabbedPageDemo"
              Title="TabbedPageDemo">
-       
-    
+
+    <ContentPage Title="Pag. 1" BackgroundColor="BlanchedAlmond"></ContentPage>
+    <ContentPage Title="Pag. 2" BackgroundColor="Red"></ContentPage>
+    <ContentPage Title="Pag. 3" BackgroundColor="Purple"></ContentPage>
+    <ContentPage Title="Pag. 4" BackgroundColor="Pink"></ContentPage>
+
 </TabbedPage>
