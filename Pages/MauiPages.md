@@ -157,7 +157,10 @@ private async Task Button_ClickedAsync(object sender, EventArgs e)
 </TabbedPage>
 ```
 
-2. AAAA
+2. Execute a aplicação e veremos o seguinte resultado:
+
+<p align="center"><img src="mauiPage01.png" /></p>   
+
 3. AAAA
 
 <!--
