@@ -5,7 +5,7 @@
         public App()
         {
             InitializeComponent();
-            MainPage = new FlyoutPageDemo();
+            MainPage = new TabbedPageDemo();
         }
     }
 }

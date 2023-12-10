@@ -131,15 +131,18 @@ private async Task Button_ClickedAsync(object sender, EventArgs e)
 
 ### Exemplo prático
 
+#### Configurações iniciais
+
 1. Crie um novo arquivo ".NET MAUI ContentPage (XAML)" chamado **TabbedPageDemo.xaml**
 2. Ainda no arquivo **TabbedPageDemo.xaml**, troque **ContentPage** por **TabbedPage**. 
 3. Faça o mesmo no arquivo **TabbedPageDemo.xaml.cs**
-4. AAAA
+4. No arquivo **App.xaml.cs**, instancie a classe **TabbedPageDemo** no **MainPage**
 
 <!--
 # NET MAUI PAGES
 ## TabbedPage
 ### Exemplo prático
+#### Configurações iniciais
 
 -------------------------
 # NET MAUI PAGES
@@ -152,4 +155,6 @@ private async Task Button_ClickedAsync(object sender, EventArgs e)
 ## FlyoutPage
 ### Exemplo prático
 ## TabbedPage
+### Exemplo prático
+#### Configurações iniciais
 -->
