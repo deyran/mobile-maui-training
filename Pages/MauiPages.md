@@ -125,11 +125,13 @@ private async Task Button_ClickedAsync(object sender, EventArgs e)
 
 5. Coloque FlyoutPageDemo como página principal
 
-## TabbedPage
+## [TabbedPage](https://youtu.be/T3HPTy86rU4?list=PLJ4k1IC8GhW3VlYa0p9QhV98Waka7oghq&t=542)
+
+**TabbedPage** é uma classe que mantém uma coleção de filhos do tipo **Page**. Cada filho é identificado por uma série de guias na parte superior ou inferior. Normalmente, cada filho será um **ContentPage** e quando sua guia é selecionada, o conteúdo da página é exibido.
 
 <!--
 # NET MAUI PAGES
-## FlyoutPage
+## TabbedPage
 ### Exemplo prático
 
 -------------------------
@@ -142,4 +144,5 @@ private async Task Button_ClickedAsync(object sender, EventArgs e)
 ### Exemplo prático
 ## FlyoutPage
 ### Exemplo prático
+## TabbedPage
 -->

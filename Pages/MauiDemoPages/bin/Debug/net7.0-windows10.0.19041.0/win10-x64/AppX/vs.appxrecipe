@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\git-projects\mobile-maui-training\Pages\MauiDemoPages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-30T01:20:14.879</Modified>
+      <Modified>2023-12-10T00:57:35.202</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\Pages\MauiDemoPages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiDemoPages.dll">
       <PackagePath>MauiDemoPages.dll</PackagePath>
-      <Modified>2023-11-30T01:20:12.631</Modified>
+      <Modified>2023-12-10T00:57:32.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\Pages\MauiDemoPages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiDemoPages.exe</PackagePath>
-      <Modified>2023-11-30T01:20:12.641</Modified>
+      <Modified>2023-12-10T00:57:32.343</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\Pages\MauiDemoPages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiDemoPages.deps.json">
       <PackagePath>MauiDemoPages.deps.json</PackagePath>
