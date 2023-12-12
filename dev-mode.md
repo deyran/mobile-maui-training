@@ -5,5 +5,6 @@
 1. Configurações
 2. Número de compilação
 3. Clicar até ativar modo de desenvolvedor
+4. Ativar **Depuração USB**
 
 ## Visual Studio 2022
