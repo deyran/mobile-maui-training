@@ -233,7 +233,7 @@ private async Task Button_ClickedAsync(object sender, EventArgs e)
 
 5. Execute a aplicação e veremos o seguinte resultado:
 
-<p align="center"><img src="mauiPage03.jpeg" /></p>
+<p align="center"><img src="mauiPage03.jpg" /></p>
 
 <!--
 # NET MAUI PAGES
