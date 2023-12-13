@@ -2,28 +2,36 @@
 <TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiDemoPages.TabbedPageDemo"
+            BarBackgroundColor="White"
+            BarTextColor="Black"            
+            SelectedTabColor="Red"
+            UnselectedTabColor="Black"
              Title="TabbedPageDemo">
 
-    <ContentPage Title="Pag. 1" BackgroundColor="BlanchedAlmond">
+    <ContentPage Title="Pag. 1" IconImageSource="trash.svg"
+                 BackgroundColor="BlanchedAlmond">
         <Label Text="Page 01 Content"
                TextColor="Black"
                FontSize="Large"
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center" />
     </ContentPage>
-    <ContentPage Title="Pag. 2" BackgroundColor="Red">
+    <ContentPage Title="Pag. 2" IconImageSource="plus.svg"
+                 BackgroundColor="Red">
         <Label Text="Page 02 Content"
                FontSize="Large"
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center" />
     </ContentPage>
-    <ContentPage Title="Pag. 3" BackgroundColor="Purple">
+    <ContentPage Title="Pag. 3" IconImageSource="settings.svg"
+                 BackgroundColor="Purple">
         <Label Text="Page 03 Content"
                FontSize="Large"
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center" />
     </ContentPage>
-    <ContentPage Title="Pag. 4" BackgroundColor="Pink">
+    <ContentPage Title="Pag. 4" IconImageSource="save.svg8"
+                 BackgroundColor="Pink">
         <Label Text="Page 04 Content"
                FontSize="Large"
                HorizontalTextAlignment="Center"

@@ -138,7 +138,7 @@ private async Task Button_ClickedAsync(object sender, EventArgs e)
 3. Faça o mesmo no arquivo **TabbedPageDemo.xaml.cs**
 4. No arquivo **App.xaml.cs**, instancie a classe **TabbedPageDemo** no **MainPage**
 
-#### Implementação
+#### Exemplo Simples
 
 1. Edit o arquivo **TabbedPageDemo.xaml** da seguinte forma:
 
@@ -204,11 +204,42 @@ private async Task Button_ClickedAsync(object sender, EventArgs e)
 
 <p align="center"><img src="mauiPage02.jpeg" /></p>
 
+#### Ícones das Abas
+
+1. Os ícones ficam na pasta **Resources/Images**
+2. Os ícones vieram do site **icons8.com/icons**
+3. Para usar os ícones no ContentPage basta usar a propriedade **IconImageSource**, como mostrado no código abaixo:
+
+```
+...
+
+<ContentPage Title="Pag. 1" IconImageSource="trash.png" ...
+
+...
+```
+
+4. Para alterar a cor de fundo e cor da fonte das guias são usadas as propriedades **BarBackgroundColor** e **BarTextColor**. Já as cores do ícones selecionados ou não selecionados, se usa as propriedades **SelectedTabColor** e **UnSelectedTabColor**. O código seguinte mostra o uso dessas propriedades:
+
+```
+...
+<TabbedPage ...
+            BarBackgroundColor="White"
+            BarTextColor="Black"            
+            SelectedTabColor="Blue"
+            UnselectedTabColor="Black"
+            ...>
+...
+```
+
+5. Execute a aplicação e veremos o seguinte resultado:
+
+<p align="center"><img src="mauiPage03.jpeg" /></p>
+
 <!--
 # NET MAUI PAGES
 ## TabbedPage
 ### Exemplo prático
-#### Cor de fundo e Conteúdo
+#### Ícones das Abas
 -------------------------
 
 # NET MAUI PAGES
@@ -223,6 +254,7 @@ private async Task Button_ClickedAsync(object sender, EventArgs e)
 ## TabbedPage
 ### Exemplo prático
 #### Configurações iniciais
-#### Implementação
+#### Exemplo Simples
 #### Cor de fundo e Conteúdo
+#### Ícones das Abas
 -->
