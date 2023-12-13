@@ -161,13 +161,54 @@ private async Task Button_ClickedAsync(object sender, EventArgs e)
 
 <p align="center"><img src="mauiPage01.png" /></p>   
 
-3. AAAA
+#### Cor de fundo e Conteúdo
+
+1. Edit o arquivo **TabbedPageDemo.xaml** da seguinte forma:
+
+```
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiDemoPages.TabbedPageDemo"
+             Title="TabbedPageDemo">
+
+    <ContentPage Title="Pag. 1" BackgroundColor="BlanchedAlmond">
+        <Label Text="Page 01 Content"
+               TextColor="Black"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+    </ContentPage>
+    <ContentPage Title="Pag. 2" BackgroundColor="Red">
+        <Label Text="Page 02 Content"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+    </ContentPage>
+    <ContentPage Title="Pag. 3" BackgroundColor="Purple">
+        <Label Text="Page 03 Content"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+    </ContentPage>
+    <ContentPage Title="Pag. 4" BackgroundColor="Pink">
+        <Label Text="Page 04 Content"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+    </ContentPage>
+</TabbedPage>
+```
+
+2. Execute a aplicação e veremos o seguinte resultado:
+
+<p align="center"><img src="mauiPage02.jpeg" /></p>
 
 <!--
 # NET MAUI PAGES
 ## TabbedPage
 ### Exemplo prático
-#### Implementação
+#### Cor de fundo e Conteúdo
 -------------------------
 
 # NET MAUI PAGES
@@ -183,4 +224,5 @@ private async Task Button_ClickedAsync(object sender, EventArgs e)
 ### Exemplo prático
 #### Configurações iniciais
 #### Implementação
+#### Cor de fundo e Conteúdo
 -->

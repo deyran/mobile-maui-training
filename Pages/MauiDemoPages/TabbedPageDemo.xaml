@@ -4,13 +4,30 @@
              x:Class="MauiDemoPages.TabbedPageDemo"
              Title="TabbedPageDemo">
 
-    <ContentPage Title="Pag. 1" 
-                 BackgroundColor="BlanchedAlmond"
-                 IconImageSource="trash.svg">
-        <Label Text="A simple content" />
+    <ContentPage Title="Pag. 1" BackgroundColor="BlanchedAlmond">
+        <Label Text="Page 01 Content"
+               TextColor="Black"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
     </ContentPage>
-    <ContentPage Title="Pag. 2" BackgroundColor="Red"></ContentPage>
-    <ContentPage Title="Pag. 3" BackgroundColor="Purple"></ContentPage>
-    <ContentPage Title="Pag. 4" BackgroundColor="Pink"></ContentPage>
+    <ContentPage Title="Pag. 2" BackgroundColor="Red">
+        <Label Text="Page 02 Content"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+    </ContentPage>
+    <ContentPage Title="Pag. 3" BackgroundColor="Purple">
+        <Label Text="Page 03 Content"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+    </ContentPage>
+    <ContentPage Title="Pag. 4" BackgroundColor="Pink">
+        <Label Text="Page 04 Content"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+    </ContentPage>
 
 </TabbedPage>
