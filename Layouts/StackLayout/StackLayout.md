@@ -26,12 +26,7 @@ StackLayout is a layout container that allows arrange child views in a linear ma
 
 3. Running the application you will obtain this result
 
-<p align="center"><img src="img01.jpeg" /></p>
-
-<!--
-# Layouts - StackLayout, VerticalStackLayout, HorizontalStackLayout
-# Horizontal
--->
+<p align="center"><img src="img01.jpg" /></p>
 
 # Horizontal
 
@@ -57,7 +52,12 @@ StackLayout is a layout container that allows arrange child views in a linear ma
 
 3. Running the application you will obtain this result
 
-<p align="center"><img src="img02.jpeg" /></p>
+<p align="center"><img src="img02.jpg" /></p>
+
+<!--
+# Layouts - StackLayout, VerticalStackLayout, HorizontalStackLayout
+# Horizontal
+-->
 
 ## Fontes
 
