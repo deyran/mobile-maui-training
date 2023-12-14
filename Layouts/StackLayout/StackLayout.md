@@ -2,6 +2,12 @@
 
 StackLayout is a layout container that allows arrange child views in a linear manner. There are two ways that StackLout allows to stack: vertically or horizontally.
 
+The main proprieties are:
+
+1. Orientation: Vertical or Horizontal
+2. Spacing: It is used to add spacing between the child views in a StackLayout. The default value is 0. 
+3. Margin: It is used to add padding around StackLayout. The default value is 0
+
 # Vertical
 
 1. The vertical orientation is set as default, as can seen in the code below:
