@@ -7,6 +7,7 @@ The main proprieties are:
 1. Orientation: Vertical or Horizontal
 2. Spacing: It is used to add spacing between the child views in a StackLayout. The default value is 0. 
 3. Margin: It is used to add padding around StackLayout. The default value is 0
+4. Padding: It is used to add distance of child view from the border of StackLayout
 
 # Vertical
 

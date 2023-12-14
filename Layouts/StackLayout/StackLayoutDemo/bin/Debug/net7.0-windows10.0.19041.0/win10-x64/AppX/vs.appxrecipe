@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\git-projects\mobile-maui-training\Layouts\StackLayout\StackLayoutDemo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-14T01:35:09.497</Modified>
+      <Modified>2023-12-14T23:00:07.411</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\Layouts\StackLayout\StackLayoutDemo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-14T00:03:29.041</Modified>
+      <Modified>2023-12-14T23:00:06.733</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\Layouts\StackLayout\StackLayoutDemo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\StackLayoutDemo.runtimeconfig.json">
       <PackagePath>StackLayoutDemo.runtimeconfig.json</PackagePath>
@@ -43,15 +43,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\Layouts\StackLayout\StackLayoutDemo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\StackLayoutDemo.dll">
       <PackagePath>StackLayoutDemo.dll</PackagePath>
-      <Modified>2023-12-14T01:35:06.820</Modified>
+      <Modified>2023-12-14T23:00:02.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\Layouts\StackLayout\StackLayoutDemo\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>StackLayoutDemo.exe</PackagePath>
-      <Modified>2023-12-14T01:35:06.932</Modified>
+      <Modified>2023-12-14T23:00:02.874</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\Layouts\StackLayout\StackLayoutDemo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\StackLayoutDemo.deps.json">
       <PackagePath>StackLayoutDemo.deps.json</PackagePath>
-      <Modified>2023-12-14T00:03:28.097</Modified>
+      <Modified>2023-12-14T23:00:06.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DEYVIDRANNYERE\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.14\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

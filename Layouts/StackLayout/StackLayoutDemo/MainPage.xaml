@@ -3,10 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="StackLayoutDemo.MainPage">
 
-    <HorizontalStackLayout>
-        <Label Text="Text 1" FontSize="Large" BackgroundColor="Yellow" TextColor="Black" />
-        <Label Text="Text 2" FontSize="Large" BackgroundColor="Red" TextColor="Green" />
-        <Label Text="Text 3" FontSize="Large" BackgroundColor="Pink" TextColor="Blue" />
-    </HorizontalStackLayout>
+    <StackLayout Orientation="Horizontal">
+        <Frame Padding="30" BackgroundColor="red">
+            <StackLayout Orientation="Vertical">
+                <Label Text="text 0" FontSize="Large" BackgroundColor="Aqua" TextColor="Black" />
+                <Label Text="Text 1" FontSize="Large" BackgroundColor="Yellow" TextColor="Black" />
+            </StackLayout>
+        </Frame>
+
+        <Frame Margin="5" BackgroundColor="BlanchedAlmond">
+            <StackLayout Orientation="Vertical">
+                <Label Text="Text 2" FontSize="Large" BackgroundColor="Red" TextColor="Green" />
+                <Label Text="Text 3" FontSize="Large" BackgroundColor="Pink" TextColor="Blue" />
+            </StackLayout>
+        </Frame>
+    </StackLayout>
 
 </ContentPage>
