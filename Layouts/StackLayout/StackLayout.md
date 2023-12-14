@@ -30,10 +30,34 @@ StackLayout is a layout container that allows arrange child views in a linear ma
 
 <!--
 # Layouts - StackLayout, VerticalStackLayout, HorizontalStackLayout
-# Vertical
+# Horizontal
 -->
 
-# Vertical
+# Horizontal
+
+1. Setting the Orientation property to Horizontal to change the dimension, as can be seen in the code below
+
+```
+<StackLayout Orientation="Horizontal">
+    <Label Text="Text 1" FontSize="Large" BackgroundColor="Yellow" TextColor="Black" />
+    <Label Text="Text 2" FontSize="Large" BackgroundColor="Red" TextColor="Green" />
+    <Label Text="Text 3" FontSize="Large" BackgroundColor="Pink" TextColor="Blue" />
+</StackLayout>
+```
+
+2. The code below achieves the same result
+
+```
+<HorizontalStackLayout>
+    <Label Text="Text 1" FontSize="Large" BackgroundColor="Yellow" TextColor="Black" />
+    <Label Text="Text 2" FontSize="Large" BackgroundColor="Red" TextColor="Green" />
+    <Label Text="Text 3" FontSize="Large" BackgroundColor="Pink" TextColor="Blue" />
+</HorizontalStackLayout>
+```
+
+3. Running the application you will obtain this result
+
+<p align="center"><img src="img02.jpeg" /></p>
 
 ## Fontes
 
