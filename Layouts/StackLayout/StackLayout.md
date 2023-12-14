@@ -1,10 +1,10 @@
-# Layouts - StackLayout
+# Layouts - StackLayout, VerticalStackLayout, HorizontalStackLayout
 
-StackLayout is a layout container that allows arrange child views is a linear manner. There are two ways that StackLout allows to stack: horizontally or vertically
+StackLayout is a layout container that allows arrange child views in a linear manner. There are two ways that StackLout allows to stack: vertically or horizontally.
 
-# Horizontal
+# Vertical
 
-The horizontal orientation is set as default, as can seen in the code below:
+The vertical orientation is set as default, as can seen in the code below:
 
 ```
 <StackLayout>
@@ -15,8 +15,8 @@ The horizontal orientation is set as default, as can seen in the code below:
 ```
 
 <!--
-# Layouts - StackLayout
-# Horizontal
+# Layouts - StackLayout, VerticalStackLayout, HorizontalStackLayout
+# Vertical
 -->
 
 # Vertical
