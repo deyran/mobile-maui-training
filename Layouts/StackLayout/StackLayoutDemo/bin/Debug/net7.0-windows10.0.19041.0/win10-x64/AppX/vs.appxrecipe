@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\git-projects\mobile-maui-training\Layouts\StackLayout\StackLayoutDemo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-14T00:05:44.833</Modified>
+      <Modified>2023-12-14T01:35:09.497</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\Layouts\StackLayout\StackLayoutDemo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\StackLayoutDemo.dll">
       <PackagePath>StackLayoutDemo.dll</PackagePath>
-      <Modified>2023-12-14T00:05:37.036</Modified>
+      <Modified>2023-12-14T01:35:06.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\Layouts\StackLayout\StackLayoutDemo\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>StackLayoutDemo.exe</PackagePath>
-      <Modified>2023-12-14T00:05:37.304</Modified>
+      <Modified>2023-12-14T01:35:06.932</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\git-projects\mobile-maui-training\Layouts\StackLayout\StackLayoutDemo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\StackLayoutDemo.deps.json">
       <PackagePath>StackLayoutDemo.deps.json</PackagePath>

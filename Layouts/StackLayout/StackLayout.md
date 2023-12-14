@@ -4,15 +4,29 @@ StackLayout is a layout container that allows arrange child views in a linear ma
 
 # Vertical
 
-The vertical orientation is set as default, as can seen in the code below:
+1. The vertical orientation is set as default, as can seen in the code below:
 
 ```
 <StackLayout>
-    <Label Text="Text 1" FontSize="Large" BackgroundColor="Yellow" />
-    <Label Text="Text 2" FontSize="Large" BackgroundColor="Red" />
-    <Label Text="Text 3" FontSize="Large" BackgroundColor="Pink" />
+    <Label Text="Text 1" FontSize="Large" BackgroundColor="Yellow" TextColor="Black" />
+    <Label Text="Text 2" FontSize="Large" BackgroundColor="Red" TextColor="Green" />
+    <Label Text="Text 3" FontSize="Large" BackgroundColor="Pink" TextColor="Blue" />
 </StackLayout>
 ```
+
+2. Using de VerticalStackLayout you got the same result
+
+```
+<VerticalStackLayout>
+    <Label Text="Text 1" FontSize="Large" BackgroundColor="Yellow" TextColor="Black" />
+    <Label Text="Text 2" FontSize="Large" BackgroundColor="Red" TextColor="Green" />
+    <Label Text="Text 3" FontSize="Large" BackgroundColor="Pink" TextColor="Blue" />
+</VerticalStackLayout>
+```
+
+3. Running the application you will obtain this result
+
+<p align="center"><img src="img01.jpeg" /></p>
 
 <!--
 # Layouts - StackLayout, VerticalStackLayout, HorizontalStackLayout
