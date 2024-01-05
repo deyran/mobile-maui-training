@@ -3,10 +3,40 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FlexLayoutDemo.MainPage">
 
-    <FlexLayout Direction="Row">
-        <Label Text="Child 1" TextColor="Black" BackgroundColor="AntiqueWhite" />
-        <Label Text="Child 2" TextColor="Black" BackgroundColor="Blue" />
-        <Label Text="Child 3" TextColor="Black" BackgroundColor="Coral" />    
+    <FlexLayout Direction="Column">
+        <!--Header-->
+        <Label Text="Cabeçalho" 
+               FontSize="Large" 
+               TextColor="Black" 
+               BackgroundColor="AntiqueWhite" />
+
+        <!---Body-->
+        <FlexLayout FlexLayout.Grow="1">
+            
+            <Label HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   FlexLayout.Grow="1"
+                   Text="Conteúdo" 
+                   FontSize="Large"
+                   TextColor="Black" 
+                   BackgroundColor="Gray" />           
+            
+            <!--Itens laterais-->
+            <BoxView FlexLayout.Basis="50"
+                     FlexLayout.Order="1" 
+                     Color="Blue" />
+
+            <BoxView FlexLayout.Grow="50"
+                     Color="Green"/>
+
+        </FlexLayout>
+
+
+        <Label Text="Roda pé" 
+               TextColor="Black" 
+               BackgroundColor="Coral" 
+               HorizontalTextAlignment="Center"
+               FontSize="Large"/>
     </FlexLayout>
 
 </ContentPage>
