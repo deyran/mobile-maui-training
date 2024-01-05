@@ -13,10 +13,6 @@ FlexLayout is a layout that can organize its children (Horizontally and Vertical
     <Label Text="Child 1" TextColor="Black" BackgroundColor="AntiqueWhite" />
     <Label Text="Child 2" TextColor="Black" BackgroundColor="Blue" />
     <Label Text="Child 3" TextColor="Black" BackgroundColor="Coral" />
-    <Label Text="Child 4" TextColor="Black" BackgroundColor="DarkBlue" />
-    <Label Text="Child 5" TextColor="Black" BackgroundColor="Crimson" />
-    <Label Text="Child 6" TextColor="Black" BackgroundColor="DarkSlateGray" />
-    <Label Text="Child 7" TextColor="Black"  BackgroundColor="Firebrick" />
 </FlexLayout>
 ```
 
@@ -26,7 +22,6 @@ FlexLayout is a layout that can organize its children (Horizontally and Vertical
 # FlexLayout
 ## Direction property and its values
 ### Row
-
 -->
 
 2. AAAA
