@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlexLayoutDemo.MainPage">
+
+    <FlexLayout Direction="Row">
+        <Label Text="Child 1" TextColor="Black" BackgroundColor="AntiqueWhite" />
+        <Label Text="Child 2" TextColor="Black" BackgroundColor="Blue" />
+        <Label Text="Child 3" TextColor="Black" BackgroundColor="Coral" />
+        <Label Text="Child 4" TextColor="Black" BackgroundColor="DarkBlue" />
+        <Label Text="Child 5" TextColor="Black" BackgroundColor="Crimson" />
+        <Label Text="Child 6" TextColor="Black" BackgroundColor="DarkSlateGray" />
+        <Label Text="Child 7" TextColor="Black" BackgroundColor="Firebrick" />
+    </FlexLayout>
+
+</ContentPage>
