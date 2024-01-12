@@ -4,10 +4,9 @@
 
 FlexLayout is a layout that can organize its children (Horizontally and Vertically) into stack. It can wrap its children if there are to many to fit in a row or column.
 
-## Direction property and its values
+## Direction - Row (default value)
 
-1. Row
-
+* Code
 ```
 <FlexLayout Direction="Row">
     <Label Text="Child 1" TextColor="Black" BackgroundColor="AntiqueWhite" />
@@ -16,7 +15,17 @@ FlexLayout is a layout that can organize its children (Horizontally and Vertical
 </FlexLayout>
 ```
 
+* Result
+
 <p align="center"><img src="img02.png" /></p>
+
+<!--
+# FlexLayout
+## Direction - Row (default value)
+-->
+
+
+
 
 2. Grow, Basis, Order e Shrink
 
@@ -57,12 +66,6 @@ FlexLayout is a layout that can organize its children (Horizontally and Vertical
 ```
 
 <p align="center"><img src="img03.png" /></p>
-
-<!--
-# FlexLayout
-## Direction property and its values
-### Grow, Basis, Order e Shrink
--->
 
 ## References
 
