@@ -18,10 +18,50 @@ FlexLayout is a layout that can organize its children (Horizontally and Vertical
 
 <p align="center"><img src="img02.png" /></p>
 
+2. Grow, Basis, Order e Shrink
+
+```
+<FlexLayout Direction="Column">
+    <!--Header-->
+    <Label Text="Cabeçalho" 
+            FontSize="Large"                 
+            BackgroundColor="Aquamarine"
+            HorizontalTextAlignment="Center"
+            TextColor="Black" />
+
+    <!---Body-->
+    <FlexLayout FlexLayout.Grow="1">
+        <Label Text="Conteúdo"
+                FontSize="Large"
+                BackgroundColor="Gray"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                FlexLayout.Grow="1" />
+        
+        <!---Itens Laterais-->
+        <BoxView FlexLayout.Basis="50"
+                    FlexLayout.Order="-1"
+                    Color="Blue" />
+
+        <BoxView FlexLayout.Basis="50"
+                    Color="Green" />
+
+    </FlexLayout>
+
+    <Label Text="RodaPé"
+            FontSize="Large"
+            BackgroundColor="Yellow"
+            TextColor="Black"
+            HorizontalTextAlignment="Center" />
+</FlexLayout>
+```
+
+<p align="center"><img src="img03.png" /></p>
+
 <!--
 # FlexLayout
 ## Direction property and its values
-### Row
+### Grow, Basis, Order e Shrink
 -->
 
 2. AAAA

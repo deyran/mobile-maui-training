@@ -1,0 +1,1 @@
+C:\git-projects\mobile-maui-training\Layouts\StackLayout\FlexLayoutDemo\FlexLayoutDemo.csproj;x64

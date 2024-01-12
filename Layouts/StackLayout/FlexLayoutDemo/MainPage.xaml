@@ -6,37 +6,35 @@
     <FlexLayout Direction="Column">
         <!--Header-->
         <Label Text="Cabeçalho" 
-               FontSize="Large" 
-               TextColor="Black" 
-               BackgroundColor="AntiqueWhite" />
+               FontSize="Large"                 
+               BackgroundColor="Aquamarine"
+               HorizontalTextAlignment="Center"
+               TextColor="Black" />
 
         <!---Body-->
         <FlexLayout FlexLayout.Grow="1">
-            
-            <Label HorizontalTextAlignment="Center"
-                   VerticalTextAlignment="Center"
-                   FlexLayout.Grow="1"
-                   Text="Conteúdo" 
+            <Label Text="Conteúdo"
                    FontSize="Large"
-                   TextColor="Black" 
-                   BackgroundColor="Gray" />           
+                   BackgroundColor="Gray"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   FlexLayout.Grow="1" />
             
-            <!--Itens laterais-->
+            <!---Itens Laterais-->
             <BoxView FlexLayout.Basis="50"
-                     FlexLayout.Order="1" 
+                     FlexLayout.Order="-1"
                      Color="Blue" />
 
-            <BoxView FlexLayout.Grow="50"
-                     Color="Green"/>
+            <BoxView FlexLayout.Basis="50"
+                     Color="Green" />
 
         </FlexLayout>
 
-
-        <Label Text="Roda pé" 
-               TextColor="Black" 
-               BackgroundColor="Coral" 
-               HorizontalTextAlignment="Center"
-               FontSize="Large"/>
+        <Label Text="RodaPé"
+               FontSize="Large"
+               BackgroundColor="Yellow"
+               TextColor="Black"
+               HorizontalTextAlignment="Center" />
     </FlexLayout>
 
 </ContentPage>
