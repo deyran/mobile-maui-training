@@ -19,12 +19,27 @@ FlexLayout is a layout that can organize its children (Horizontally and Vertical
 
 <p align="center"><img src="img02.png" /></p>
 
+## Direction - Column
+
+* Code
+
+```
+<FlexLayout Direction="Column">
+    <BoxView HeightRequest="100" WidthRequest="100" Color="Blue" />
+    <BoxView HeightRequest="100" WidthRequest="100" Color="Green" />
+    <BoxView HeightRequest="100" WidthRequest="100" Color="Purple" />
+    <BoxView HeightRequest="100" WidthRequest="100" Color="Yellow" />
+</FlexLayout>
+```
+
+* Result
+
+<p align="center"><img src="directionColumn.png" /></p>
+
 <!--
 # FlexLayout
-## Direction - Row (default value)
+## Direction - Column
 -->
-
-
 
 
 2. Grow, Basis, Order e Shrink

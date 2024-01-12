@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FlexLayoutDemo.MainPage">
 
-    <FlexLayout Direction="Row">
+    <FlexLayout Direction="Column">
         <BoxView HeightRequest="100" WidthRequest="100" Color="Blue" />
         <BoxView HeightRequest="100" WidthRequest="100" Color="Green" />
         <BoxView HeightRequest="100" WidthRequest="100" Color="Purple" />
