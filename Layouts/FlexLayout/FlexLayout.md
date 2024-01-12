@@ -63,3 +63,7 @@ FlexLayout is a layout that can organize its children (Horizontally and Vertical
 ## Direction property and its values
 ### Grow, Basis, Order e Shrink
 -->
+
+## References
+
+1. MACORRATI, Jose Carlos. .NET MAUI : Layouts - FlexLayout. YouTube, 02-12-23, https://youtu.be/1W1HqJu_Y6E?si=VIwXmhcgRjrjo0km, 01-12-24.
