@@ -39,21 +39,29 @@ FlexLayout is a layout that can organize its children (Horizontally and Vertical
 
 ## Wrap
 
-The **Wrap** property is used to control whether children are arranged on a single line or on multiple lines. Its main values are: **Wrap** (Multiple lines); **NoWrap** (default, Single line)
+The **Wrap** property is used to control whether children are arranged on a single line or on *multiple lines*. Its main values are: **Wrap** (Multiple lines); **NoWrap** (default, Single line)
 
 * Code - Wrap value
 
 ```
+<FlexLayout Direction="Row" Wrap="Wrap">
+    <BoxView HeightRequest="150" WidthRequest="150" Color="Blue" />
+    <BoxView HeightRequest="150" WidthRequest="150" Color="Green" />
+    <BoxView HeightRequest="150" WidthRequest="150" Color="Purple" />
+    <BoxView HeightRequest="150" WidthRequest="150" Color="Yellow" />
+</FlexLayout>
 ```
 
 * Result
+
+<p align="center"><img src="wrap-property.png" /></p>
 
 https://youtu.be/PpTrDDEnHF8?t=32
 
 <!--
 # FlexLayout
 ## Wrap
-### Code - Wrap value
+### Result
 -->
 
 
