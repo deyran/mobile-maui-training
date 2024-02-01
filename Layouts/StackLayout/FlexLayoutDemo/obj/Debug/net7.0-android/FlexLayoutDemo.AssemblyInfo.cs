@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlexLayoutDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b2178fadb4a6b0a72b1ce7943e41e32ef9c6d838")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a2140a75e9ce40a959b2678d4d6b182c1a227823")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlexLayoutDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlexLayoutDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

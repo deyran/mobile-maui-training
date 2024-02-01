@@ -58,6 +58,8 @@ The **Wrap** property is used to control whether children are arranged on a sing
 
 ## AlignContent
 
+The *AlignContent* property determines how the layout engine will distribute space between and around children that have been laid out on multiple lines.
+
 ### Start
 
 Aligns items to the start of the container
@@ -127,3 +129,4 @@ Aligns items to the start of the container
 ## References
 
 1. MACORRATI, Jose Carlos. .NET MAUI : Layouts - FlexLayout. YouTube, 02-12-23, https://youtu.be/1W1HqJu_Y6E?si=VIwXmhcgRjrjo0km, 01-12-24.
+2. FlexLayout | .NET MAUI Controls | #4. Youtube, 24-24-224, https://youtu.be/PpTrDDEnHF8?si=TvqRPpLTZ7gY6FTg, 02-01-24
